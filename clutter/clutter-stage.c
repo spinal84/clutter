@@ -1510,6 +1510,7 @@ clutter_stage_real_apply_transform (ClutterActor *stage,
    * here... */
   cogl_matrix_init_identity (matrix);
   cogl_matrix_multiply (matrix, matrix, &priv->view);
+  clutter_stage_window_transform_to_view (priv->impl, matrix);
 }
 
 static void
