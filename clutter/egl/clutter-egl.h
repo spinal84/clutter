@@ -97,6 +97,34 @@ void            clutter_egl_freeze_master_clock (void);
 CLUTTER_AVAILABLE_IN_1_20
 void            clutter_egl_thaw_master_clock   (void);
 
+typedef enum {
+  CLUTTER_EGL_OUTPUT_TRANSFORM_0,
+  CLUTTER_EGL_OUTPUT_TRANSFORM_90,
+  CLUTTER_EGL_OUTPUT_TRANSFORM_180,
+  CLUTTER_EGL_OUTPUT_TRANSFORM_270,
+  CLUTTER_EGL_OUTPUT_TRANSFORM_FLIPPED_0,
+  CLUTTER_EGL_OUTPUT_TRANSFORM_FLIPPED_90,
+  CLUTTER_EGL_OUTPUT_TRANSFORM_FLIPPED_180,
+  CLUTTER_EGL_OUTPUT_TRANSFORM_FLIPPED_270,
+} ClutterEglOutputTransform;
+
+typedef struct _ClutterEglOutput ClutterEglOutput;
+typedef struct _ClutterEglOutputClass ClutterEglOutputClass;
+
+CLUTTER_AVAILABLE_IN_1_26
+ClutterEglOutput * clutter_egl_stage_add_output    (ClutterStage     *stage);
+
+CLUTTER_AVAILABLE_IN_1_26
+ClutterEglOutput * clutter_egl_stage_remove_output (ClutterStage     *stage,
+                                                    ClutterEglOutput *output);
+
+CLUTTER_AVAILABLE_IN_1_26
+void clutter_egl_output_set_rect      (ClutterEglOutput              *output,
+                                       const cairo_rectangle_int_t   *rect);
+CLUTTER_AVAILABLE_IN_1_26
+void clutter_egl_output_set_transform (ClutterEglOutput              *output,
+                                       ClutterEglOutputTransform      transform);
+
 G_END_DECLS
 
 #endif /* __CLUTTER_EGL_H__ */
