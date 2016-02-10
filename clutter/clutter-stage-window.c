@@ -360,3 +360,16 @@ _clutter_stage_window_get_scale_factor (ClutterStageWindow *window)
 
   return 1;
 }
+
+void
+clutter_stage_window_transform_to_view (ClutterStageWindow *window,
+                                        CoglMatrix         *matrix)
+{
+  ClutterStageWindowIface *iface;
+
+  g_return_if_fail (CLUTTER_IS_STAGE_WINDOW (window));
+
+  iface = CLUTTER_STAGE_WINDOW_GET_IFACE (window);
+  if (iface->transform_to_view != NULL)
+    iface->transform_to_view (window, matrix);
+}

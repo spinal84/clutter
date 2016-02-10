@@ -88,6 +88,9 @@ struct _ClutterStageWindowIface
   void              (* set_scale_factor)        (ClutterStageWindow *stage_window,
                                                  int                 factor);
   int               (* get_scale_factor)        (ClutterStageWindow *stage_window);
+
+  void              (* transform_to_view)       (ClutterStageWindow *stage_window,
+                                                 CoglMatrix         *matrix);
 };
 
 GType _clutter_stage_window_get_type (void) G_GNUC_CONST;
@@ -144,6 +147,9 @@ gboolean          _clutter_stage_window_can_clip_redraws        (ClutterStageWin
 void              _clutter_stage_window_set_scale_factor        (ClutterStageWindow *window,
                                                                  int                 factor);
 int               _clutter_stage_window_get_scale_factor        (ClutterStageWindow *window);
+
+void              clutter_stage_window_transform_to_view        (ClutterStageWindow *window,
+                                                                 CoglMatrix         *matrix);
 
 G_END_DECLS
 
