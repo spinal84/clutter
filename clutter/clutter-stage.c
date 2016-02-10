@@ -480,13 +480,13 @@ clutter_stage_allocate (ClutterActor           *self,
   if (CLUTTER_NEARBYINT (old_width) != CLUTTER_NEARBYINT (new_width) ||
       CLUTTER_NEARBYINT (old_height) != CLUTTER_NEARBYINT (new_height))
     {
-      int real_width = CLUTTER_NEARBYINT (new_width);
-      int real_height = CLUTTER_NEARBYINT (new_height);
+      cairo_rectangle_int_t fb_size;
 
+      clutter_stage_window_get_hw_geometry (priv->impl, &fb_size);
       _clutter_stage_set_viewport (CLUTTER_STAGE (self),
                                    0, 0,
-                                   real_width,
-                                   real_height);
+                                   fb_size.width,
+                                   fb_size.height);
 
       /* Note: we don't assume that set_viewport will queue a full redraw
        * since it may bail-out early if something preemptively set the
@@ -638,7 +638,7 @@ _clutter_stage_do_paint (ClutterStage                *stage,
   if (priv->impl == NULL)
     return;
 
-  _clutter_stage_window_get_geometry (priv->impl, &geom);
+  clutter_stage_window_get_hw_geometry (priv->impl, &geom);
   window_scale = _clutter_stage_window_get_scale_factor (priv->impl);
 
   viewport[0] = priv->viewport[0] * window_scale;
