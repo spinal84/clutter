@@ -373,3 +373,15 @@ clutter_stage_window_transform_to_view (ClutterStageWindow *window,
   if (iface->transform_to_view != NULL)
     iface->transform_to_view (window, matrix);
 }
+
+void
+clutter_stage_window_get_hw_geometry (ClutterStageWindow    *window,
+                                      cairo_rectangle_int_t *geometry)
+{
+  ClutterStageWindowIface *iface = CLUTTER_STAGE_WINDOW_GET_IFACE (window);
+
+  if (iface->get_hw_geometry)
+    CLUTTER_STAGE_WINDOW_GET_IFACE (window)->get_hw_geometry (window, geometry);
+  else
+    _clutter_stage_window_get_geometry (window, geometry);
+}

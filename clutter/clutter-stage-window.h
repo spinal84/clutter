@@ -91,6 +91,8 @@ struct _ClutterStageWindowIface
 
   void              (* transform_to_view)       (ClutterStageWindow *stage_window,
                                                  CoglMatrix         *matrix);
+  void              (* get_hw_geometry)         (ClutterStageWindow    *stage_window,
+                                                 cairo_rectangle_int_t *geometry);
 };
 
 GType _clutter_stage_window_get_type (void) G_GNUC_CONST;
@@ -150,6 +152,8 @@ int               _clutter_stage_window_get_scale_factor        (ClutterStageWin
 
 void              clutter_stage_window_transform_to_view        (ClutterStageWindow *window,
                                                                  CoglMatrix         *matrix);
+void              clutter_stage_window_get_hw_geometry          (ClutterStageWindow *window,
+                                                                 cairo_rectangle_int_t *geometry);
 
 G_END_DECLS
 
