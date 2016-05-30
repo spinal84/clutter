@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: clutter 1.3.14\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=clutter"
 "&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-04-29 15:22+0000\n"
-"PO-Revision-Date: 2016-05-08 17:18+0200\n"
+"POT-Creation-Date: 2016-05-19 15:20+0000\n"
+"PO-Revision-Date: 2016-05-29 20:32+0200\n"
 "Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -666,7 +666,7 @@ msgstr "Filtre de reduccion"
 
 #: ../clutter/clutter-actor.c:7827
 msgid "The filter used when reducing the size of the content"
-msgstr "Lo filtre utilizat per réduire la talha del contengut"
+msgstr "Lo filtre utilizat per reduire la talha del contengut"
 
 #: ../clutter/clutter-actor.c:7834
 msgid "Magnification Filter"
@@ -1501,7 +1501,7 @@ msgstr "Lo sens del desfilament"
 
 #: ../clutter/clutter-settings.c:509
 msgid "Double Click Time"
-msgstr "Relambi del double-clic"
+msgstr "Relambi del clic doble"
 
 #: ../clutter/clutter-settings.c:510
 msgid "The time between clicks necessary to detect a multiple click"
@@ -1509,7 +1509,7 @@ msgstr "Lo relambi necessari entre las clics per detectar un clic multiple"
 
 #: ../clutter/clutter-settings.c:525
 msgid "Double Click Distance"
-msgstr "Espaçament del double-clic"
+msgstr "Espaçament del clic doble"
 
 #: ../clutter/clutter-settings.c:526
 msgid "The distance between clicks necessary to detect a multiple click"
