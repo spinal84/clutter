@@ -253,9 +253,6 @@ clutter_backend_do_real_create_context (ClutterBackend  *backend,
   CoglSwapChain *swap_chain;
   GError *internal_error;
 
-  if (backend->cogl_context != NULL)
-    return TRUE;
-
   klass = CLUTTER_BACKEND_GET_CLASS (backend);
 
   swap_chain = NULL;
@@ -377,6 +374,9 @@ clutter_backend_real_create_context (ClutterBackend  *backend,
 
   GError *internal_error = NULL;
   int i;
+
+  if (backend->cogl_context != NULL)
+    return TRUE;
 
   for (i = 0; i < G_N_ELEMENTS (known_drivers); i++)
     {
