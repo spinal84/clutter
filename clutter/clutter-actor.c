@@ -17162,6 +17162,9 @@ clutter_actor_get_clip_to_allocation (ClutterActor *self)
  * clutter_actor_remove_effect() or clutter_actor_clear_effects() is
  * called.
  *
+ * Note that as #ClutterEffect is initially unowned,
+ * clutter_actor_add_effect() will sink any floating reference on @effect.
+ *
  * Since: 1.4
  */
 void
@@ -17185,7 +17188,11 @@ clutter_actor_add_effect (ClutterActor  *self,
  * @effect: a #ClutterEffect
  *
  * A convenience function for setting the name of a #ClutterEffect
- * while adding it to the list of effectss applied to @self
+ * while adding it to the list of effects applied to @self.
+ *
+ * Note that as #ClutterEffect is initially unowned,
+ * clutter_actor_add_effect_with_name() will sink any floating
+ * reference on @effect.
  *
  * This function is the logical equivalent of:
  *
