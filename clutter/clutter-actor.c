@@ -8011,7 +8011,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
    * the relayout queue up through the actor graph.
    *
    * The main purpose of this signal is to allow relayout to be propagated
-   * properly in the procense of #ClutterClone actors. Applications will
+   * properly in the presence of #ClutterClone actors. Applications will
    * not normally need to connect to this signal.
    *
    * Since: 1.2
