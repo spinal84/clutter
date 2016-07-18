@@ -38,7 +38,7 @@
               <listitem><simpara>wayland, for the Wayland backend</simpara></listitem>
               <listitem><simpara>win32, for the Windows backend</simpara></listitem>
               <listitem><simpara>osx, for the MacOS X backend</simpara></listitem>
-              <listitem><simpara>gsk, for the GDK backend</simpara></listitem>
+              <listitem><simpara>gdk, for the GDK backend</simpara></listitem>
               <listitem><simpara>eglnative, for the EGL/KMS backend</simpara></listitem>
               <listitem><simpara>cex100, for the CEx100 backend</simpara></listitem>
             </itemizedlist>
