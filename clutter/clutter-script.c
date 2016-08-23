@@ -200,6 +200,30 @@
  * animating to it. State changes on signal emission will not affect
  * the signal emission chain.
  *
+ * ClutterScript supports translation using gettext: if a "translatable" key is
+ * added to a property value, it will be passed through g_dgettext() before
+ * being set on the created object. For example, to mark the #ClutterText:text
+ * property as being translatable:
+ *
+ * |[
+ * {
+ *   "id" : "label",
+ *   "type" : "ClutterText",
+ *   "text" : { "translatable" : true, "string" : "Clutter Script" }
+ * }
+ * ]|
+ *
+ * In order for translation to work, the C runtime locale must have been set
+ * using setlocale() before loading the #ClutterScript, and the translation
+ * domain must have been set using textdomain(). If the strings in the script
+ * are in a different translation domain from the rest of the program, use
+ * clutter_script_set_translation_domain() to set the domain for the
+ * #ClutterScript only.
+ *
+ * As well as the "translatable" key, ClutterScript supports optional "domain"
+ * and "context" keys for specifying the message domain (if it is not the
+ * default) and context for disambiguating it from other equal message strings.
+ *
  * Clutter reserves the following names, so classes defining properties
  * through the usual GObject registration process should avoid using these
  * names to avoid collisions:
