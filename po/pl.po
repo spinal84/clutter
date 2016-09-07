@@ -7,10 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter\n"
-"POT-Creation-Date: 2016-07-23 23:55+0000\n"
-"PO-Revision-Date: 2016-08-22 20:50+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-22 18:52+0000\n"
+"PO-Revision-Date: 2016-09-07 04:17+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -2033,11 +2032,11 @@ msgstr "Jak oś czasu powinna obliczać postęp"
 
 #: clutter/clutter-transition.c:244
 msgid "Interval"
-msgstr "Okres czasu"
+msgstr "Okres"
 
 #: clutter/clutter-transition.c:245
 msgid "The interval of values to transition"
-msgstr "Okres czasu wartości do przejścia"
+msgstr "Okres wartości do przejścia"
 
 #: clutter/clutter-transition.c:259
 msgid "Animatable"
@@ -2195,7 +2194,7 @@ msgstr "Nachylenie elipsy wokół osi Z"
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:475
 msgid "Width of the ellipse"
-msgstr "Szerokość alipsy"
+msgstr "Szerokość elipsy"
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:491
 msgid "Height of ellipse"
