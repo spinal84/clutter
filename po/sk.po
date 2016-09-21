@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: clutter clutter-1.16\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-08-24 12:12+0000\n"
+"POT-Creation-Date: 2016-09-10 14:27+0000\n"
 "PO-Revision-Date: 2016-09-10 16:26+0200\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: slovenčina <>\n"
@@ -1332,7 +1332,7 @@ msgstr "Počet pixelov potrebných na zahájenie zvislého ťahania"
 
 #: clutter/clutter-drag-action.c:783
 msgid "Drag Handle"
-msgstr ""
+msgstr "Rúčka na ťahanie"
 
 #: clutter/clutter-drag-action.c:784
 msgid "The actor that is being dragged"
@@ -1646,11 +1646,11 @@ msgstr "Smer textu"
 
 #: clutter/clutter-main.c:1436
 msgid "Disable mipmapping on text"
-msgstr ""
+msgstr "Zakátazať mip mapovanie na texte"
 
 #: clutter/clutter-main.c:1439
 msgid "Use 'fuzzy' picking"
-msgstr ""
+msgstr "Použiť „fuzzy“ vyberanie"
 
 #: clutter/clutter-main.c:1442
 msgid "Clutter debugging flags to set"
@@ -1819,20 +1819,20 @@ msgstr ""
 
 #: clutter/clutter-settings.c:615
 msgid "Font Hinting"
-msgstr ""
+msgstr "Dolaďovanie písma"
 
 #: clutter/clutter-settings.c:616
 msgid ""
 "Whether to use hinting (1 to enable, 0 to disable and -1 to use the default)"
-msgstr ""
+msgstr "Či sa má použiť dolaďovanie (1 pre zapnúť, 0 pre vypnúť a -1 použiť predvolené nastavenie)"
 
 #: clutter/clutter-settings.c:636
 msgid "Font Hint Style"
-msgstr ""
+msgstr "Štýl dolaďovania písma"
 
 #: clutter/clutter-settings.c:637
 msgid "The style of hinting (hintnone, hintslight, hintmedium, hintfull)"
-msgstr ""
+msgstr "Štýl dolaďovania (hintnone - žiadne, hintslight - jemné, hintmedium - stredné, hintfull - úplné)"
 
 #: clutter/clutter-settings.c:657
 msgid "Font Subpixel Order"
@@ -1966,7 +1966,7 @@ msgstr "Použiť hmlu"
 
 #: clutter/clutter-stage.c:1908
 msgid "Whether to enable depth cueing"
-msgstr ""
+msgstr "Či sa má povoliť naznačovanie hĺbky"
 
 #: clutter/clutter-stage.c:1924
 msgid "Fog"
@@ -1974,7 +1974,7 @@ msgstr "Hmla"
 
 #: clutter/clutter-stage.c:1925
 msgid "Settings for the depth cueing"
-msgstr ""
+msgstr "Nastavenia pre naznačovanie hĺbky"
 
 #: clutter/clutter-stage.c:1941
 msgid "Use Alpha"
@@ -1986,7 +1986,7 @@ msgstr "Určuje, či zachovať alfa kanál farby scény"
 
 #: clutter/clutter-stage.c:1958
 msgid "Key Focus"
-msgstr "Hlavná mierka"
+msgstr "Kľúčové zameranie"
 
 #: clutter/clutter-stage.c:1959
 msgid "The currently key focused actor"
@@ -1994,7 +1994,7 @@ msgstr "Aktuálny kľúčový zameraný aktér"
 
 #: clutter/clutter-stage.c:1975
 msgid "No Clear Hint"
-msgstr "Nevymazať radu"
+msgstr "Nevymazať pomôcku"
 
 #: clutter/clutter-stage.c:1976
 msgid "Whether the stage should clear its contents"
@@ -2342,13 +2342,10 @@ msgstr "Časová os použitá alfou"
 msgid "Alpha value"
 msgstr "Hodnota alfa"
 
-# MČ: možno by som tam zakomponoval priehľadnosť. I keď som stratil niť o čo vlastne ide.
-# PM: súhlasím že je to dosť odvedi napísané a minimálne by to chcelo komentár od vývojárov
 # A ClutterAlpha binds a ClutterTimeline to a progress function which translates the time T into an adimensional factor alpha. The factor can then be used to drive a ClutterBehaviour, which will translate the alpha value into something meaningful for a ClutterActor.
 #: clutter/deprecated/clutter-alpha.c:366
-#, fuzzy
 msgid "Alpha value as computed by the alpha"
-msgstr "Hodnota alfa vypočítaná podľa alfy"
+msgstr "Hodnota objektu Alfa vypočítaná podľa alfy"
 
 #: clutter/deprecated/clutter-alpha.c:387
 #: clutter/deprecated/clutter-animation.c:484
@@ -2403,7 +2400,7 @@ msgstr "Časová os animácie"
 
 #: clutter/deprecated/clutter-behaviour.c:235
 msgid "Alpha Object to drive the behaviour"
-msgstr ""
+msgstr "Objekt Alfa na riadenie správania"
 
 #: clutter/deprecated/clutter-behaviour-depth.c:180
 msgid "Start Depth"
@@ -2502,7 +2499,7 @@ msgstr "Konečná úroveň krytia"
 
 #: clutter/deprecated/clutter-behaviour-path.c:222
 msgid "The ClutterPath object representing the path to animate along"
-msgstr ""
+msgstr "Objekt ClutterPath reprezentujúci cestu, pozdĺž ktorej sa animuje"
 
 #: clutter/deprecated/clutter-behaviour-rotate.c:276
 msgid "Angle Begin"
@@ -2735,7 +2732,7 @@ msgstr "Určuje, či je shader preložený a spojený s knižnicami"
 
 #: clutter/deprecated/clutter-shader.c:310
 msgid "Whether the shader is enabled"
-msgstr "Určuje, či je  shader povolený"
+msgstr "Určuje, či je shader povolený"
 
 #: clutter/deprecated/clutter-shader.c:521
 #, c-format
@@ -2820,11 +2817,11 @@ msgstr "Rozstup medzi riadkami"
 
 #: clutter/deprecated/clutter-texture.c:992
 msgid "Sync size of actor"
-msgstr ""
+msgstr "Synchronizačná veľkosť aktéra"
 
 #: clutter/deprecated/clutter-texture.c:993
 msgid "Auto sync size of actor to underlying pixbuf dimensions"
-msgstr ""
+msgstr "Automatická synchronizačná veľkosť aktéra voči rozmerom podkladového objektu pixbuf"
 
 #: clutter/deprecated/clutter-texture.c:1000
 msgid "Disable Slicing"
@@ -2834,11 +2831,11 @@ msgstr "Zakázať delenie"
 msgid ""
 "Forces the underlying texture to be singular and not made of smaller space "
 "saving individual textures"
-msgstr ""
+msgstr "Prinúti podkladovú textúru, aby bola jednotná, a nie vytvorená z menších miest ukladajúcich jednotlivé textúry"
 
 #: clutter/deprecated/clutter-texture.c:1010
 msgid "Tile Waste"
-msgstr ""
+msgstr "Odpad z dlaždice"
 
 #: clutter/deprecated/clutter-texture.c:1011
 msgid "Maximum waste area of a sliced texture"
@@ -2884,7 +2881,7 @@ msgstr "Textúra v Cogl"
 #: clutter/deprecated/clutter-texture.c:1054
 #: clutter/wayland/clutter-wayland-surface.c:446
 msgid "The underlying Cogl texture handle used to draw this actor"
-msgstr ""
+msgstr "Podkladové spracovanie textúry Cogl na vykreslenie aktéra"
 
 #: clutter/deprecated/clutter-texture.c:1061
 msgid "Cogl Material"
@@ -2892,7 +2889,7 @@ msgstr "Materiál v Cogl"
 
 #: clutter/deprecated/clutter-texture.c:1062
 msgid "The underlying Cogl material handle used to draw this actor"
-msgstr ""
+msgstr "Podkladové spracovanie materiálu Cogl používaného na vykreslenie aktéra"
 
 #: clutter/deprecated/clutter-texture.c:1082
 msgid "The path of the file containing the image data"
@@ -2914,12 +2911,11 @@ msgstr ""
 msgid "Load asynchronously"
 msgstr "Načítať asynchrónne"
 
-# PM: dal by som pomocou vlákna
 #: clutter/deprecated/clutter-texture.c:1119
 msgid ""
 "Load files inside a thread to avoid blocking when loading images from disk"
 msgstr ""
-"Načíta súbory vo vlákne, a tým sa vyhne blokovaniu pri načítavaní obrázkov z "
+"Načíta súbory v rámci vlákna, a tým sa vyhne blokovaniu pri načítavaní obrázkov z "
 "disku"
 
 #: clutter/deprecated/clutter-texture.c:1137
