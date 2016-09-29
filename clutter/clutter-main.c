@@ -1436,7 +1436,7 @@ static GOptionEntry clutter_args[] = {
     N_("Disable mipmapping on text"), NULL },
   { "clutter-use-fuzzy-picking", 0, 0, G_OPTION_ARG_NONE,
     &clutter_use_fuzzy_picking,
-    N_("Use 'fuzzy' picking"), NULL },
+    N_("Use “fuzzy” picking"), NULL },
 #ifdef CLUTTER_ENABLE_DEBUG
   { "clutter-debug", 0, 0, G_OPTION_ARG_CALLBACK, clutter_arg_debug_cb,
     N_("Clutter debugging flags to set"), "FLAGS" },
