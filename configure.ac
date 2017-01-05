@@ -142,7 +142,7 @@ m4_define([pango_req_version],          [1.30])
 m4_define([gi_req_version],             [1.39.0])
 m4_define([gtk_doc_req_version],        [1.20])
 m4_define([xcomposite_req_version],     [0.4])
-m4_define([gdk_req_version],            [3.3.18])
+m4_define([gdk_req_version],            [3.22.6])
 m4_define([libinput_req_version],       [0.19.0])
 m4_define([libudev_req_version],        [136])
 
