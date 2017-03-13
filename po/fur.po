@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=clutter&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2017-02-14 07:22+0000\n"
-"PO-Revision-Date: 2017-03-07 22:50+0100\n"
+"PO-Revision-Date: 2017-03-13 08:31+0100\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6313
 msgid "X coordinate"
-msgstr ""
+msgstr "Coordenade X"
 
 #: clutter/clutter-actor.c:6314
 msgid "X coordinate of the actor"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6332
 msgid "Y coordinate"
-msgstr ""
+msgstr "Coordenade Y"
 
 #: clutter/clutter-actor.c:6333
 msgid "Y coordinate of the actor"
@@ -72,7 +72,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6433
 msgid "Fixed X"
-msgstr ""
+msgstr "X fisse"
 
 #: clutter/clutter-actor.c:6434
 msgid "Forced X position of the actor"
@@ -80,7 +80,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6451
 msgid "Fixed Y"
-msgstr ""
+msgstr "Y Fisse"
 
 #: clutter/clutter-actor.c:6452
 msgid "Forced Y position of the actor"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6467
 msgid "Fixed position set"
-msgstr ""
+msgstr "Cumbinazion di posizion fisse"
 
 #: clutter/clutter-actor.c:6468
 msgid "Whether to use fixed positioning for the actor"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6486
 msgid "Min Width"
-msgstr ""
+msgstr "Largjece minime"
 
 #: clutter/clutter-actor.c:6487
 msgid "Forced minimum width request for the actor"
@@ -104,7 +104,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6505
 msgid "Min Height"
-msgstr ""
+msgstr "Altece minime"
 
 #: clutter/clutter-actor.c:6506
 msgid "Forced minimum height request for the actor"
@@ -128,35 +128,35 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6559
 msgid "Minimum width set"
-msgstr ""
+msgstr "Cumbinazion largjece minime"
 
 #: clutter/clutter-actor.c:6560
 msgid "Whether to use the min-width property"
-msgstr ""
+msgstr "Indiche se doprâ la proprietât largjece-minime"
 
 #: clutter/clutter-actor.c:6574
 msgid "Minimum height set"
-msgstr ""
+msgstr "Cumbinazion altece minime"
 
 #: clutter/clutter-actor.c:6575
 msgid "Whether to use the min-height property"
-msgstr ""
+msgstr "Indiche se doprâ la proprietât altece-minime"
 
 #: clutter/clutter-actor.c:6589
 msgid "Natural width set"
-msgstr ""
+msgstr "Cumbinazion largjece naturâl"
 
 #: clutter/clutter-actor.c:6590
 msgid "Whether to use the natural-width property"
-msgstr ""
+msgstr "Indiche se doprâ la proprietât largjece-naturâl"
 
 #: clutter/clutter-actor.c:6604
 msgid "Natural height set"
-msgstr ""
+msgstr "Cumbinazion altece naturâl"
 
 #: clutter/clutter-actor.c:6605
 msgid "Whether to use the natural-height property"
-msgstr ""
+msgstr "Indiche se doprâ la proprietât altece-naturâl"
 
 #: clutter/clutter-actor.c:6621
 msgid "Allocation"
@@ -180,11 +180,11 @@ msgstr "Profonditât"
 
 #: clutter/clutter-actor.c:6715
 msgid "Position on the Z axis"
-msgstr ""
+msgstr "Posizion sul as Z"
 
 #: clutter/clutter-actor.c:6742
 msgid "Z Position"
-msgstr ""
+msgstr "Posizion Z"
 
 #: clutter/clutter-actor.c:6743
 msgid "The actor's position on the Z axis"
@@ -553,7 +553,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:7589
 msgid "X Alignment"
-msgstr ""
+msgstr "Inlineament X"
 
 #: clutter/clutter-actor.c:7590
 msgid "The alignment of the actor on the X axis within its allocation"
@@ -561,7 +561,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:7605
 msgid "Y Alignment"
-msgstr ""
+msgstr "Inlineament Y"
 
 #: clutter/clutter-actor.c:7606
 msgid "The alignment of the actor on the Y axis within its allocation"
@@ -569,35 +569,35 @@ msgstr ""
 
 #: clutter/clutter-actor.c:7625
 msgid "Margin Top"
-msgstr ""
+msgstr "Margjin superiôr"
 
 #: clutter/clutter-actor.c:7626
 msgid "Extra space at the top"
-msgstr ""
+msgstr "Spazi in plui parsore"
 
 #: clutter/clutter-actor.c:7647
 msgid "Margin Bottom"
-msgstr ""
+msgstr "Margjin inferiôr"
 
 #: clutter/clutter-actor.c:7648
 msgid "Extra space at the bottom"
-msgstr ""
+msgstr "Spazi in plui parsot"
 
 #: clutter/clutter-actor.c:7669
 msgid "Margin Left"
-msgstr ""
+msgstr "Margjin a çampe"
 
 #: clutter/clutter-actor.c:7670
 msgid "Extra space at the left"
-msgstr ""
+msgstr "Spazi in plui a çampe"
 
 #: clutter/clutter-actor.c:7691
 msgid "Margin Right"
-msgstr ""
+msgstr "Margjin a drete"
 
 #: clutter/clutter-actor.c:7692
 msgid "Extra space at the right"
-msgstr ""
+msgstr "Spazi in plui a drete"
 
 #: clutter/clutter-actor.c:7708
 msgid "Background Color Set"
@@ -764,7 +764,7 @@ msgstr ""
 #: clutter/clutter-box-layout.c:374
 #: clutter/deprecated/clutter-table-layout.c:600
 msgid "Horizontal Alignment"
-msgstr ""
+msgstr "Inlineament orizontâl"
 
 #: clutter/clutter-bin-layout.c:221
 msgid "Horizontal alignment for the actor inside the layout manager"
@@ -774,7 +774,7 @@ msgstr ""
 #: clutter/clutter-box-layout.c:383
 #: clutter/deprecated/clutter-table-layout.c:615
 msgid "Vertical Alignment"
-msgstr ""
+msgstr "Inlineament verticâl"
 
 #: clutter/clutter-bin-layout.c:230
 msgid "Vertical alignment for the actor inside the layout manager"
@@ -790,7 +790,7 @@ msgstr ""
 
 #: clutter/clutter-box-layout.c:349
 msgid "Expand"
-msgstr ""
+msgstr "Pant"
 
 #: clutter/clutter-box-layout.c:350
 msgid "Allocate extra space for the child"
@@ -799,7 +799,7 @@ msgstr ""
 #: clutter/clutter-box-layout.c:356
 #: clutter/deprecated/clutter-table-layout.c:579
 msgid "Horizontal Fill"
-msgstr ""
+msgstr "Jemple in orizontâl"
 
 #: clutter/clutter-box-layout.c:357
 #: clutter/deprecated/clutter-table-layout.c:580
@@ -811,7 +811,7 @@ msgstr ""
 #: clutter/clutter-box-layout.c:365
 #: clutter/deprecated/clutter-table-layout.c:586
 msgid "Vertical Fill"
-msgstr ""
+msgstr "Jemple in verticâl"
 
 #: clutter/clutter-box-layout.c:366
 #: clutter/deprecated/clutter-table-layout.c:587
@@ -846,7 +846,7 @@ msgstr "Orientament"
 #: clutter/clutter-box-layout.c:1364 clutter/clutter-flow-layout.c:928
 #: clutter/clutter-grid-layout.c:1569
 msgid "The orientation of the layout"
-msgstr ""
+msgstr "L'orientament de disposizion"
 
 #: clutter/clutter-box-layout.c:1380 clutter/clutter-flow-layout.c:943
 msgid "Homogeneous"
@@ -909,7 +909,7 @@ msgstr "Luminositât"
 
 #: clutter/clutter-brightness-contrast-effect.c:322
 msgid "The brightness change to apply"
-msgstr ""
+msgstr "La modifiche de luminositât di aplicâ"
 
 #: clutter/clutter-brightness-contrast-effect.c:341
 msgid "Contrast"
@@ -917,7 +917,7 @@ msgstr "Contrast"
 
 #: clutter/clutter-brightness-contrast-effect.c:342
 msgid "The contrast change to apply"
-msgstr ""
+msgstr "La modifiche dal contrast di aplicâ"
 
 #: clutter/clutter-canvas.c:249
 msgid "The width of the canvas"
@@ -945,11 +945,11 @@ msgstr ""
 
 #: clutter/clutter-child-meta.c:127
 msgid "Container"
-msgstr ""
+msgstr "Contignidôr"
 
 #: clutter/clutter-child-meta.c:128
 msgid "The container that created this data"
-msgstr ""
+msgstr "Il contignidôr che al à creât chest dât"
 
 #: clutter/clutter-child-meta.c:143
 msgid "The actor wrapped by this data"
@@ -957,11 +957,11 @@ msgstr ""
 
 #: clutter/clutter-click-action.c:590
 msgid "Pressed"
-msgstr ""
+msgstr "Fracât"
 
 #: clutter/clutter-click-action.c:591
 msgid "Whether the clickable should be in pressed state"
-msgstr ""
+msgstr "Indiche se l'element che si pues fâ clic al à di jessi tal stât fracât"
 
 #: clutter/clutter-click-action.c:604
 msgid "Held"
@@ -973,19 +973,19 @@ msgstr ""
 
 #: clutter/clutter-click-action.c:622 clutter/clutter-settings.c:674
 msgid "Long Press Duration"
-msgstr ""
+msgstr "Durade pression lungje"
 
 #: clutter/clutter-click-action.c:623
 msgid "The minimum duration of a long press to recognize the gesture"
-msgstr ""
+msgstr "La durade minime di une pression lungje par ricognossi un mot"
 
 #: clutter/clutter-click-action.c:641
 msgid "Long Press Threshold"
-msgstr ""
+msgstr "Liminâr pression lungje"
 
 #: clutter/clutter-click-action.c:642
 msgid "The maximum threshold before a long press is cancelled"
-msgstr ""
+msgstr "Il liminâr massim prime che une pression lungje e vegni anulade"
 
 #: clutter/clutter-clone.c:349
 msgid "Specifies the actor to be cloned"
@@ -993,11 +993,11 @@ msgstr ""
 
 #: clutter/clutter-colorize-effect.c:251
 msgid "Tint"
-msgstr ""
+msgstr "Tinte"
 
 #: clutter/clutter-colorize-effect.c:252
 msgid "The tint to apply"
-msgstr ""
+msgstr "La tinte di aplicâ"
 
 #: clutter/clutter-deform-effect.c:591
 msgid "Horizontal Tiles"
@@ -1108,35 +1108,35 @@ msgstr ""
 
 #: clutter/clutter-flow-layout.c:991
 msgid "Minimum Column Width"
-msgstr ""
+msgstr "Largjece colone minime"
 
 #: clutter/clutter-flow-layout.c:992
 msgid "Minimum width for each column"
-msgstr ""
+msgstr "Largjece minime par ogni colone"
 
 #: clutter/clutter-flow-layout.c:1007
 msgid "Maximum Column Width"
-msgstr ""
+msgstr "Largjece colone massime"
 
 #: clutter/clutter-flow-layout.c:1008
 msgid "Maximum width for each column"
-msgstr ""
+msgstr "Largjece massime par ogni colone"
 
 #: clutter/clutter-flow-layout.c:1022
 msgid "Minimum Row Height"
-msgstr ""
+msgstr "Altece rie minime"
 
 #: clutter/clutter-flow-layout.c:1023
 msgid "Minimum height for each row"
-msgstr ""
+msgstr "Altece minime par ogni rie"
 
 #: clutter/clutter-flow-layout.c:1038
 msgid "Maximum Row Height"
-msgstr ""
+msgstr "Altece rie massime"
 
 #: clutter/clutter-flow-layout.c:1039
 msgid "Maximum height for each row"
-msgstr ""
+msgstr "Altece massime par ogni rie"
 
 #: clutter/clutter-flow-layout.c:1054 clutter/clutter-flow-layout.c:1055
 msgid "Snap to grid"
@@ -1257,75 +1257,75 @@ msgstr "Il gjenar dal dispositîf"
 
 #: clutter/clutter-input-device.c:299
 msgid "Device Manager"
-msgstr ""
+msgstr "Gjestôr dispositîf"
 
 #: clutter/clutter-input-device.c:300
 msgid "The device manager instance"
-msgstr ""
+msgstr "La istance di gjestion dal dispositîf"
 
 #: clutter/clutter-input-device.c:313
 msgid "Device Mode"
-msgstr ""
+msgstr "Modalitât dispositîf"
 
 #: clutter/clutter-input-device.c:314
 msgid "The mode of the device"
-msgstr ""
+msgstr "La modalitât dal dispositîf"
 
 #: clutter/clutter-input-device.c:328
 msgid "Has Cursor"
-msgstr ""
+msgstr "Al à cursôr"
 
 #: clutter/clutter-input-device.c:329
 msgid "Whether the device has a cursor"
-msgstr ""
+msgstr "Indiche se il dispositîf al à un cursôr"
 
 #: clutter/clutter-input-device.c:348
 msgid "Whether the device is enabled"
-msgstr ""
+msgstr "Indiche se il dispositîf al è abilitât"
 
 #: clutter/clutter-input-device.c:361
 msgid "Number of Axes"
-msgstr ""
+msgstr "Numar di as"
 
 #: clutter/clutter-input-device.c:362
 msgid "The number of axes on the device"
-msgstr ""
+msgstr "Il numar di as sul dispositîf"
 
 #: clutter/clutter-input-device.c:377
 msgid "The backend instance"
-msgstr ""
+msgstr "La istance di backend"
 
 #: clutter/clutter-input-device.c:390 clutter/clutter-input-device.c:391
 msgid "Vendor ID"
-msgstr ""
+msgstr "ID fabricant"
 
 #: clutter/clutter-input-device.c:404 clutter/clutter-input-device.c:405
 msgid "Product ID"
-msgstr ""
+msgstr "ID prodot"
 
 #: clutter/clutter-interval.c:557
 msgid "Value Type"
-msgstr ""
+msgstr "Gjenar di valôr"
 
 #: clutter/clutter-interval.c:558
 msgid "The type of the values in the interval"
-msgstr ""
+msgstr "Il gjenar di valôrs tal interval"
 
 #: clutter/clutter-interval.c:573
 msgid "Initial Value"
-msgstr ""
+msgstr "Valôr iniziâl"
 
 #: clutter/clutter-interval.c:574
 msgid "Initial value of the interval"
-msgstr ""
+msgstr "Valôr iniziâl dal interval"
 
 #: clutter/clutter-interval.c:588
 msgid "Final Value"
-msgstr ""
+msgstr "Valôr finâl"
 
 #: clutter/clutter-interval.c:589
 msgid "Final value of the interval"
-msgstr ""
+msgstr "Valôr finâl dal interval"
 
 #: clutter/clutter-layout-meta.c:117
 msgid "Manager"
@@ -1344,7 +1344,7 @@ msgstr ""
 #.
 #: clutter/clutter-main.c:751
 msgid "default:LTR"
-msgstr ""
+msgstr "default:LTR"
 
 #: clutter/clutter-main.c:1426
 msgid "Show frames per second"
@@ -1352,19 +1352,19 @@ msgstr "Mostre fotograms al secont"
 
 #: clutter/clutter-main.c:1428
 msgid "Default frame rate"
-msgstr ""
+msgstr "Fotograms al secont predefinîts"
 
 #: clutter/clutter-main.c:1430
 msgid "Make all warnings fatal"
-msgstr ""
+msgstr "Fâs deventâ ducj i avertiments fatâi"
 
 #: clutter/clutter-main.c:1433
 msgid "Direction for the text"
-msgstr ""
+msgstr "Direzion dal test"
 
 #: clutter/clutter-main.c:1436
 msgid "Disable mipmapping on text"
-msgstr ""
+msgstr "Disabilite il mipmapping sul test"
 
 #: clutter/clutter-main.c:1439
 msgid "Use 'fuzzy' picking"
@@ -1380,15 +1380,15 @@ msgstr ""
 
 #: clutter/clutter-main.c:1447
 msgid "Enable accessibility"
-msgstr ""
+msgstr "Abilite acessibilitât"
 
 #: clutter/clutter-main.c:1619
 msgid "Clutter Options"
-msgstr ""
+msgstr "Opzions Clutter"
 
 #: clutter/clutter-main.c:1620
 msgid "Show Clutter Options"
-msgstr ""
+msgstr "Mostre lis opzions di clutter"
 
 #: clutter/clutter-pan-action.c:478
 msgid "Pan Axis"
@@ -1408,7 +1408,7 @@ msgstr ""
 
 #: clutter/clutter-pan-action.c:510
 msgid "Deceleration"
-msgstr ""
+msgstr "Decelerazion"
 
 #: clutter/clutter-pan-action.c:511
 msgid "Rate at which the interpolated panning will decelerate in"
@@ -1416,7 +1416,7 @@ msgstr ""
 
 #: clutter/clutter-pan-action.c:528
 msgid "Initial acceleration factor"
-msgstr ""
+msgstr "Fatôr acelerazion iniziâl"
 
 #: clutter/clutter-pan-action.c:529
 msgid "Factor applied to the momentum when starting the interpolated phase"
@@ -1441,7 +1441,7 @@ msgstr "Non proprietât"
 
 #: clutter/clutter-property-transition.c:270
 msgid "The name of the property to animate"
-msgstr ""
+msgstr "Il non de proprietât di animâ"
 
 #: clutter/clutter-script.c:509
 msgid "Filename Set"
@@ -1449,7 +1449,7 @@ msgstr ""
 
 #: clutter/clutter-script.c:510
 msgid "Whether the :filename property is set"
-msgstr ""
+msgstr "Indiche se la proprietât :filename e je stabilide"
 
 #: clutter/clutter-script.c:524 clutter/deprecated/clutter-texture.c:1081
 msgid "Filename"
@@ -1457,7 +1457,7 @@ msgstr "Non file"
 
 #: clutter/clutter-script.c:525
 msgid "The path of the currently parsed file"
-msgstr ""
+msgstr "Il percors dal file cumò analizât"
 
 #: clutter/clutter-script.c:542
 msgid "Translation Domain"
@@ -1469,63 +1469,67 @@ msgstr ""
 
 #: clutter/clutter-scroll-actor.c:184
 msgid "Scroll Mode"
-msgstr ""
+msgstr "Modalitât scoriment"
 
 #: clutter/clutter-scroll-actor.c:185
 msgid "The scrolling direction"
-msgstr ""
+msgstr "La direzion dal scoriment"
 
 #: clutter/clutter-settings.c:509
 msgid "Double Click Time"
-msgstr ""
+msgstr "Time Dopli Clic"
 
 #: clutter/clutter-settings.c:510
 msgid "The time between clicks necessary to detect a multiple click"
-msgstr ""
+msgstr "Il timp tra i clic necessari par determinâ un clic multipli"
 
 #: clutter/clutter-settings.c:525
 msgid "Double Click Distance"
-msgstr ""
+msgstr "Distance dopli clic"
 
 #: clutter/clutter-settings.c:526
 msgid "The distance between clicks necessary to detect a multiple click"
-msgstr ""
+msgstr "La distance tra i clic necessarie par determinâ un clic multipli"
 
 #: clutter/clutter-settings.c:541
 msgid "Drag Threshold"
-msgstr ""
+msgstr "Liminâr strissinâ"
 
 #: clutter/clutter-settings.c:542
 msgid "The distance the cursor should travel before starting to drag"
-msgstr ""
+msgstr "La distance che il cursôr al à di fâ prime di tacâ a strissinâ"
 
 #: clutter/clutter-settings.c:557 clutter/clutter-text.c:3408
 msgid "Font Name"
-msgstr ""
+msgstr "Non caratar"
 
 #: clutter/clutter-settings.c:558
 msgid ""
 "The description of the default font, as one that could be parsed by Pango"
 msgstr ""
+"La descrizion dal caratar predefinît che e podedi jessi analizade di Pango"
 
 #: clutter/clutter-settings.c:573
 msgid "Font Antialias"
-msgstr ""
+msgstr "Antialias Caratrar"
 
 #: clutter/clutter-settings.c:574
 msgid ""
 "Whether to use antialiasing (1 to enable, 0 to disable, and -1 to use the "
 "default)"
 msgstr ""
+"Indiche se doprâ il antialiasing (1 par abilitâ, 0 par disabilitâ e -1 par "
+"doprâ il predefinît)"
 
 #: clutter/clutter-settings.c:590 clutter/clutter-settings.c:598
 msgid "Font DPI"
-msgstr ""
+msgstr "DPI Caratar"
 
 #: clutter/clutter-settings.c:591 clutter/clutter-settings.c:599
 msgid ""
 "The resolution of the font, in 1024 * dots/inch, or -1 to use the default"
 msgstr ""
+"La risoluzion dal caratar, in 1024 * ponts/once o -1 par doprâ il predefinît"
 
 #: clutter/clutter-settings.c:615
 msgid "Font Hinting"
@@ -1630,11 +1634,12 @@ msgstr ""
 
 #: clutter/clutter-stage.c:1826 clutter/clutter-text.c:3527
 msgid "Cursor Visible"
-msgstr ""
+msgstr "Cursôr visibil"
 
 #: clutter/clutter-stage.c:1827
 msgid "Whether the mouse pointer is visible on the main stage"
 msgstr ""
+"Indiche se il pontadôr dal mouse al à di jessi visibil tal palc principâl"
 
 #: clutter/clutter-stage.c:1841
 msgid "User Resizable"
@@ -1655,11 +1660,11 @@ msgstr ""
 
 #: clutter/clutter-stage.c:1873
 msgid "Perspective"
-msgstr ""
+msgstr "Prospetive"
 
 #: clutter/clutter-stage.c:1874
 msgid "Perspective projection parameters"
-msgstr ""
+msgstr "Parametris di proiezion de prospetive"
 
 #: clutter/clutter-stage.c:1889
 msgid "Title"
@@ -1743,23 +1748,23 @@ msgstr ""
 
 #: clutter/clutter-text.c:3390
 msgid "Buffer"
-msgstr ""
+msgstr "Buffer"
 
 #: clutter/clutter-text.c:3391
 msgid "The buffer for the text"
-msgstr ""
+msgstr "Il buffer dal test"
 
 #: clutter/clutter-text.c:3409
 msgid "The font to be used by the text"
-msgstr ""
+msgstr "Il caratar che il test al à di doprâ"
 
 #: clutter/clutter-text.c:3426
 msgid "Font Description"
-msgstr ""
+msgstr "Descrizion caratar"
 
 #: clutter/clutter-text.c:3427
 msgid "The font description to be used"
-msgstr ""
+msgstr "La descrizion dal caratar di doprâ"
 
 #: clutter/clutter-text.c:3444
 msgid "The text to render"
@@ -1867,11 +1872,13 @@ msgstr ""
 
 #: clutter/clutter-text.c:3713
 msgid "Line wrap"
-msgstr ""
+msgstr "Rie gnove"
 
 #: clutter/clutter-text.c:3714
 msgid "If set, wrap the lines if the text becomes too wide"
 msgstr ""
+"Se stabilît, a mande a rie gnove in automatic se il test al devente masse "
+"larc"
 
 #: clutter/clutter-text.c:3729
 msgid "Line wrap mode"
@@ -1891,11 +1898,11 @@ msgstr ""
 
 #: clutter/clutter-text.c:3762
 msgid "Line Alignment"
-msgstr ""
+msgstr "Inlineament rie"
 
 #: clutter/clutter-text.c:3763
 msgid "The preferred alignment for the string, for multi-line text"
-msgstr ""
+msgstr "Il inlineament preferît pe stringhe, pal test a plui riis"
 
 #: clutter/clutter-text.c:3779
 msgid "Justify"
