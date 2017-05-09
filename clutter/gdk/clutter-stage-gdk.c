@@ -208,6 +208,15 @@ clutter_stage_gdk_unrealize (ClutterStageWindow *stage_window)
       stage_gdk->window = NULL;
     }
 
+#if defined(GDK_WINDOWING_WAYLAND) && defined(COGL_HAS_EGL_PLATFORM_WAYLAND_SUPPORT)
+  /* Destroy and clear subsurface as well */
+  if (GDK_IS_WAYLAND_WINDOW (stage_gdk->subsurface))
+    {
+      gdk_window_destroy (stage_gdk->subsurface);
+      stage_gdk->subsurface = NULL;
+    }
+#endif
+
   clutter_stage_window_parent_iface->unrealize (stage_window);
 }
 
