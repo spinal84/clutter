@@ -60,9 +60,9 @@
 {
   switch ([self buttonNumber])
     {
-    case 0: return 1;   /* left   */
-    case 1: return 3;   /* right  */
-    case 2: return 2;   /* middle */
+    case 0: return CLUTTER_BUTTON_PRIMARY;   /* left   */
+    case 1: return CLUTTER_BUTTON_SECONDARY; /* right  */
+    case 2: return CLUTTER_BUTTON_MIDDLE;    /* middle */
     default: return 1 + [self buttonNumber];
     }
 }

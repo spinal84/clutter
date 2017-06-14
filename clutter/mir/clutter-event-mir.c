@@ -265,17 +265,17 @@ _clutter_mir_handle_event (ClutterBackend *backend,
                                           CLUTTER_BUTTON_PRESS :
                                           CLUTTER_BUTTON_RELEASE);
 
-              event->button.button = 1;
+              event->button.button = CLUTTER_BUTTON_PRIMARY;
               event->button.click_count = 1;
 
               button_state ^= mir_event->motion.button_state;
 
               if (button_state == 0 || (button_state & mir_motion_button_primary))
-                event->button.button = 1;
+                event->button.button = CLUTTER_BUTTON_PRIMARY;
               else if (button_state & mir_motion_button_secondary)
-                event->button.button = 3;
+                event->button.button = CLUTTER_BUTTON_SECONDARY;
               else if (button_state & mir_motion_button_tertiary)
-                event->button.button = 2;
+                event->button.button = CLUTTER_BUTTON_MIDDLE;
               else if (button_state & mir_motion_button_back)
                 event->button.button = 8;
               else if (button_state & mir_motion_button_forward)
