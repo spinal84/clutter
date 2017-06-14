@@ -135,11 +135,11 @@ clutter_wayland_handle_button (void *data,
     break;
   case 273:
     event->button.button = 3;
-    modifier_mask = CLUTTER_BUTTON2_MASK;
+    modifier_mask = CLUTTER_BUTTON3_MASK;
     break;
   case 274:
     event->button.button = 2;
-    modifier_mask = CLUTTER_BUTTON3_MASK;
+    modifier_mask = CLUTTER_BUTTON2_MASK;
     break;
   }
 
