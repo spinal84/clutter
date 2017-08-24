@@ -6,17 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-02-14 07:22+0000\n"
-"PO-Revision-Date: 2017-03-13 08:31+0100\n"
+"POT-Creation-Date: 2017-06-27 22:14+0000\n"
+"PO-Revision-Date: 2017-08-23 22:47+0200\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #: clutter/clutter-actor.c:6313
 msgid "X coordinate"
@@ -2676,79 +2676,81 @@ msgstr ""
 
 #: clutter/wayland/clutter-wayland-surface.c:427
 msgid "Surface width"
-msgstr ""
+msgstr "Largjece plan"
 
 #: clutter/wayland/clutter-wayland-surface.c:428
 msgid "The width of the underlying wayland surface"
-msgstr ""
+msgstr "La largjece de superficie di wayland disot"
 
 #: clutter/wayland/clutter-wayland-surface.c:436
 msgid "Surface height"
-msgstr ""
+msgstr "Altece plan"
 
 #: clutter/wayland/clutter-wayland-surface.c:437
 msgid "The height of the underlying wayland surface"
-msgstr ""
+msgstr "La altece de superficie di wayland disot"
 
 #: clutter/x11/clutter-backend-x11.c:511
 msgid "X display to use"
-msgstr ""
+msgstr "Display X di doprâ"
 
 #: clutter/x11/clutter-backend-x11.c:517
 msgid "X screen to use"
-msgstr ""
+msgstr "Schermi X di doprâ"
 
 #: clutter/x11/clutter-backend-x11.c:522
 msgid "Make X calls synchronous"
-msgstr ""
+msgstr "Rint sincronis lis clamadis X"
 
 #: clutter/x11/clutter-backend-x11.c:529
 msgid "Disable XInput support"
-msgstr ""
+msgstr "Disabilite il supuart XInput"
 
 #: clutter/x11/clutter-keymap-x11.c:458
 msgid "The Clutter backend"
-msgstr ""
+msgstr "Il backend di Clutter"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:534
 msgid "Pixmap"
-msgstr ""
+msgstr "Pixmap"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:535
 msgid "The X11 Pixmap to be bound"
-msgstr ""
+msgstr "Il pixmap X11 di associâ"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:543
 msgid "Pixmap width"
-msgstr ""
+msgstr "Largjece pixmap"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:544
 msgid "The width of the pixmap bound to this texture"
-msgstr ""
+msgstr "La largjece dal pixmap associât a cheste texture"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:552
 msgid "Pixmap height"
-msgstr ""
+msgstr "Altece pixmap"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:553
 msgid "The height of the pixmap bound to this texture"
-msgstr ""
+msgstr "La altece dal pixmap associât a cheste texture"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:561
 msgid "Pixmap Depth"
-msgstr ""
+msgstr "Profonditât pixmap"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:562
 msgid "The depth (in number of bits) of the pixmap bound to this texture"
-msgstr ""
+msgstr "La profonditât (in numar di bit) dal pixmap associât a cheste texture"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:570
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Inzornaments automatics"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:571
 msgid "If the texture should be kept in sync with any pixmap changes."
 msgstr ""
+"Se la texture e varès di jessi tignude sincronizade cun cualsisei modifiche "
+"dal pixmap."
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:579
 msgid "Window"
@@ -2756,52 +2758,54 @@ msgstr "Barcon"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:580
 msgid "The X11 Window to be bound"
-msgstr ""
+msgstr "Il barcon X11 di associâ"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:588
 msgid "Window Redirect Automatic"
-msgstr ""
+msgstr "Indreçament barcon automatic"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:589
 msgid "If composite window redirects are set to Automatic (or Manual if false)"
 msgstr ""
+"Se i indreçaments dal barcon composit a son metûts su Automatic (o Manuâl se "
+"fals)"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:599
 msgid "Window Mapped"
-msgstr ""
+msgstr "Barcon mapât"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:600
 msgid "If window is mapped"
-msgstr ""
+msgstr "Se il barcon al è stât mapât"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:609
 msgid "Destroyed"
-msgstr ""
+msgstr "Distrut"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:610
 msgid "If window has been destroyed"
-msgstr ""
+msgstr "Se il barcon al è stât distrut"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:618
 msgid "Window X"
-msgstr ""
+msgstr "X barcon"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:619
 msgid "X position of window on screen according to X11"
-msgstr ""
+msgstr "Posizion X dal barcon sul schermi in acuardi cun X11"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:627
 msgid "Window Y"
-msgstr ""
+msgstr "Y barcon"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:628
 msgid "Y position of window on screen according to X11"
-msgstr ""
+msgstr "Posizion Y dal barcon sul schermi in acuardi cun X11"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:635
 msgid "Window Override Redirect"
-msgstr ""
+msgstr "Passâ sore dal indreçament dal barcon"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:636
 msgid "If this is an override-redirect window"
-msgstr ""
+msgstr "Indiche se chest al è un barcon che al passe sore dal indreçament"
