@@ -6,37 +6,34 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome Nepali Translation Project\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-07-11 10:45+0000\n"
-"PO-Revision-Date: 2017-07-26 13:06+0545\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=clutter&keywords=I18N"
+"+L10N&component=general\n"
+"POT-Creation-Date: 2017-07-26 07:22+0000\n"
+"PO-Revision-Date: 2017-09-01 16:49+0545\n"
+"Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
 "Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.3\n"
-"Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: ne\n"
 
 #: clutter/clutter-actor.c:6313
 msgid "X coordinate"
 msgstr "X निर्देशाङ्कलाई X मा परिवर्तन गर्नुहोस्"
 
 #: clutter/clutter-actor.c:6314
-#, fuzzy
 msgid "X coordinate of the actor"
-msgstr "सञ्झ्यालको X निर्देशाङ्कलाई X मा परिवर्तन गर्नुहोस्"
+msgstr "कर्ताको X निर्देशाङ्क"
 
 #: clutter/clutter-actor.c:6332
-#, fuzzy
 msgid "Y coordinate"
-msgstr "सञ्झ्यालको Y निर्देशाङ्कलाई Y मा परिवर्तन गर्नुहोस्"
+msgstr "Y संयोजन"
 
 #: clutter/clutter-actor.c:6333
-#, fuzzy
 msgid "Y coordinate of the actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ताको Y निर्देशाङ्क"
 
 #: clutter/clutter-actor.c:6355
 msgid "Position"
@@ -47,8 +44,7 @@ msgstr "स्थिति"
 msgid "The position of the origin of the actor"
 msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
 
-#: clutter/clutter-actor.c:6373 clutter/clutter-canvas.c:248
-#: clutter/clutter-grid-layout.c:1239
+#: clutter/clutter-actor.c:6373 clutter/clutter-canvas.c:248 clutter/clutter-grid-layout.c:1239
 #: clutter/deprecated/clutter-behaviour-ellipse.c:474
 msgid "Width"
 msgstr "चौडाई"
@@ -56,10 +52,9 @@ msgstr "चौडाई"
 #: clutter/clutter-actor.c:6374
 #, fuzzy
 msgid "Width of the actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
-#: clutter/clutter-actor.c:6392 clutter/clutter-canvas.c:264
-#: clutter/clutter-grid-layout.c:1246
+#: clutter/clutter-actor.c:6392 clutter/clutter-canvas.c:264 clutter/clutter-grid-layout.c:1246
 #: clutter/deprecated/clutter-behaviour-ellipse.c:490
 msgid "Height"
 msgstr "उचाई"
@@ -67,7 +62,7 @@ msgstr "उचाई"
 #: clutter/clutter-actor.c:6393
 #, fuzzy
 msgid "Height of the actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-actor.c:6414
 msgid "Size"
@@ -76,7 +71,7 @@ msgstr "साइज"
 #: clutter/clutter-actor.c:6415
 #, fuzzy
 msgid "The size of the actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-actor.c:6433
 msgid "Fixed X"
@@ -93,7 +88,7 @@ msgstr "स्थिर Y"
 
 #: clutter/clutter-actor.c:6452
 msgid "Forced Y position of the actor"
-msgstr ""
+msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
 
 #: clutter/clutter-actor.c:6467
 #, fuzzy
@@ -102,7 +97,7 @@ msgstr "स्थिति स्थापित"
 
 #: clutter/clutter-actor.c:6468
 msgid "Whether to use fixed positioning for the actor"
-msgstr ""
+msgstr "खेलाडीको लागि निश्चित स्थिति प्रयोग गर्ने"
 
 #: clutter/clutter-actor.c:6486
 msgid "Min Width"
@@ -110,7 +105,7 @@ msgstr "निम्न चौडाइ"
 
 #: clutter/clutter-actor.c:6487
 msgid "Forced minimum width request for the actor"
-msgstr ""
+msgstr "खेलाडिको लागि न्यूनतम चौडाइ अनुरोध"
 
 #: clutter/clutter-actor.c:6505
 msgid "Min Height"
@@ -118,7 +113,7 @@ msgstr "निम्न उचाइ"
 
 #: clutter/clutter-actor.c:6506
 msgid "Forced minimum height request for the actor"
-msgstr ""
+msgstr "खेलाडिको लागि न्यूनतम उचाइ अनुरोध"
 
 #: clutter/clutter-actor.c:6524
 msgid "Natural Width"
@@ -126,7 +121,7 @@ msgstr "स्वाभाविक चौडाइ"
 
 #: clutter/clutter-actor.c:6525
 msgid "Forced natural width request for the actor"
-msgstr ""
+msgstr "खेलाडिको लागि प्राकृतिक चौडाइ अनुरोध"
 
 #: clutter/clutter-actor.c:6543
 msgid "Natural Height"
@@ -134,7 +129,7 @@ msgstr "स्वाभाविक उचाइ"
 
 #: clutter/clutter-actor.c:6544
 msgid "Forced natural height request for the actor"
-msgstr ""
+msgstr "खेलाडिको लागि प्राकृतिक उचाइ अनुरोध"
 
 #: clutter/clutter-actor.c:6559
 msgid "Minimum width set"
@@ -142,7 +137,7 @@ msgstr "न्यूनतम चौडाई सेट"
 
 #: clutter/clutter-actor.c:6560
 msgid "Whether to use the min-width property"
-msgstr ""
+msgstr "न्युन-चौडाई गुण प्रयोग गर्न चाहनुहुन्छ"
 
 #: clutter/clutter-actor.c:6574
 msgid "Minimum height set"
@@ -150,7 +145,7 @@ msgstr "न्यूनतम उचाइ सेट"
 
 #: clutter/clutter-actor.c:6575
 msgid "Whether to use the min-height property"
-msgstr ""
+msgstr "न्युन-उचाइ गुण प्रयोग गर्न चाहनुहुन्छ"
 
 #: clutter/clutter-actor.c:6589
 msgid "Natural width set"
@@ -158,7 +153,7 @@ msgstr "स्वाभाविक चौडाइ सेट"
 
 #: clutter/clutter-actor.c:6590
 msgid "Whether to use the natural-width property"
-msgstr ""
+msgstr "प्राकृतिक-चौडाई गुण प्रयोग गर्न चाहनुहुन्छ"
 
 #: clutter/clutter-actor.c:6604
 msgid "Natural height set"
@@ -166,7 +161,7 @@ msgstr "स्वाभाविक उचाइ सेट"
 
 #: clutter/clutter-actor.c:6605
 msgid "Whether to use the natural-height property"
-msgstr ""
+msgstr "प्राकृतिक-उचाइ गुण प्रयोग गर्न चाहनुहुन्छ"
 
 #: clutter/clutter-actor.c:6621
 msgid "Allocation"
@@ -180,12 +175,12 @@ msgstr "निर्धारण"
 #: clutter/clutter-actor.c:6689
 #, fuzzy
 msgid "Request Mode"
-msgstr "चौडाइ अनुरोध"
+msgstr "खराब अनुरोध"
 
 #: clutter/clutter-actor.c:6690
 #, fuzzy
 msgid "The actor's request mode"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-actor.c:6714
 msgid "Depth"
@@ -213,15 +208,16 @@ msgstr "अस्पष्टता"
 #: clutter/clutter-actor.c:6761
 #, fuzzy
 msgid "Opacity of an actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-actor.c:6781
+#, fuzzy
 msgid "Offscreen redirect"
-msgstr ""
+msgstr "स्वत: सन्झ्याल पुन: निर्देशन गर्नुहोस्"
 
 #: clutter/clutter-actor.c:6782
 msgid "Flags controlling when to flatten the actor into a single image"
-msgstr ""
+msgstr "एक छविमा खेलाडि च्याप्टो गर्दा नियन्त्रण गर्ने झण्डाहरू"
 
 #: clutter/clutter-actor.c:6796
 msgid "Visible"
@@ -230,19 +226,17 @@ msgstr "दृश्यात्मक"
 #: clutter/clutter-actor.c:6797
 #, fuzzy
 msgid "Whether the actor is visible or not"
-msgstr "जहाँ कार्य समूह हेर्न सकिने छ"
+msgstr "जहा औजार दृश्यात्मक हुन्छ"
 
 #: clutter/clutter-actor.c:6811
 #, fuzzy
 msgid "Mapped"
-msgstr ""
-"यदि नजाँचिएमा छवि आयात भित्र वृत्ताकार रूपमा मानचित्र बन्छ। यदि जाँचिएमा छवि वृत्त भित्र नै "
-"मानचित्र बन्छ।"
+msgstr "यदि नजाँचिएमा छवि आयात भित्र वृत्ताकार रूपमा मानचित्र बन्छ। यदि जाँचिएमा छवि वृत्त भित्र नै मानचित्र बन्छ।"
 
 #: clutter/clutter-actor.c:6812
 #, fuzzy
 msgid "Whether the actor will be painted"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-actor.c:6825
 msgid "Realized"
@@ -254,7 +248,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6841
 msgid "Reactive"
-msgstr ""
+msgstr "पुन सक्रिय"
 
 #: clutter/clutter-actor.c:6842
 #, fuzzy
@@ -276,27 +270,27 @@ msgstr "क्लिप"
 #: clutter/clutter-actor.c:6868
 #, fuzzy
 msgid "The clip region for the actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "क्लिप"
 
 #: clutter/clutter-actor.c:6887
 #, fuzzy
 msgid "Clip Rectangle"
-msgstr "आयात"
+msgstr "आयात: "
 
 #: clutter/clutter-actor.c:6888
 #, fuzzy
 msgid "The visible region of the actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
-#: clutter/clutter-actor.c:6902 clutter/clutter-actor-meta.c:205
-#: clutter/clutter-binding-pool.c:318 clutter/clutter-input-device.c:268
+#: clutter/clutter-actor.c:6902 clutter/clutter-actor-meta.c:205 clutter/clutter-binding-pool.c:318
+#: clutter/clutter-input-device.c:268
 msgid "Name"
 msgstr "नाम"
 
 #: clutter/clutter-actor.c:6903
 #, fuzzy
 msgid "Name of the actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-actor.c:6924
 #, fuzzy
@@ -310,7 +304,7 @@ msgstr ""
 #: clutter/clutter-actor.c:6943
 #, fuzzy
 msgid "Pivot Point Z"
-msgstr "बिन्दु"
+msgstr "म्याट्रिक्सको पिभोट स्तम्भ नभएका स्तम्भहरूलाई फर्काउनुहोस्"
 
 #: clutter/clutter-actor.c:6944
 msgid "Z component of the pivot point"
@@ -323,7 +317,7 @@ msgstr "स्केल X"
 #: clutter/clutter-actor.c:6963
 #, fuzzy
 msgid "Scale factor on the X axis"
-msgstr "प्रयोगकर्ता इन्टरफेस मात्रा कारक"
+msgstr "X अक्ष टाढा टिल्ट गर्नुहोस्"
 
 #: clutter/clutter-actor.c:6981
 msgid "Scale Y"
@@ -332,11 +326,11 @@ msgstr "स्केल Y"
 #: clutter/clutter-actor.c:6982
 #, fuzzy
 msgid "Scale factor on the Y axis"
-msgstr "प्रयोगकर्ता इन्टरफेस मात्रा कारक"
+msgstr "Y अक्ष दायाँ टिल्ट गर्नुहोस्"
 
 #: clutter/clutter-actor.c:7000
 msgid "Scale Z"
-msgstr "मापन Z:"
+msgstr "मापन Z"
 
 #: clutter/clutter-actor.c:7001
 #, fuzzy
@@ -346,27 +340,27 @@ msgstr "Z अक्ष बायाँ घुमाउनुहोस्"
 #: clutter/clutter-actor.c:7019
 #, fuzzy
 msgid "Scale Center X"
-msgstr "X मापन:"
+msgstr "स्केल X"
 
 #: clutter/clutter-actor.c:7020
 #, fuzzy
 msgid "Horizontal scale center"
-msgstr "तेर्सो अक्षमा केन्द"
+msgstr "क्षितिजीय नाप"
 
 #: clutter/clutter-actor.c:7038
 #, fuzzy
 msgid "Scale Center Y"
-msgstr "Y मापन:"
+msgstr "स्केल Y"
 
 #: clutter/clutter-actor.c:7039
 #, fuzzy
 msgid "Vertical scale center"
-msgstr "ठाडो अक्षमा केन्द"
+msgstr "उर्ध्व नाप"
 
 #: clutter/clutter-actor.c:7057
 #, fuzzy
 msgid "Scale Gravity"
-msgstr "गुरुत्व"
+msgstr "गुरुत्व:"
 
 #: clutter/clutter-actor.c:7058
 #, fuzzy
@@ -406,7 +400,7 @@ msgstr "Z अक्षका बारेमा परिक्रमण को�
 #: clutter/clutter-actor.c:7133
 #, fuzzy
 msgid "Rotation Center X"
-msgstr "केन्द्र x:"
+msgstr " x-अक्षको केन्द्रको प्यानल"
 
 #: clutter/clutter-actor.c:7134
 #, fuzzy
@@ -416,7 +410,7 @@ msgstr "X अक्षका बारेमा परिक्रमण को�
 #: clutter/clutter-actor.c:7151
 #, fuzzy
 msgid "Rotation Center Y"
-msgstr "केन्द्र y:"
+msgstr " y-अक्षको केन्द्रको प्यानल"
 
 #: clutter/clutter-actor.c:7152
 #, fuzzy
@@ -439,8 +433,9 @@ msgid "Rotation Center Z Gravity"
 msgstr "Z अक्षका बारेमा परिक्रमण कोण"
 
 #: clutter/clutter-actor.c:7188
+#, fuzzy
 msgid "Center point for rotation around the Z axis"
-msgstr ""
+msgstr "जेड्स-अक्षका बारेमा आर^३ वरिपरि परिक्रम"
 
 #: clutter/clutter-actor.c:7216
 msgid "Anchor X"
@@ -458,7 +453,7 @@ msgstr "एङ्कर Y"
 #: clutter/clutter-actor.c:7246
 #, fuzzy
 msgid "Y coordinate of the anchor point"
-msgstr "पाठका लागि एङ्खर बिन्दु"
+msgstr "Y संयोजन"
 
 #: clutter/clutter-actor.c:7273
 msgid "Anchor Gravity"
@@ -476,7 +471,7 @@ msgstr "अनुवाद X"
 #: clutter/clutter-actor.c:7294
 #, fuzzy
 msgid "Translation along the X axis"
-msgstr "X अक्षका बारेमा परिक्रमण कोण"
+msgstr "अनुवाद X"
 
 #: clutter/clutter-actor.c:7313
 msgid "Translation Y"
@@ -485,7 +480,7 @@ msgstr "अनुवाद Y"
 #: clutter/clutter-actor.c:7314
 #, fuzzy
 msgid "Translation along the Y axis"
-msgstr "Y अक्षका बारेमा परिक्रमण कोण"
+msgstr "अनुवाद Y"
 
 #: clutter/clutter-actor.c:7333
 msgid "Translation Z"
@@ -494,7 +489,7 @@ msgstr "अनुवाद Z"
 #: clutter/clutter-actor.c:7334
 #, fuzzy
 msgid "Translation along the Z axis"
-msgstr "Z अक्षका बारेमा परिक्रमण कोण"
+msgstr "अनुवाद Z"
 
 #: clutter/clutter-actor.c:7364
 msgid "Transform"
@@ -517,7 +512,7 @@ msgstr "सङ्केत गुण सेट गर्नुहोस्"
 #: clutter/clutter-actor.c:7402
 #, fuzzy
 msgid "Child Transform"
-msgstr "रूपान्तरण"
+msgstr "रुपान्तरण गर्नुहोस्:"
 
 #: clutter/clutter-actor.c:7403
 #, fuzzy
@@ -527,7 +522,7 @@ msgstr "स्थानान्तरण म्याट्रिक्स"
 #: clutter/clutter-actor.c:7418
 #, fuzzy
 msgid "Child Transform Set"
-msgstr "रूपान्तरण"
+msgstr "रूपान्तरण सेट"
 
 #: clutter/clutter-actor.c:7419
 msgid "Whether the child-transform property is set"
@@ -536,7 +531,7 @@ msgstr ""
 #: clutter/clutter-actor.c:7436
 #, fuzzy
 msgid "Show on set parent"
-msgstr "जवाफ वा प्रमूल छैन"
+msgstr "पारेन्ट"
 
 #: clutter/clutter-actor.c:7437
 msgid "Whether the actor is shown when parented"
@@ -545,7 +540,7 @@ msgstr ""
 #: clutter/clutter-actor.c:7454
 #, fuzzy
 msgid "Clip to Allocation"
-msgstr "क्लिप %d"
+msgstr "क्लिप"
 
 #: clutter/clutter-actor.c:7455
 msgid "Sets the clip region to track the actor's allocation"
@@ -576,19 +571,18 @@ msgstr "कार्यहरु"
 #: clutter/clutter-actor.c:7499
 #, fuzzy
 msgid "Adds an action to the actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-actor.c:7512
 msgid "Constraints"
-msgstr ""
+msgstr "अवरोधहरू"
 
 #: clutter/clutter-actor.c:7513
 #, fuzzy
 msgid "Adds a constraint to the actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "अवरोध"
 
 #: clutter/clutter-actor.c:7526
-#, fuzzy
 msgid "Effect"
 msgstr "प्रभाव"
 
@@ -600,7 +594,7 @@ msgstr "एउटा लेन्स फ्लेर असर थप्नु�
 #: clutter/clutter-actor.c:7541
 #, fuzzy
 msgid "Layout Manager"
-msgstr "लेआउट छैन"
+msgstr "प्रबन्धक"
 
 #: clutter/clutter-actor.c:7542
 msgid "The object controlling the layout of an actor's children"
@@ -695,32 +689,29 @@ msgstr "पृष्ठभूमिको रङ्ग"
 #: clutter/clutter-actor.c:7726
 #, fuzzy
 msgid "The actor's background color"
-msgstr "पृष्ठभूमि रङ"
+msgstr "पृष्ठभूमिको रङ"
 
 #: clutter/clutter-actor.c:7741
-#, fuzzy
 msgid "First Child"
-msgstr "शाखा"
+msgstr "प्रथम शाखा"
 
 #: clutter/clutter-actor.c:7742
 #, fuzzy
 msgid "The actor's first child"
-msgstr "पहिलो:"
+msgstr "कर्ता"
 
 #: clutter/clutter-actor.c:7755
-#, fuzzy
 msgid "Last Child"
-msgstr "अन्तिम:"
+msgstr "अन्तिम शाखा"
 
 #: clutter/clutter-actor.c:7756
 #, fuzzy
 msgid "The actor's last child"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-actor.c:7770
-#, fuzzy
 msgid "Content"
-msgstr "प्रतिस्थापन गर्दा विषय वस्तु अधिलेखन हुनेछ।"
+msgstr "सामग्री"
 
 #: clutter/clutter-actor.c:7771
 msgid "Delegate object for painting the actor's content"
@@ -729,12 +720,12 @@ msgstr ""
 #: clutter/clutter-actor.c:7796
 #, fuzzy
 msgid "Content Gravity"
-msgstr "गुरुत्व"
+msgstr "गुरुत्व:"
 
 #: clutter/clutter-actor.c:7797
 #, fuzzy
 msgid "Alignment of the actor's content"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-actor.c:7817
 msgid "Content Box"
@@ -743,12 +734,12 @@ msgstr "सामाग्री बाकस"
 #: clutter/clutter-actor.c:7818
 #, fuzzy
 msgid "The bounding box of the actor's content"
-msgstr "सिमा भएको बाकस प्रयास गर्नुहोस्"
+msgstr "सामाग्री बाकस"
 
 #: clutter/clutter-actor.c:7826
 #, fuzzy
 msgid "Minification Filter"
-msgstr "फिल्टर"
+msgstr "फिल्टर:"
 
 #: clutter/clutter-actor.c:7827
 msgid "The filter used when reducing the size of the content"
@@ -768,18 +759,18 @@ msgid "Content Repeat"
 msgstr "सामाग्री दोहो-याउनु"
 
 #: clutter/clutter-actor.c:7850
+#, fuzzy
 msgid "The repeat policy for the actor's content"
-msgstr ""
+msgstr "सामाग्री दोहो-याउनु"
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
-#, fuzzy
 msgid "Actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-actor-meta.c:192
 #, fuzzy
 msgid "The actor attached to the meta"
-msgstr "संलग्न गरिएको"
+msgstr "Meta"
 
 #: clutter/clutter-actor-meta.c:206
 #, fuzzy
@@ -796,8 +787,8 @@ msgstr "सक्षम पारिएको"
 msgid "Whether the meta is enabled"
 msgstr "जहाँ कार्य सक्षम छ"
 
-#: clutter/clutter-align-constraint.c:279 clutter/clutter-bind-constraint.c:343
-#: clutter/clutter-clone.c:348 clutter/clutter-snap-constraint.c:321
+#: clutter/clutter-align-constraint.c:279 clutter/clutter-bind-constraint.c:343 clutter/clutter-clone.c:348
+#: clutter/clutter-snap-constraint.c:321
 msgid "Source"
 msgstr "स्रोत"
 
@@ -807,14 +798,13 @@ msgid "The source of the alignment"
 msgstr "पङ्क्तिबद्धता:"
 
 #: clutter/clutter-align-constraint.c:293
-#, fuzzy
 msgid "Align Axis"
-msgstr "पंक्तिबद्ध गर्नुहोस्"
+msgstr "पंक्तिबद्ध अक्ष"
 
 #: clutter/clutter-align-constraint.c:294
 #, fuzzy
 msgid "The axis to align the position to"
-msgstr "दायाँ पंक्तिबद्ध गर्नुहोस्"
+msgstr "पंक्तिबद्ध गर्नुहोस्"
 
 #: clutter/clutter-align-constraint.c:313 clutter/clutter-desaturate-effect.c:270
 msgid "Factor"
@@ -839,9 +829,8 @@ msgid "The source of the binding"
 msgstr "बाइन्डिङ:"
 
 #: clutter/clutter-bind-constraint.c:357
-#, fuzzy
 msgid "Coordinate"
-msgstr "X निर्देशाङ्कलाई X मा परिवर्तन गर्नुहोस्"
+msgstr "निर्देशाङ्क"
 
 #: clutter/clutter-bind-constraint.c:358
 #, fuzzy
@@ -856,15 +845,15 @@ msgstr "अफसेट"
 #: clutter/clutter-bind-constraint.c:373
 #, fuzzy
 msgid "The offset in pixels to apply to the binding"
-msgstr "अफसेट (पिक्सेल)"
+msgstr "पिक्सेलमा एक्स-अफसेट अवस्था"
 
 #: clutter/clutter-binding-pool.c:319
 #, fuzzy
 msgid "The unique name of the binding pool"
 msgstr "कार्यका लागि अनौठो नाम"
 
-#: clutter/clutter-bin-layout.c:220 clutter/clutter-bin-layout.c:633
-#: clutter/clutter-box-layout.c:374 clutter/deprecated/clutter-table-layout.c:600
+#: clutter/clutter-bin-layout.c:220 clutter/clutter-bin-layout.c:633 clutter/clutter-box-layout.c:374
+#: clutter/deprecated/clutter-table-layout.c:600
 msgid "Horizontal Alignment"
 msgstr "क्षितिजीय पंक्तिबद्ध/"
 
@@ -872,8 +861,8 @@ msgstr "क्षितिजीय पंक्तिबद्ध/"
 msgid "Horizontal alignment for the actor inside the layout manager"
 msgstr ""
 
-#: clutter/clutter-bin-layout.c:229 clutter/clutter-bin-layout.c:653
-#: clutter/clutter-box-layout.c:383 clutter/deprecated/clutter-table-layout.c:615
+#: clutter/clutter-bin-layout.c:229 clutter/clutter-bin-layout.c:653 clutter/clutter-box-layout.c:383
+#: clutter/deprecated/clutter-table-layout.c:615
 msgid "Vertical Alignment"
 msgstr "उर्ध्वतलीय पंक्तिबद्ध"
 
@@ -904,8 +893,8 @@ msgstr "तेर्सो भर्नुहोस्"
 
 #: clutter/clutter-box-layout.c:357 clutter/deprecated/clutter-table-layout.c:580
 msgid ""
-"Whether the child should receive priority when the container is allocating spare "
-"space on the horizontal axis"
+"Whether the child should receive priority when the container is allocating spare space on the horizontal "
+"axis"
 msgstr ""
 
 #: clutter/clutter-box-layout.c:365 clutter/deprecated/clutter-table-layout.c:586
@@ -914,8 +903,8 @@ msgstr "ठाडो भर्नुहोस्"
 
 #: clutter/clutter-box-layout.c:366 clutter/deprecated/clutter-table-layout.c:587
 msgid ""
-"Whether the child should receive priority when the container is allocating spare "
-"space on the vertical axis"
+"Whether the child should receive priority when the container is allocating spare space on the vertical "
+"axis"
 msgstr ""
 
 #: clutter/clutter-box-layout.c:375 clutter/deprecated/clutter-table-layout.c:601
@@ -934,13 +923,11 @@ msgstr "ठाडो"
 msgid "Whether the layout should be vertical, rather than horizontal"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:1363 clutter/clutter-flow-layout.c:927
-#: clutter/clutter-grid-layout.c:1568
+#: clutter/clutter-box-layout.c:1363 clutter/clutter-flow-layout.c:927 clutter/clutter-grid-layout.c:1568
 msgid "Orientation"
 msgstr "अभिमुखीकरण"
 
-#: clutter/clutter-box-layout.c:1364 clutter/clutter-flow-layout.c:928
-#: clutter/clutter-grid-layout.c:1569
+#: clutter/clutter-box-layout.c:1364 clutter/clutter-flow-layout.c:928 clutter/clutter-grid-layout.c:1569
 #, fuzzy
 msgid "The orientation of the layout"
 msgstr "अभिमुखीकरण"
@@ -956,7 +943,7 @@ msgstr ""
 #: clutter/clutter-box-layout.c:1396
 #, fuzzy
 msgid "Pack Start"
-msgstr "कौशल प्याक"
+msgstr "प्याक बनाउनुहोस्"
 
 #: clutter/clutter-box-layout.c:1397
 msgid "Whether to pack items at the start of the box"
@@ -980,9 +967,8 @@ msgid "Whether layout changes should be animated"
 msgstr ""
 
 #: clutter/clutter-box-layout.c:1453 clutter/deprecated/clutter-table-layout.c:1692
-#, fuzzy
 msgid "Easing Mode"
-msgstr "मोड:"
+msgstr "सजिलो शैली"
 
 #: clutter/clutter-box-layout.c:1454 clutter/deprecated/clutter-table-layout.c:1693
 #, fuzzy
@@ -992,12 +978,12 @@ msgstr "एनिमेसनहरू"
 #: clutter/clutter-box-layout.c:1474 clutter/deprecated/clutter-table-layout.c:1713
 #, fuzzy
 msgid "Easing Duration"
-msgstr "अवधि"
+msgstr "समयावधी:"
 
 #: clutter/clutter-box-layout.c:1475 clutter/deprecated/clutter-table-layout.c:1714
 #, fuzzy
 msgid "The duration of the animations"
-msgstr "अवधि:"
+msgstr "अवधि"
 
 #: clutter/clutter-brightness-contrast-effect.c:321
 msgid "Brightness"
@@ -1006,7 +992,7 @@ msgstr "चम्किलोपन"
 #: clutter/clutter-brightness-contrast-effect.c:322
 #, fuzzy
 msgid "The brightness change to apply"
-msgstr "_लागू"
+msgstr "हरियो च्यानलको तिब्रता परिवर्तन गर्नुहोस्"
 
 #: clutter/clutter-brightness-contrast-effect.c:341
 msgid "Contrast"
@@ -1015,7 +1001,7 @@ msgstr "व्यतिरेक"
 #: clutter/clutter-brightness-contrast-effect.c:342
 #, fuzzy
 msgid "The contrast change to apply"
-msgstr "_लागू"
+msgstr "हरियो च्यानलको तिब्रता परिवर्तन गर्नुहोस्"
 
 #: clutter/clutter-canvas.c:249
 msgid "The width of the canvas"
@@ -1045,19 +1031,18 @@ msgid "The scaling factor for the surface"
 msgstr "वर्ण नाप्ने आधार"
 
 #: clutter/clutter-child-meta.c:127
-#, fuzzy
 msgid "Container"
-msgstr "html भाँडो"
+msgstr "कन्टेनर"
 
 #: clutter/clutter-child-meta.c:128
 #, fuzzy
 msgid "The container that created this data"
-msgstr "html भाँडो"
+msgstr "सिर्जना गरियो"
 
 #: clutter/clutter-child-meta.c:143
 #, fuzzy
 msgid "The actor wrapped by this data"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-click-action.c:590
 msgid "Pressed"
@@ -1078,9 +1063,8 @@ msgid "Whether the clickable has a grab"
 msgstr "मेनुपट्टीसँग पहुँच कुञ्जी छ या छैन"
 
 #: clutter/clutter-click-action.c:622 clutter/clutter-settings.c:674
-#, fuzzy
 msgid "Long Press Duration"
-msgstr "अवधि"
+msgstr "लामो थिचाइ समय"
 
 #: clutter/clutter-click-action.c:623
 msgid "The minimum duration of a long press to recognize the gesture"
@@ -1089,7 +1073,7 @@ msgstr ""
 #: clutter/clutter-click-action.c:641
 #, fuzzy
 msgid "Long Press Threshold"
-msgstr "लामो"
+msgstr "लामो थिचाइ समय"
 
 #: clutter/clutter-click-action.c:642
 msgid "The maximum threshold before a long press is cancelled"
@@ -1098,22 +1082,21 @@ msgstr ""
 #: clutter/clutter-clone.c:349
 #, fuzzy
 msgid "Specifies the actor to be cloned"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "क्लोण्ड ठेगाना:"
 
 #: clutter/clutter-colorize-effect.c:251
-#, fuzzy
 msgid "Tint"
-msgstr "आउँदै गरेको तस्बिरको हियु(कलर टिन्ट) क्यामेराबाट मिलाऊछ।"
+msgstr "टिन्ट"
 
 #: clutter/clutter-colorize-effect.c:252
 #, fuzzy
 msgid "The tint to apply"
-msgstr "_लागू"
+msgstr "यसमा लागू गर्नुहोस्:"
 
 #: clutter/clutter-deform-effect.c:591
 #, fuzzy
 msgid "Horizontal Tiles"
-msgstr "तेर्सो:"
+msgstr "टायल:"
 
 #: clutter/clutter-deform-effect.c:592
 #, fuzzy
@@ -1123,7 +1106,7 @@ msgstr "X टायलहरूको सङ्ख्या"
 #: clutter/clutter-deform-effect.c:607
 #, fuzzy
 msgid "Vertical Tiles"
-msgstr "ठाडो:"
+msgstr "टायल:"
 
 #: clutter/clutter-deform-effect.c:608
 #, fuzzy
@@ -1148,17 +1131,17 @@ msgstr "तत्व:"
 #: clutter/x11/clutter-keymap-x11.c:457
 #, fuzzy
 msgid "Backend"
-msgstr "पूर्वनिर्धारित लेखपत्र छनौटकर्ताको मेरुदण्ड"
+msgstr "प्लेब्याक ब्याकइन्डसंग जुड्न असफल।"
 
 #: clutter/clutter-device-manager.c:137
 #, fuzzy
 msgid "The ClutterBackend of the device manager"
-msgstr "यन्त्र"
+msgstr "यन्त्र प्रबन्धक"
 
 #: clutter/clutter-drag-action.c:733
 #, fuzzy
 msgid "Horizontal Drag Threshold"
-msgstr "रेखाङ्कन थालनीबिन्दु"
+msgstr "ड्र्याग थ्रेसहोल्ड"
 
 #: clutter/clutter-drag-action.c:734
 msgid "The horizontal amount of pixels required to start dragging"
@@ -1167,7 +1150,7 @@ msgstr ""
 #: clutter/clutter-drag-action.c:761
 #, fuzzy
 msgid "Vertical Drag Threshold"
-msgstr "रेखाङ्कन थालनीबिन्दु"
+msgstr "ड्र्याग थ्रेसहोल्ड"
 
 #: clutter/clutter-drag-action.c:762
 msgid "The vertical amount of pixels required to start dragging"
@@ -1180,17 +1163,17 @@ msgstr "ह्यान्डल तान्नुहोस्"
 #: clutter/clutter-drag-action.c:784
 #, fuzzy
 msgid "The actor that is being dragged"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "कर्ता"
 
 #: clutter/clutter-drag-action.c:797
 #, fuzzy
 msgid "Drag Axis"
-msgstr "X अक्ष टाढा टिल्ट गर्नुहोस्"
+msgstr " तान्ने"
 
 #: clutter/clutter-drag-action.c:798
 #, fuzzy
 msgid "Constraints the dragging to an axis"
-msgstr "X अक्ष टाढा टिल्ट गर्नुहोस्"
+msgstr "अक्ष"
 
 #: clutter/clutter-drag-action.c:814
 #, fuzzy
@@ -1205,11 +1188,12 @@ msgstr "आयात: "
 #: clutter/clutter-drag-action.c:828
 #, fuzzy
 msgid "Drag Area Set"
-msgstr "क्षेत्र"
+msgstr "क्षेत्र:"
 
 #: clutter/clutter-drag-action.c:829
+#, fuzzy
 msgid "Whether the drag area is set"
-msgstr ""
+msgstr "स्वत: समाप्त सेट अन गर्ने कि नगर्ने यो चलले निर्धारण गर्छ।"
 
 #: clutter/clutter-flow-layout.c:944
 msgid "Whether each item should receive the same allocation"
@@ -1241,7 +1225,7 @@ msgstr "स्तम्भको न्यूनतम स्वीकृत च
 #: clutter/clutter-flow-layout.c:992
 #, fuzzy
 msgid "Minimum width for each column"
-msgstr "स्तम्भको न्यूनतम स्वीकृत चौडाई"
+msgstr "हरेक स्तम्भको अधिकतम चौडाई"
 
 #: clutter/clutter-flow-layout.c:1007
 msgid "Maximum Column Width"
@@ -1252,14 +1236,13 @@ msgid "Maximum width for each column"
 msgstr "हरेक स्तम्भको अधिकतम चौडाई"
 
 #: clutter/clutter-flow-layout.c:1022
-#, fuzzy
 msgid "Minimum Row Height"
-msgstr "न्यूनतम उचाइ सेट"
+msgstr "न्यूनतम पङ्क्ति उचाइ"
 
 #: clutter/clutter-flow-layout.c:1023
 #, fuzzy
 msgid "Minimum height for each row"
-msgstr "शाखाको अधिकतम उचाइ"
+msgstr "पङ्क्ति उचाइ:"
 
 #: clutter/clutter-flow-layout.c:1038
 #, fuzzy
@@ -1269,7 +1252,7 @@ msgstr "बम्पहरूका लागि अधिकतम उचाइ
 #: clutter/clutter-flow-layout.c:1039
 #, fuzzy
 msgid "Maximum height for each row"
-msgstr "बम्पहरूका लागि अधिकतम उचाइ:"
+msgstr "पङ्क्ति उचाइ:"
 
 #: clutter/clutter-flow-layout.c:1054 clutter/clutter-flow-layout.c:1055
 msgid "Snap to grid"
@@ -1288,7 +1271,7 @@ msgstr "XY बिन्दुहरूको तारा सङ्ख्या"
 #: clutter/clutter-gesture-action.c:696
 #, fuzzy
 msgid "Threshold Trigger Edge"
-msgstr "छेउ"
+msgstr "ट्रिगर"
 
 #: clutter/clutter-gesture-action.c:697
 msgid "The trigger edge used by the action"
@@ -1330,12 +1313,12 @@ msgstr "इउटा शाखा औजारको माथितिर स�
 #: clutter/clutter-grid-layout.c:1240
 #, fuzzy
 msgid "The number of columns that a child spans"
-msgstr "टेवलभित्र स्तम्भहरुको संख्या"
+msgstr "देखाउनलाई स्तम्भहरूको संख्या"
 
 #: clutter/clutter-grid-layout.c:1247
 #, fuzzy
 msgid "The number of rows that a child spans"
-msgstr "भर्नुपर्ने पङ्‌क्तिको सङ्ख्या"
+msgstr "टेवलमा पंक्तिहरुको संख्या"
 
 #: clutter/clutter-grid-layout.c:1583
 msgid "Row spacing"
@@ -1360,7 +1343,7 @@ msgstr "उस्तै प्रकारको"
 
 #: clutter/clutter-grid-layout.c:1613
 msgid "If TRUE, the rows are all the same height"
-msgstr ""
+msgstr "यदि सही छ, सबै  पङ्क्तिहरू बराबार उचाइ छन्"
 
 #: clutter/clutter-grid-layout.c:1626
 #, fuzzy
@@ -1369,14 +1352,12 @@ msgstr "उस्तै प्रकारको"
 
 #: clutter/clutter-grid-layout.c:1627
 msgid "If TRUE, the columns are all the same width"
-msgstr ""
+msgstr "यदि सही छ, सबै  स्तम्भहरू बराबार चौडाइ छन्"
 
 #: clutter/clutter-image.c:238 clutter/clutter-image.c:306 clutter/clutter-image.c:399
 #, fuzzy
 msgid "Unable to load image data"
-msgstr ""
-"छवि लोड गर्न असमर्थ:\n"
-"%s"
+msgstr "छवि डेटा लोड गर्न असफल"
 
 #: clutter/clutter-input-device.c:252
 msgid "Id"
@@ -1385,7 +1366,7 @@ msgstr "आईडी (ID)"
 #: clutter/clutter-input-device.c:253
 #, fuzzy
 msgid "Unique identifier of the device"
-msgstr "पहिचायक:"
+msgstr "यन्त्र पहिचायक"
 
 #: clutter/clutter-input-device.c:269
 #, fuzzy
@@ -1393,14 +1374,13 @@ msgid "The name of the device"
 msgstr "MIDI घटना पढ्ने यन्त्रको नाम"
 
 #: clutter/clutter-input-device.c:283
-#, fuzzy
 msgid "Device Type"
 msgstr "यन्त्र प्रकार"
 
 #: clutter/clutter-input-device.c:284
 #, fuzzy
 msgid "The type of the device"
-msgstr "यस प्रकारको यन्त्र समर्थित छैन ।"
+msgstr "फिल्टर गर्न यन्त्र प्रकार छान्नुहोस्"
 
 #: clutter/clutter-input-device.c:299
 msgid "Device Manager"
@@ -1409,7 +1389,7 @@ msgstr "यन्त्र प्रबन्धक"
 #: clutter/clutter-input-device.c:300
 #, fuzzy
 msgid "The device manager instance"
-msgstr "यस दृष्टान्त मात्र"
+msgstr "यन्त्र प्रबन्धक"
 
 #: clutter/clutter-input-device.c:313
 msgid "Device Mode"
@@ -1418,12 +1398,11 @@ msgstr "यन्त्र शैली"
 #: clutter/clutter-input-device.c:314
 #, fuzzy
 msgid "The mode of the device"
-msgstr "यन्त्र"
+msgstr "यन्त्र शैली"
 
 #: clutter/clutter-input-device.c:328
-#, fuzzy
 msgid "Has Cursor"
-msgstr "कर्सरको स्थिति"
+msgstr "कर्सर"
 
 #: clutter/clutter-input-device.c:329
 #, fuzzy
@@ -1448,7 +1427,7 @@ msgstr "अक्षहरू"
 #: clutter/clutter-input-device.c:377
 #, fuzzy
 msgid "The backend instance"
-msgstr "यस दृष्टान्त मात्र"
+msgstr "क्लट्टर ब्याकइन्ड "
 
 #: clutter/clutter-input-device.c:390 clutter/clutter-input-device.c:391
 msgid "Vendor ID"
@@ -1459,21 +1438,18 @@ msgid "Product ID"
 msgstr "वस्तु आईडी (ID)"
 
 #: clutter/clutter-interval.c:557
-#, fuzzy
 msgid "Value Type"
-msgstr ""
-"प्रक्रिया '%s' ले फर्काएको मान'%s' (#%d) का लागि गलत मान प्रकार फर्कायो । अपेक्षित %s, प्राप्त "
-"%s ।"
+msgstr "मान प्रकार"
 
 #: clutter/clutter-interval.c:558
 #, fuzzy
 msgid "The type of the values in the interval"
-msgstr "अद्यावधिक अन्तराल सेकेन्डमा:"
+msgstr "अन्तराल:"
 
 #: clutter/clutter-interval.c:573
 #, fuzzy
 msgid "Initial Value"
-msgstr "प्रारम्भिक मान:"
+msgstr "प्रारम्भिक मान"
 
 #: clutter/clutter-interval.c:574
 #, fuzzy
@@ -1483,12 +1459,11 @@ msgstr "सुरुको मान सेट गर्नुहोस्"
 #: clutter/clutter-interval.c:588
 #, fuzzy
 msgid "Final Value"
-msgstr "VALUE"
+msgstr "अन्तिम हो"
 
 #: clutter/clutter-interval.c:589
-#, fuzzy
 msgid "Final value of the interval"
-msgstr "उपकरणको प्रारम्भ (अन्तिम चरण )"
+msgstr "अन्तरालको अन्तिम मान"
 
 #: clutter/clutter-layout-meta.c:117
 msgid "Manager"
@@ -1497,7 +1472,7 @@ msgstr "प्रबन्धक"
 #: clutter/clutter-layout-meta.c:118
 #, fuzzy
 msgid "The manager that created this data"
-msgstr "प्रबन्धक:"
+msgstr "डाटा प्रबन्धक सुरु गर्न असफल भयो"
 
 #. Translators: Leave this UNTRANSLATED if your language is
 #. * left-to-right.  If your language is right-to-left
@@ -1511,14 +1486,13 @@ msgid "default:LTR"
 msgstr "default:LTR"
 
 #: clutter/clutter-main.c:1426
-#, fuzzy
 msgid "Show frames per second"
-msgstr "दोस्रो समय क्षेत्र देखाउनुहोस्"
+msgstr "प्रतिसेकेण्डमा फ्रेमहरू देखाउने "
 
 #: clutter/clutter-main.c:1428
 #, fuzzy
 msgid "Default frame rate"
-msgstr "पूर्वनिर्धारित फ्रेम ढिलाई:"
+msgstr "फ्रेम दर"
 
 #: clutter/clutter-main.c:1430
 msgid "Make all warnings fatal"
@@ -1532,7 +1506,7 @@ msgstr "पाठ निर्देशन"
 #: clutter/clutter-main.c:1436
 #, fuzzy
 msgid "Disable mipmapping on text"
-msgstr "अक्षम पार्नुहोस्"
+msgstr "बन्द​:"
 
 #: clutter/clutter-main.c:1439
 #, fuzzy
@@ -1542,7 +1516,7 @@ msgstr "अस्पष्ट किनारा..."
 #: clutter/clutter-main.c:1442
 #, fuzzy
 msgid "Clutter debugging flags to set"
-msgstr "सेट गरिने GTK + त्रुटि सच्याउने झण्डाहरू"
+msgstr "GDK डिबग्गिङ फ्ल्यागहरू सेट भयो"
 
 #: clutter/clutter-main.c:1444
 #, fuzzy
@@ -1565,12 +1539,12 @@ msgstr "क्लट्टर विकल्प देखाउने"
 #: clutter/clutter-pan-action.c:478
 #, fuzzy
 msgid "Pan Axis"
-msgstr "X अक्ष टाढा टिल्ट गर्नुहोस्"
+msgstr "अक्ष"
 
 #: clutter/clutter-pan-action.c:479
 #, fuzzy
 msgid "Constraints the panning to an axis"
-msgstr "तेर्सो अक्षमा केन्द"
+msgstr "अक्ष"
 
 #: clutter/clutter-pan-action.c:493
 msgid "Interpolate"
@@ -1591,14 +1565,13 @@ msgstr ""
 #: clutter/clutter-pan-action.c:528
 #, fuzzy
 msgid "Initial acceleration factor"
-msgstr "तत्व:"
+msgstr "नयाँ कार्यपुस्तिकाका लागि प्रारम्भिक जुम तत्व"
 
 #: clutter/clutter-pan-action.c:529
 msgid "Factor applied to the momentum when starting the interpolated phase"
 msgstr ""
 
-#: clutter/clutter-path-constraint.c:212
-#: clutter/deprecated/clutter-behaviour-path.c:221
+#: clutter/clutter-path-constraint.c:212 clutter/deprecated/clutter-behaviour-path.c:221
 msgid "Path"
 msgstr "मार्ग"
 
@@ -1654,7 +1627,7 @@ msgstr "Scroll"
 #: clutter/clutter-scroll-actor.c:185
 #, fuzzy
 msgid "The scrolling direction"
-msgstr "स्क्रोलिङ"
+msgstr "स्क्रोलिङ्"
 
 #: clutter/clutter-settings.c:509
 msgid "Double Click Time"
@@ -1694,8 +1667,7 @@ msgid "Font Antialias"
 msgstr "उपनाम गर्नुहोस्"
 
 #: clutter/clutter-settings.c:574
-msgid ""
-"Whether to use antialiasing (1 to enable, 0 to disable, and -1 to use the default)"
+msgid "Whether to use antialiasing (1 to enable, 0 to disable, and -1 to use the default)"
 msgstr ""
 
 #: clutter/clutter-settings.c:590 clutter/clutter-settings.c:598
@@ -1722,13 +1694,13 @@ msgid "Font Hint Style"
 msgstr "एक्सएफटि इसारा शैली"
 
 #: clutter/clutter-settings.c:637
-#, fuzzy
 msgid "The style of hinting (hintnone, hintslight, hintmedium, hintfull)"
 msgstr "इशाराको के डिग्री प्रयोग हुन्छ:कुनै पनि हुँदैन , स्लाईट , मध्यम वा पुरै"
 
 #: clutter/clutter-settings.c:657
+#, fuzzy
 msgid "Font Subpixel Order"
-msgstr ""
+msgstr "क्रम"
 
 #: clutter/clutter-settings.c:658
 #, fuzzy
@@ -1752,7 +1724,7 @@ msgstr "वर्ण नाप्ने आधार"
 #: clutter/clutter-settings.c:690
 #, fuzzy
 msgid "Fontconfig configuration timestamp"
-msgstr "_यो कन्फिगरेसन राख्नुहोस्"
+msgstr "कन्फिगरेसन"
 
 #: clutter/clutter-settings.c:691
 msgid "Timestamp of the current fontconfig configuration"
@@ -1761,7 +1733,7 @@ msgstr ""
 #: clutter/clutter-settings.c:708
 #, fuzzy
 msgid "Password Hint Time"
-msgstr "सङ्केत"
+msgstr "सङ्केत:"
 
 #: clutter/clutter-settings.c:709
 msgid "How long to show the last input character in hidden entries"
@@ -1780,7 +1752,7 @@ msgstr "एउटा अवैध तान्ने प्रकार प्�
 #: clutter/clutter-snap-constraint.c:322
 #, fuzzy
 msgid "The source of the constraint"
-msgstr "स्रोत..."
+msgstr "प्रतिरोध:"
 
 #: clutter/clutter-snap-constraint.c:335
 msgid "From Edge"
@@ -1843,9 +1815,8 @@ msgid "Color"
 msgstr "रङ्ग"
 
 #: clutter/clutter-stage.c:1858
-#, fuzzy
 msgid "The color of the stage"
-msgstr "रङ्ग:"
+msgstr "स्टेजको रङ्ग"
 
 #: clutter/clutter-stage.c:1873
 msgid "Perspective"
@@ -1854,16 +1825,15 @@ msgstr "दृष्टिकोण"
 #: clutter/clutter-stage.c:1874
 #, fuzzy
 msgid "Perspective projection parameters"
-msgstr "दृष्टिकोण"
+msgstr "परिमितिहरू"
 
 #: clutter/clutter-stage.c:1889
 msgid "Title"
 msgstr "शीर्षक"
 
 #: clutter/clutter-stage.c:1890
-#, fuzzy
 msgid "Stage Title"
-msgstr "शीर्षक"
+msgstr "स्टेज शीर्षक"
 
 #: clutter/clutter-stage.c:1907
 msgid "Use Fog"
@@ -1892,9 +1862,8 @@ msgid "Whether to honour the alpha component of the stage color"
 msgstr ""
 
 #: clutter/clutter-stage.c:1958
-#, fuzzy
 msgid "Key Focus"
-msgstr "केन्द्रित छैन"
+msgstr "संकेन्द्रविन्दु"
 
 #: clutter/clutter-stage.c:1959
 #, fuzzy
@@ -1902,9 +1871,8 @@ msgid "The currently key focused actor"
 msgstr "हाल फोकस भएको वस्तु खोल्छ ।"
 
 #: clutter/clutter-stage.c:1975
-#, fuzzy
 msgid "No Clear Hint"
-msgstr "खाली गर्नुहोस्"
+msgstr "सङ्केत उपलब्ध छैन ।"
 
 #: clutter/clutter-stage.c:1976
 msgid "Whether the stage should clear its contents"
@@ -1925,7 +1893,7 @@ msgstr "पाठ"
 #: clutter/clutter-text-buffer.c:348
 #, fuzzy
 msgid "The contents of the buffer"
-msgstr "सामग्री"
+msgstr "क्वेरी बफरको सामग्री देखाउनुहोस्"
 
 #: clutter/clutter-text-buffer.c:361
 msgid "Text length"
@@ -1934,7 +1902,7 @@ msgstr "पाठ लम्बाइ "
 #: clutter/clutter-text-buffer.c:362
 #, fuzzy
 msgid "Length of the text currently in the buffer"
-msgstr "जोडा मिलाएका पाठको न्यूनतम लम्बाइ "
+msgstr "प्रतिरोधकका हालका पाठहरु"
 
 #: clutter/clutter-text-buffer.c:375
 msgid "Maximum length"
@@ -1956,7 +1924,7 @@ msgstr "प्रतिरोधकका हालका पाठहरु"
 #: clutter/clutter-text.c:3409
 #, fuzzy
 msgid "The font to be used by the text"
-msgstr "मुद्रण गर्दा प्रयोग गरिने फन्ट"
+msgstr "पाठका लागि फन्ट"
 
 #: clutter/clutter-text.c:3426
 msgid "Font Description"
@@ -2030,7 +1998,7 @@ msgstr "कर्सर आकार"
 #: clutter/clutter-text.c:3575
 #, fuzzy
 msgid "The width of the cursor, in pixels"
-msgstr "छेउपट्टीका लागि पूर्वनिर्धारित चौडाइ, पिक्सेलमा ।"
+msgstr "पिक्सेलमा सम्पादक क्यारेट (कर्सर) चौडाइ"
 
 #: clutter/clutter-text.c:3591 clutter/clutter-text.c:3609
 msgid "Cursor Position"
@@ -2069,7 +2037,7 @@ msgstr "विशेषताहरू"
 #: clutter/clutter-text.c:3674
 #, fuzzy
 msgid "A list of style attributes to apply to the contents of the actor"
-msgstr "भाषान्तरकको पाठ प्रयोग गर्न शैली विशेषताहरूको सूची"
+msgstr "छापको पाठमा प्रयोग गर्ने शैली गुणको सूची "
 
 #: clutter/clutter-text.c:3696
 msgid "Use markup"
@@ -2106,9 +2074,8 @@ msgid "The preferred place to ellipsize the string"
 msgstr ""
 
 #: clutter/clutter-text.c:3762
-#, fuzzy
 msgid "Line Alignment"
-msgstr "पङ्क्तिबद्धता:"
+msgstr "पङ्क्तिबद्ध"
 
 #: clutter/clutter-text.c:3763
 msgid "The preferred alignment for the string, for multi-line text"
@@ -2121,7 +2088,7 @@ msgstr "समरेखन"
 #: clutter/clutter-text.c:3780
 #, fuzzy
 msgid "Whether the text should be justified"
-msgstr "या उपकरणपट्टी दृश्यात्मक हुनुपर्दछ ।"
+msgstr "जहाँ करसा खाली हुनसक्छ"
 
 #: clutter/clutter-text.c:3795
 msgid "Password Character"
@@ -2151,7 +2118,7 @@ msgstr "जब लेबल एकल पंक्ति अबस्थाम�
 #: clutter/clutter-text.c:3849 clutter/clutter-text.c:3850
 #, fuzzy
 msgid "Selected Text Color"
-msgstr "छानिएको रङ्ग"
+msgstr "छानिएको रङ्ग सेट"
 
 #: clutter/clutter-text.c:3865
 msgid "Selected Text Color Set"
@@ -2187,7 +2154,7 @@ msgstr "अवधि"
 #: clutter/clutter-timeline.c:623
 #, fuzzy
 msgid "Duration of the timeline in milliseconds"
-msgstr "अवधि"
+msgstr "मिलिसेकेन्डहरू"
 
 #: clutter/clutter-timeline.c:638 clutter/deprecated/clutter-behaviour-ellipse.c:521
 #: clutter/deprecated/clutter-behaviour-rotate.c:330
@@ -2197,7 +2164,7 @@ msgstr "दिशा"
 #: clutter/clutter-timeline.c:639
 #, fuzzy
 msgid "Direction of the timeline"
-msgstr "दिशा"
+msgstr "दिशा:"
 
 #: clutter/clutter-timeline.c:654
 msgid "Auto Reverse"
@@ -2208,7 +2175,6 @@ msgid "Whether the direction should be reversed when reaching the end"
 msgstr ""
 
 #: clutter/clutter-timeline.c:673
-#, fuzzy
 msgid "Repeat Count"
 msgstr "दोहो-याउनु"
 
@@ -2217,23 +2183,21 @@ msgid "How many times the timeline should repeat"
 msgstr ""
 
 #: clutter/clutter-timeline.c:688
-#, fuzzy
 msgid "Progress Mode"
-msgstr "प्रगति हुँदैछ"
+msgstr "प्रगति शैली"
 
 #: clutter/clutter-timeline.c:689
 msgid "How the timeline should compute the progress"
 msgstr ""
 
 #: clutter/clutter-transition.c:244
-#, fuzzy
 msgid "Interval"
-msgstr "अद्यावधिक अन्तराल सेकेन्डमा:"
+msgstr "अन्तराल"
 
 #: clutter/clutter-transition.c:245
 #, fuzzy
 msgid "The interval of values to transition"
-msgstr "स्वत: बचत अन्तराल"
+msgstr "अन्तराल:"
 
 #: clutter/clutter-transition.c:259
 msgid "Animatable"
@@ -2249,33 +2213,33 @@ msgid "Remove on Complete"
 msgstr "पूरा भएमा हटाउनुहोस्"
 
 #: clutter/clutter-transition.c:282
+#, fuzzy
 msgid "Detach the transition when completed"
-msgstr ""
+msgstr "घटान हटाइएको बेलामा सङ्कक्रमण लिनका लागि सर्त"
 
 #: clutter/clutter-zoom-action.c:365
 #, fuzzy
 msgid "Zoom Axis"
-msgstr "यसमा जुम गर्नुहोस्"
+msgstr "अक्ष"
 
 #: clutter/clutter-zoom-action.c:366
 #, fuzzy
 msgid "Constraints the zoom to an axis"
-msgstr "यसमा जुम गर्नुहोस्"
+msgstr "अक्ष"
 
 #: clutter/deprecated/clutter-alpha.c:347 clutter/deprecated/clutter-animation.c:531
 #: clutter/deprecated/clutter-animator.c:1811
 msgid "Timeline"
-msgstr ""
+msgstr "समयरेखा"
 
 #: clutter/deprecated/clutter-alpha.c:348
 #, fuzzy
 msgid "Timeline used by the alpha"
-msgstr "प्रयोग भएको:"
+msgstr "अल्फामा"
 
 #: clutter/deprecated/clutter-alpha.c:365
-#, fuzzy
 msgid "Alpha value"
-msgstr "अल्फा मान सार्थक हुनका लागि तपाईँले पृष्ठभूमि निर्दिष्ट गर्नुपर्दछ"
+msgstr "अल्फा मान"
 
 #: clutter/deprecated/clutter-alpha.c:366
 #, fuzzy
@@ -2287,9 +2251,8 @@ msgid "Mode"
 msgstr "मोड"
 
 #: clutter/deprecated/clutter-alpha.c:388
-#, fuzzy
 msgid "Progress mode"
-msgstr "प्रगति हुँदैछ"
+msgstr "प्रगति शैली"
 
 #: clutter/deprecated/clutter-animation.c:467
 msgid "Object"
@@ -2318,8 +2281,7 @@ msgstr ""
 msgid "The timeline used by the animation"
 msgstr "रङ्गचित्राङकन"
 
-#: clutter/deprecated/clutter-animation.c:548
-#: clutter/deprecated/clutter-behaviour.c:234
+#: clutter/deprecated/clutter-animation.c:548 clutter/deprecated/clutter-behaviour.c:234
 msgid "Alpha"
 msgstr "अल्फा"
 
@@ -2331,7 +2293,7 @@ msgstr "अल्फामा"
 #: clutter/deprecated/clutter-animator.c:1795
 #, fuzzy
 msgid "The duration of the animation"
-msgstr "अवधि"
+msgstr "एनिमेसन"
 
 #: clutter/deprecated/clutter-animator.c:1812
 #, fuzzy
@@ -2349,7 +2311,7 @@ msgstr "सुरु गहिराइ"
 #: clutter/deprecated/clutter-behaviour-depth.c:181
 #, fuzzy
 msgid "Initial depth to apply"
-msgstr "_लागू"
+msgstr "लागु गर्ने"
 
 #: clutter/deprecated/clutter-behaviour-depth.c:196
 msgid "End Depth"
@@ -2364,8 +2326,7 @@ msgstr "अन्तिम छविमा सक्रिय ग्रेडि
 msgid "Start Angle"
 msgstr "सुरुआत कोण"
 
-#: clutter/deprecated/clutter-behaviour-ellipse.c:395
-#: clutter/deprecated/clutter-behaviour-rotate.c:277
+#: clutter/deprecated/clutter-behaviour-ellipse.c:395 clutter/deprecated/clutter-behaviour-rotate.c:277
 msgid "Initial angle"
 msgstr "सुरुको कोण"
 
@@ -2373,11 +2334,9 @@ msgstr "सुरुको कोण"
 msgid "End Angle"
 msgstr "अन्त्य कोण"
 
-#: clutter/deprecated/clutter-behaviour-ellipse.c:411
-#: clutter/deprecated/clutter-behaviour-rotate.c:295
-#, fuzzy
+#: clutter/deprecated/clutter-behaviour-ellipse.c:411 clutter/deprecated/clutter-behaviour-rotate.c:295
 msgid "Final angle"
-msgstr "उपकरणको प्रारम्भ (अन्तिम चरण )"
+msgstr "अन्तिम कोण"
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:426
 #, fuzzy
@@ -2425,32 +2384,30 @@ msgstr "केन्द्र"
 #: clutter/deprecated/clutter-behaviour-ellipse.c:507
 #, fuzzy
 msgid "Center of ellipse"
-msgstr "केन्द्र"
+msgstr "दीर्घवृत"
 
-#: clutter/deprecated/clutter-behaviour-ellipse.c:522
-#: clutter/deprecated/clutter-behaviour-rotate.c:331
+#: clutter/deprecated/clutter-behaviour-ellipse.c:522 clutter/deprecated/clutter-behaviour-rotate.c:331
+#, fuzzy
 msgid "Direction of rotation"
-msgstr ""
+msgstr "घुम्ने"
 
 #: clutter/deprecated/clutter-behaviour-opacity.c:177
-#, fuzzy
 msgid "Opacity Start"
-msgstr "धमिलोपन:"
+msgstr "धमिलोपन शुरु "
 
 #: clutter/deprecated/clutter-behaviour-opacity.c:178
 #, fuzzy
 msgid "Initial opacity level"
-msgstr "निसानी"
+msgstr "चिन्ह तहको सुरुको पारदर्शीता"
 
 #: clutter/deprecated/clutter-behaviour-opacity.c:195
-#, fuzzy
 msgid "Opacity End"
-msgstr "धमिलोपन:"
+msgstr "धमिलोपन अन्त्य"
 
 #: clutter/deprecated/clutter-behaviour-opacity.c:196
 #, fuzzy
 msgid "Final opacity level"
-msgstr "निसानी"
+msgstr "अन्तिम हो"
 
 #: clutter/deprecated/clutter-behaviour-path.c:222
 msgid "The ClutterPath object representing the path to animate along"
@@ -2479,7 +2436,7 @@ msgstr "केन्द्र X"
 #: clutter/deprecated/clutter-behaviour-rotate.c:349
 #, fuzzy
 msgid "X coordinate of the center of rotation"
-msgstr "केन्द्र x:"
+msgstr "केन्द्र X"
 
 #: clutter/deprecated/clutter-behaviour-rotate.c:366
 msgid "Center Y"
@@ -2488,7 +2445,7 @@ msgstr "केन्द्र Y"
 #: clutter/deprecated/clutter-behaviour-rotate.c:367
 #, fuzzy
 msgid "Y coordinate of the center of rotation"
-msgstr "सञ्झ्यालको Y निर्देशाङ्कलाई Y मा परिवर्तन गर्नुहोस्"
+msgstr "केन्द्र Y"
 
 #: clutter/deprecated/clutter-behaviour-rotate.c:384
 msgid "Center Z"
@@ -2500,44 +2457,40 @@ msgid "Z coordinate of the center of rotation"
 msgstr "Z अक्षका बारेमा परिक्रमण कोण"
 
 #: clutter/deprecated/clutter-behaviour-scale.c:222
-#, fuzzy
 msgid "X Start Scale"
-msgstr "X मापन:"
+msgstr "X मापन शुरु"
 
 #: clutter/deprecated/clutter-behaviour-scale.c:223
 #, fuzzy
 msgid "Initial scale on the X axis"
-msgstr "X मापन:"
+msgstr "स्केल X"
 
 #: clutter/deprecated/clutter-behaviour-scale.c:241
-#, fuzzy
 msgid "X End Scale"
-msgstr "X मापन:"
+msgstr "X मापन अन्त्य"
 
 #: clutter/deprecated/clutter-behaviour-scale.c:242
 #, fuzzy
 msgid "Final scale on the X axis"
-msgstr "X मापन:"
+msgstr "स्केल X"
 
 #: clutter/deprecated/clutter-behaviour-scale.c:260
-#, fuzzy
 msgid "Y Start Scale"
-msgstr "Y मापन:"
+msgstr "Y मापन शुरु"
 
 #: clutter/deprecated/clutter-behaviour-scale.c:261
 #, fuzzy
 msgid "Initial scale on the Y axis"
-msgstr "Y मापन:"
+msgstr "स्केल Y"
 
 #: clutter/deprecated/clutter-behaviour-scale.c:279
-#, fuzzy
 msgid "Y End Scale"
-msgstr "Y मापन:"
+msgstr "Y मापन अन्त्य"
 
 #: clutter/deprecated/clutter-behaviour-scale.c:280
 #, fuzzy
 msgid "Final scale on the Y axis"
-msgstr "Y मापन:"
+msgstr "स्केल Y"
 
 #: clutter/deprecated/clutter-box.c:261
 msgid "The background color of the box"
@@ -2554,22 +2507,20 @@ msgstr "सटह चौडाइ"
 #: clutter/deprecated/clutter-cairo-texture.c:586
 #, fuzzy
 msgid "The width of the Cairo surface"
-msgstr "अफ्रिका/कायरो"
+msgstr "सटह चौडाइ"
 
 #: clutter/deprecated/clutter-cairo-texture.c:603
-#, fuzzy
 msgid "Surface Height"
-msgstr "उच्चाइ:"
+msgstr "सटह उच्चाइ"
 
 #: clutter/deprecated/clutter-cairo-texture.c:604
 #, fuzzy
 msgid "The height of the Cairo surface"
-msgstr "अफ्रिका/कायरो"
+msgstr "सटह उच्चाइ"
 
 #: clutter/deprecated/clutter-cairo-texture.c:624
-#, fuzzy
 msgid "Auto Resize"
-msgstr "सञ्झ्याल स्वत-रिसाइज"
+msgstr "स्वत-रिसाइज"
 
 #: clutter/deprecated/clutter-cairo-texture.c:625
 msgid "Whether the surface should match the allocation"
@@ -2591,7 +2542,7 @@ msgstr "बजाउँदै"
 #: clutter/deprecated/clutter-media.c:102
 #, fuzzy
 msgid "Whether the actor is playing"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "बजाउँदै"
 
 #: clutter/deprecated/clutter-media.c:119
 msgid "Progress"
@@ -2603,14 +2554,12 @@ msgid "Current progress of the playback"
 msgstr "हालको प्लेब्याक भोल्युम मुद्रण गर्नुहोस्"
 
 #: clutter/deprecated/clutter-media.c:136
-#, fuzzy
 msgid "Subtitle URI"
-msgstr "उपशीर्षक फन्ट"
+msgstr "उपशीर्षक URI"
 
 #: clutter/deprecated/clutter-media.c:137
-#, fuzzy
 msgid "URI of a subtitle file"
-msgstr "[FILE|URI...]"
+msgstr "उपशीर्षकको URI फाइल"
 
 #: clutter/deprecated/clutter-media.c:155
 #, fuzzy
@@ -2618,22 +2567,18 @@ msgid "Subtitle Font Name"
 msgstr "उपशीर्षक फन्ट"
 
 #: clutter/deprecated/clutter-media.c:156
-#, fuzzy
 msgid "The font used to display subtitles"
-msgstr "कार्य प्रदर्शन गर्न प्रयोग गरिने फन्टको साइज"
+msgstr "उपशीर्षक प्रदर्शन गर्न प्रयोग गरिने फन्टको साइज"
 
 #: clutter/deprecated/clutter-media.c:173
-#, fuzzy
 msgid "Audio Volume"
-msgstr "अडियो"
+msgstr "अडियो भोल्युम"
 
 #: clutter/deprecated/clutter-media.c:174
-#, fuzzy
 msgid "The volume of the audio"
-msgstr "अडियो"
+msgstr "अडियो भोल्युम"
 
 #: clutter/deprecated/clutter-media.c:190
-#, fuzzy
 msgid "Can Seek"
 msgstr "खोजी गर्नुहोस्"
 
@@ -2643,14 +2588,13 @@ msgid "Whether the current stream is seekable"
 msgstr "हालको गीत खोजीयोग्य छैन"
 
 #: clutter/deprecated/clutter-media.c:208
-#, fuzzy
 msgid "Buffer Fill"
-msgstr "अस्थायी स्मृति"
+msgstr "बफर भर"
 
 #: clutter/deprecated/clutter-media.c:209
 #, fuzzy
 msgid "The fill level of the buffer"
-msgstr "भर्नुहोस्"
+msgstr "भर"
 
 #: clutter/deprecated/clutter-media.c:226
 #, fuzzy
@@ -2658,9 +2602,8 @@ msgid "The duration of the stream, in seconds"
 msgstr "क्रसफेड अवधि (सेकेन्ड)"
 
 #: clutter/deprecated/clutter-rectangle.c:296
-#, fuzzy
 msgid "The color of the rectangle"
-msgstr "आयात: "
+msgstr "चतुर्भुज को रङ्ग"
 
 #: clutter/deprecated/clutter-rectangle.c:309
 msgid "Border Color"
@@ -2678,12 +2621,11 @@ msgstr "सीमाना चौडाई"
 #: clutter/deprecated/clutter-rectangle.c:326
 #, fuzzy
 msgid "The width of the border of the rectangle"
-msgstr "सीमाना चौडाई"
+msgstr "भर्नु पर्ने आयातको चौडाइ"
 
 #: clutter/deprecated/clutter-rectangle.c:340
-#, fuzzy
 msgid "Has Border"
-msgstr "किनारा:"
+msgstr "किनारा भएको"
 
 #: clutter/deprecated/clutter-rectangle.c:341
 #, fuzzy
@@ -2693,27 +2635,27 @@ msgstr "जहा सीमारेखा देखाइन सकिन्थ
 #: clutter/deprecated/clutter-shader.c:257
 #, fuzzy
 msgid "Vertex Source"
-msgstr "स्रोत..."
+msgstr "ठाडो जीएल बफरहरू अक्षम गर्नुहोस्"
 
 #: clutter/deprecated/clutter-shader.c:258
 #, fuzzy
 msgid "Source of vertex shader"
-msgstr "स्रोत..."
+msgstr "ठाडो जीएल बफरहरू अक्षम गर्नुहोस्"
 
 #: clutter/deprecated/clutter-shader.c:274
 #, fuzzy
 msgid "Fragment Source"
-msgstr "स्रोत..."
+msgstr "HTML (*.html) fragment"
 
 #: clutter/deprecated/clutter-shader.c:275
 #, fuzzy
 msgid "Source of fragment shader"
-msgstr "स्रोत..."
+msgstr "HTML (*.html) fragment"
 
 #: clutter/deprecated/clutter-shader.c:292
 #, fuzzy
 msgid "Compiled"
-msgstr "gconfd डिबगिङ्सँग कम्पाइल गरियो, स्रोत डाइरेक्टरीबाट gconf.path लोड गर्न प्रयास गर्दै"
+msgstr "भर्बोज मोडलाई सहयोग बिनानै मेटासिटि सङ्ग्रह गरियो\n"
 
 #: clutter/deprecated/clutter-shader.c:293
 msgid "Whether the shader is compiled and linked"
@@ -2734,12 +2676,14 @@ msgid "%s compilation failed: %s"
 msgstr "नियमित अभिव्यक्ति सङ्कलन असफल भयो: %s: %s"
 
 #: clutter/deprecated/clutter-shader.c:522
+#, fuzzy
 msgid "Vertex shader"
-msgstr ""
+msgstr "ठाडो जीएल बफरहरू अक्षम गर्नुहोस्"
 
 #: clutter/deprecated/clutter-shader.c:523
+#, fuzzy
 msgid "Fragment shader"
-msgstr ""
+msgstr "HTML (*.html) fragment"
 
 #: clutter/deprecated/clutter-state.c:1500
 msgid "State"
@@ -2752,7 +2696,7 @@ msgstr ""
 #: clutter/deprecated/clutter-state.c:1519
 #, fuzzy
 msgid "Default transition duration"
-msgstr "अवधि"
+msgstr "सङ्क्रमण"
 
 #: clutter/deprecated/clutter-table-layout.c:533
 msgid "Column Number"
@@ -2761,7 +2705,7 @@ msgstr "स्तम्भ सङ्ख्या"
 #: clutter/deprecated/clutter-table-layout.c:534
 #, fuzzy
 msgid "The column the widget resides in"
-msgstr "औजार"
+msgstr "औजार:"
 
 #: clutter/deprecated/clutter-table-layout.c:541
 msgid "Row Number"
@@ -2770,7 +2714,7 @@ msgstr "पङक्ति सङ्ख्या "
 #: clutter/deprecated/clutter-table-layout.c:542
 #, fuzzy
 msgid "The row the widget resides in"
-msgstr "औजार"
+msgstr "पङ्क्ति:"
 
 #: clutter/deprecated/clutter-table-layout.c:549
 msgid "Column Span"
@@ -2785,8 +2729,9 @@ msgid "Row Span"
 msgstr "पङ्क्ति को दुरि "
 
 #: clutter/deprecated/clutter-table-layout.c:558
+#, fuzzy
 msgid "The number of rows the widget should span"
-msgstr ""
+msgstr "प्रति नमूना पङ्क्तिको सङ्ख्या धनात्मक इन्टिजर हुनुपर्दछ"
 
 #: clutter/deprecated/clutter-table-layout.c:565
 msgid "Horizontal Expand"
@@ -2815,7 +2760,7 @@ msgstr "पंक्तिहरू बिच दूरी"
 #: clutter/deprecated/clutter-texture.c:992
 #, fuzzy
 msgid "Sync size of actor"
-msgstr "दृश्यपोर्ट स्थिति (x, y): %s"
+msgstr "समक्रमण गर्नुहोस्"
 
 #: clutter/deprecated/clutter-texture.c:993
 msgid "Auto sync size of actor to underlying pixbuf dimensions"
@@ -2824,12 +2769,11 @@ msgstr ""
 #: clutter/deprecated/clutter-texture.c:1000
 #, fuzzy
 msgid "Disable Slicing"
-msgstr "अक्षम पार्नुहोस्"
+msgstr "बन्द​:"
 
 #: clutter/deprecated/clutter-texture.c:1001
 msgid ""
-"Forces the underlying texture to be singular and not made of smaller space saving "
-"individual textures"
+"Forces the underlying texture to be singular and not made of smaller space saving individual textures"
 msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1010
@@ -2872,13 +2816,11 @@ msgstr "पिक्सेल ढाँचा"
 msgid "The Cogl pixel format to use"
 msgstr "Cogl पिक्सेल ढाँचा प्रयोग"
 
-#: clutter/deprecated/clutter-texture.c:1053
-#: clutter/wayland/clutter-wayland-surface.c:445
+#: clutter/deprecated/clutter-texture.c:1053 clutter/wayland/clutter-wayland-surface.c:445
 msgid "Cogl Texture"
 msgstr "Cogl बनावट"
 
-#: clutter/deprecated/clutter-texture.c:1054
-#: clutter/wayland/clutter-wayland-surface.c:446
+#: clutter/deprecated/clutter-texture.c:1054 clutter/wayland/clutter-wayland-surface.c:446
 msgid "The underlying Cogl texture handle used to draw this actor"
 msgstr ""
 
@@ -2900,14 +2842,13 @@ msgid "Keep Aspect Ratio"
 msgstr "साइज औसत राख्नुहोस्"
 
 #: clutter/deprecated/clutter-texture.c:1090
-msgid ""
-"Keep the aspect ratio of the texture when requesting the preferred width or height"
+msgid "Keep the aspect ratio of the texture when requesting the preferred width or height"
 msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1118
 #, fuzzy
 msgid "Load asynchronously"
-msgstr "बहन"
+msgstr "एककालिनिय तरिकाले चलाउनुहोस्"
 
 #: clutter/deprecated/clutter-texture.c:1119
 msgid "Load files inside a thread to avoid blocking when loading images from disk"
@@ -2922,9 +2863,7 @@ msgstr ""
 "%s"
 
 #: clutter/deprecated/clutter-texture.c:1138
-msgid ""
-"Decode image data files inside a thread to reduce blocking when loading images from "
-"disk"
+msgid "Decode image data files inside a thread to reduce blocking when loading images from disk"
 msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1164
@@ -2963,24 +2902,27 @@ msgid "Surface"
 msgstr "सटह"
 
 #: clutter/wayland/clutter-wayland-surface.c:420
+#, fuzzy
 msgid "The underlying wayland surface"
-msgstr ""
+msgstr "सटह"
 
 #: clutter/wayland/clutter-wayland-surface.c:427
 msgid "Surface width"
 msgstr "सटह चौडाइ"
 
 #: clutter/wayland/clutter-wayland-surface.c:428
+#, fuzzy
 msgid "The width of the underlying wayland surface"
-msgstr ""
+msgstr "सटह चौडाइ"
 
 #: clutter/wayland/clutter-wayland-surface.c:436
 msgid "Surface height"
 msgstr "सटह उच्चाइ"
 
 #: clutter/wayland/clutter-wayland-surface.c:437
+#, fuzzy
 msgid "The height of the underlying wayland surface"
-msgstr ""
+msgstr "सटह उच्चाइ"
 
 #: clutter/x11/clutter-backend-x11.c:511
 msgid "X display to use"
@@ -2997,7 +2939,7 @@ msgstr "X कल समकालीन बनाउनुहोस्"
 #: clutter/x11/clutter-backend-x11.c:529
 #, fuzzy
 msgid "Disable XInput support"
-msgstr "अक्षम पार्नुहोस्"
+msgstr "असक्षम पार्नुहोस्"
 
 #: clutter/x11/clutter-keymap-x11.c:458
 msgid "The Clutter backend"
@@ -3016,16 +2958,18 @@ msgid "Pixmap width"
 msgstr "पिक्सनक्शाङ्कन चौडाइ"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:544
+#, fuzzy
 msgid "The width of the pixmap bound to this texture"
-msgstr ""
+msgstr "पिक्सनक्शाङ्कन चौडाइ"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:552
 msgid "Pixmap height"
 msgstr "पिक्सनक्शाङ्कन उचाइ"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:553
+#, fuzzy
 msgid "The height of the pixmap bound to this texture"
-msgstr ""
+msgstr "पिक्सनक्शाङ्कन उचाइ"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:561
 msgid "Pixmap Depth"
@@ -3061,11 +3005,11 @@ msgstr ""
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:599
 msgid "Window Mapped"
-msgstr ""
+msgstr "सञ्झ्याल मानचित्रण गरियो"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:600
 msgid "If window is mapped"
-msgstr ""
+msgstr "यदि सञ्झ्याल मानचित्रण गरिए"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:609
 msgid "Destroyed"
@@ -3081,7 +3025,7 @@ msgstr "सन्झ्याल X"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:619
 msgid "X position of window on screen according to X11"
-msgstr ""
+msgstr "एक्स ११ को अनुसार पर्दामा X को स्थिति"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:627
 msgid "Window Y"
@@ -3089,14 +3033,14 @@ msgstr "सञ्झ्याल Y "
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:628
 msgid "Y position of window on screen according to X11"
-msgstr ""
+msgstr "एक्स ११ को अनुसार पर्दामा Y को स्थिति"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:635
 #, fuzzy
 msgid "Window Override Redirect"
-msgstr "कागजात निषेधहरू मिच्नुहोस्"
+msgstr "स्वत: सन्झ्याल पुन: निर्देशन गर्नुहोस्"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:636
 #, fuzzy
 msgid "If this is an override-redirect window"
-msgstr "कोहीलाई चयन गरिएको सन्देश (धक्का) पुन: निर्देशन गर्नुहोस्"
+msgstr "स्वत: सन्झ्याल पुन: निर्देशन गर्नुहोस्"
