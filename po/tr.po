@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: clutter master\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-09-10 06:41+0000\n"
-"PO-Revision-Date: 2017-11-12 23:19+0300\n"
+"POT-Creation-Date: 2017-11-12 20:24+0000\n"
+"PO-Revision-Date: 2017-11-26 22:54+0300\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -427,7 +427,6 @@ msgid "Translation X"
 msgstr "X Çevirme"
 
 #: clutter/clutter-actor.c:7294
-#| msgid "The rotation angle on the X axis"
 msgid "Translation along the X axis"
 msgstr "X ekseni üzerindeki çevirme"
 
@@ -436,7 +435,6 @@ msgid "Translation Y"
 msgstr "Y Çevirme"
 
 #: clutter/clutter-actor.c:7314
-#| msgid "The rotation angle on the Y axis"
 msgid "Translation along the Y axis"
 msgstr "Y ekseni üzerinde çevirme"
 
@@ -445,7 +443,6 @@ msgid "Translation Z"
 msgstr "Z Çevirme"
 
 #: clutter/clutter-actor.c:7334
-#| msgid "The rotation angle on the Z axis"
 msgid "Translation along the Z axis"
 msgstr "Z ekseni üzerinde çevirme"
 
@@ -462,7 +459,6 @@ msgid "Transform Set"
 msgstr "Dönüşüm Ayarlandı"
 
 #: clutter/clutter-actor.c:7381
-#| msgid "Whether the :filename property is set"
 msgid "Whether the transform property is set"
 msgstr "Dönüştür (transform) özelliğinin ayarlanmış olup olmaması"
 
@@ -476,13 +472,12 @@ msgstr "Alt ögeleri dönüştürme matrisi"
 
 #: clutter/clutter-actor.c:7418
 msgid "Child Transform Set"
-msgstr ""
+msgstr "Alt Öge Dönüşümü Ayarlandı"
 
 #: clutter/clutter-actor.c:7419
-#, fuzzy
 #| msgid "Whether the :filename property is set"
 msgid "Whether the child-transform property is set"
-msgstr ":filename özelliğinin ayarlanmış olup olmaması"
+msgstr "Alt öge dönüşümü özelliğinin ayarlanmış olup olmadığı"
 
 #: clutter/clutter-actor.c:7436
 msgid "Show on set parent"
@@ -961,12 +956,10 @@ msgid "The contrast change to apply"
 msgstr "Uygulanacak karşıtlık (kontrast) değişikliği"
 
 #: clutter/clutter-canvas.c:249
-#| msgid "The width of the Cairo surface"
 msgid "The width of the canvas"
 msgstr "Tuvalin genişliği"
 
 #: clutter/clutter-canvas.c:265
-#| msgid "The height of the Cairo surface"
 msgid "The height of the canvas"
 msgstr "Tuvalin yüksekliği"
 
@@ -1199,7 +1192,7 @@ msgstr "Izgaraya tuttur"
 
 #: clutter/clutter-gesture-action.c:680
 msgid "Number touch points"
-msgstr ""
+msgstr "Dokunma noktalarını numaralandır"
 
 #: clutter/clutter-gesture-action.c:681
 msgid "Number of touch points"
@@ -1814,7 +1807,7 @@ msgstr "Azami uzunluk"
 
 #: clutter/clutter-text-buffer.c:376
 msgid "Maximum number of characters for this entry. Zero if no maximum"
-msgstr ""
+msgstr "Bu girdi için en fazla karakter sayısı. Sınırsız olması için sıfır"
 
 #: clutter/clutter-text.c:3390
 msgid "Buffer"
@@ -1936,7 +1929,7 @@ msgstr "Aktörün içeriklerine uygulanacak öznitelik biçemlerinin listesi"
 
 #: clutter/clutter-text.c:3696
 msgid "Use markup"
-msgstr ""
+msgstr "Biçimleme kullan"
 
 #: clutter/clutter-text.c:3697
 msgid "Whether or not the text includes Pango markup"
@@ -2092,7 +2085,6 @@ msgid "The interval of values to transition"
 msgstr "Canlandırma zaman çizgisi"
 
 #: clutter/clutter-transition.c:259
-#| msgid "Activatable"
 msgid "Animatable"
 msgstr "Canlandırılabilir"
 
