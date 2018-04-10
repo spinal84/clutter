@@ -1,19 +1,19 @@
-include $(top_srcdir)/build/autotools/Makefile.am.silent
+include $(top_srcdir)/build-aux/autotools/Makefile.am.silent
 
 NULL =
 
-SUBDIRS = build clutter tests doc po
+SUBDIRS = build-aux clutter tests doc po
 
 if BUILD_EXAMPLES
 SUBDIRS += examples
 endif
 
-DIST_SUBDIRS = clutter tests examples doc po build
+DIST_SUBDIRS = clutter tests examples doc po build-aux
 
 # XXX - this is a massive hack to make autoreconf honour the ACLOCAL_FLAGS
 # that jhbuild sets while still retaining build/autotools as the authoritative
 # source for m4 macros
-ACLOCAL_AMFLAGS = -I build/autotools ${ACLOCAL_FLAGS}
+ACLOCAL_AMFLAGS = -I build-aux/autotools ${ACLOCAL_FLAGS}
 
 EXTRA_DIST = \
 	ChangeLog.pre-git-import	\
@@ -28,8 +28,8 @@ DISTCLEANFILES =
 DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc --enable-maintainer-flags --enable-docs
 
 # .release requires .changelog rules
-include $(top_srcdir)/build/autotools/Makefile.am.changelog
-include $(top_srcdir)/build/autotools/Makefile.am.release
+include $(top_srcdir)/build-aux/autotools/Makefile.am.changelog
+include $(top_srcdir)/build-aux/autotools/Makefile.am.release
 
 # proxy rules for tests
 test-report full-report:
