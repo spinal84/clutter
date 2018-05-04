@@ -27,7 +27,6 @@ XSLTOPTS = \
 	--stringparam gtkdoc.bookname "clutter-cookbook" 	\
 	--stringparam gtkdoc.version @CLUTTER_API_VERSION@ 	\
 	--stringparam callout.graphics 0			\
-	--path $(top_srcdir)/doc/common				\
 	--path $(top_srcdir)/doc/cookbook			\
 	--xinclude
 
@@ -102,7 +101,7 @@ html-build.stamp: clutter-cookbook.xml $(XML_FILES)
 	if [ ! -d html/examples ] ; then mkdir html/examples ; fi && \
 	$(XSLTPROC) $(XSLTOPTS) -o clutter-cookbook.html $(XSL_XHTML_URI) $(top_builddir)/doc/cookbook/clutter-cookbook.xml && \
 	$(XSLTPROC) $(XSLTOPTS) -o html/ cookbook.xsl $(top_builddir)/doc/cookbook/clutter-cookbook.xml && \
-	cp $(top_srcdir)/doc/common/style.css html/ && \
+	cp $(top_srcdir)/doc/cookbook/style.css html/ && \
 	if [[ "$(VIDEO_FILES)" != "" ]] ; then \
 		for file in `ls $(VIDEO_FILES)`; do \
 			cp $$file html/videos/ ; \
