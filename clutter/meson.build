@@ -373,6 +373,7 @@ configure_file(
 
 backend_sources = []
 backend_deps = []
+backend_pc_files = []
 
 if enabled_backends.contains('x11') or
    enabled_backends.contains('wayland') or
@@ -380,6 +381,8 @@ if enabled_backends.contains('x11') or
   backend_sources += [
     'cogl/clutter-stage-cogl.c',
   ]
+
+  backend_pc_files += 'clutter-cogl-@0@'.format(clutter_api_version)
 endif
 
 cogl_dep = dependency('cogl-1.0')
@@ -457,6 +460,11 @@ if enabled_backends.contains('x11')
     ],
     install_dir: join_paths(clutter_full_includedir, 'x11'),
   )
+
+  backend_pc_files += [
+    'clutter-x11-@0@'.format(clutter_api_version),
+    'clutter-glx-@0@'.format(clutter_api_version),
+  ]
 endif
 
 if enabled_backends.contains('gdk')
@@ -473,6 +481,8 @@ if enabled_backends.contains('gdk')
     'gdk/clutter-stage-gdk.c',
   ]
 
+  backend_pc_files += 'clutter-gdk-@0@'.format(clutter_api_version)
+
   install_headers([
       'gdk/clutter-gdk.h',
     ],
@@ -487,6 +497,8 @@ if enabled_backends.contains('win32')
     'win32/clutter-event-win32.c',
     'win32/clutter-stage-win32.c',
   ]
+
+  backend_pc_files += 'clutter-win32-@0@'.format(clutter_api_version)
 
   install_headers([
       'win32/clutter-win32.h',
@@ -515,6 +527,8 @@ if enabled_backends.contains('cex100')
     error('libgdl.h is not available')
   endif
 
+  backend_pc_files += 'clutter-cex100-@0@'.format(clutter_api_version)
+
   subdir('cex100')
   backend_sources += [
     'cex100/clutter-backend-cex100.c',
@@ -528,6 +542,8 @@ if enabled_backends.contains('eglnative')
   ]
 
   config_h.set('CLUTTER_EGL_BACKEND_GENERIC', 1)
+
+  backend_pc_files += 'clutter-egl-@0@'.format(clutter_api_version)
 
   install_headers([
       'egl/clutter-egl-headers.h',
@@ -563,11 +579,15 @@ if enabled_backends.contains('wayland')
     install_dir: join_paths(clutter_full_includedir, 'wayland'),
   )
 
+  backend_pc_files += 'clutter-wayland-@0@'.format(clutter_api_version)
+
   enable_wayland_compositor = get_option('wayland_compositor')
   if enable_wayland_compositor
     backend_sources += [
       'wayland/clutter-wayland-surface.c',
     ]
+
+    backend_pc_files += 'clutter-wayland-compositor-@0@'.format(clutter_api_version)
 
     install_headers([
         'wayland/clutter-wayland-compositor.h',
@@ -591,6 +611,8 @@ if enabled_backends.contains('mir')
     'mir/clutter-device-manager-mir.c',
   ]
 
+  backend_pc_files += 'clutter-mir-@0@'.format(clutter_api_version)
+
   install_headers([
       'mir/clutter-mir.h',
     ],
@@ -606,6 +628,8 @@ if enabled_backends.contains('quartz')
     'osx/clutter-event-osx.c',
     'osx/clutter-device-manager-osx.c',
   ]
+
+  backend_pc_files += 'clutter-osx-@0@'.format(clutter_api_version)
 
   install_headers([
       'osx/clutter-osx.h',
@@ -739,15 +763,36 @@ libclutter_dep = declare_dependency(
   dependencies: clutter_deps,
 )
 
+pkgconf_files = [
+  'clutter-@0@'.format(clutter_api_version),
+] + backend_pc_files
+
+foreach pkg: pkgconf_files
+  pkgconf.generate(
+    libraries: libclutter,
+    name: 'Clutter',
+    description: 'Dynamic, accelerated scene graph toolkit',
+    version: meson.project_version(),
+    variables: [
+      'apiversion=@0@'.format(clutter_api_version),
+      'backends=@0@'.format(','.join(enabled_backends)),
+    ],
+    filebase: pkg,
+    subdirs: clutter_api_name,
+    install_dir: join_paths(clutter_libdir, 'pkgconfig'),
+  )
+endforeach
+
 pkgconf.generate(
   libraries: libclutter,
-  name: 'Clutter',
-  description: 'Dynamic, accelerated scene graph toolkit',
+  name: 'Cally',
+  description: 'Clutter Accessibility Implementation Library',
   version: meson.project_version(),
   variables: [
     'apiversion=@0@'.format(clutter_api_version),
-    'backends=@0@'.format(' '.join(enabled_backends)),
   ],
-  filebase: clutter_api_name,
+  filebase: 'cally-@0@'.format(clutter_api_version),
+  requires: [ 'atk', clutter_api_name ],
+  subdirs: clutter_api_name,
   install_dir: join_paths(clutter_libdir, 'pkgconfig'),
 )
