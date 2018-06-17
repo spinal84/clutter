@@ -34,7 +34,7 @@ release-tag:
 	else \
 	  if test -d "$(top_srcdir)/.git"; then \
 	    echo "  TAG      Tagging release $(CLUTTER_VERSION)..." ; \
-	    $(top_srcdir)/build/missing --run git tag \
+	    $(top_srcdir)/build-aux/missing --run git tag \
 	 	-s \
 	      	-m "Clutter $(CLUTTER_VERSION) ($(CLUTTER_RELEASE_STATUS))" \
 		$(CLUTTER_VERSION) ; \
@@ -78,7 +78,7 @@ release-upload: $(sha256_file)
 	@echo "Done."
 	@echo -n "  EXEC     Running ftpadmin install... "
 	@ssh master.gnome.org ftpadmin install $(tar_file)
-	@mv -f $(sha256_file) $(top_builddir)/build/$(sha256_file)
+	@mv -f $(sha256_file) $(top_builddir)/build-aux/$(sha256_file)
 	@echo "Done."
 
 release-message:
@@ -97,7 +97,7 @@ release-message:
 	@echo ""
 	@echo "SHA256 Checksum:"
 	@echo ""
-	@cat $(top_builddir)/build/$(sha256_file)
+	@cat $(top_builddir)/build-aux/$(sha256_file)
 	@echo ""
 	@echo "Additionally, a git clone of the source tree:"
 	@echo "  git clone git://git.gnome.org/clutter"

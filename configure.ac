@@ -41,8 +41,8 @@ AC_INIT([clutter],
 
 AC_CONFIG_SRCDIR([clutter/clutter.h])
 AC_CONFIG_HEADERS([clutter/config.h])
-AC_CONFIG_AUX_DIR([build])
-AC_CONFIG_MACRO_DIR([build/autotools])
+AC_CONFIG_AUX_DIR([build-aux])
+AC_CONFIG_MACRO_DIR([build-aux/autotools])
 
 AM_INIT_AUTOMAKE([1.11 foreign -Wno-portability no-define no-dist-gzip dist-xz tar-ustar])
 AM_SILENT_RULES([yes])
@@ -1177,14 +1177,13 @@ dnl ===========================================================================
 
 AC_CONFIG_FILES([
 	Makefile
-        README
 
-	build/Makefile
-	build/autotools/Makefile
-	build/mingw/Makefile
-	build/win32/Makefile
-	build/win32/vs9/Makefile
-	build/win32/vs10/Makefile
+	build-aux/Makefile
+	build-aux/autotools/Makefile
+	build-aux/mingw/Makefile
+	build-aux/win32/Makefile
+	build-aux/win32/vs9/Makefile
+	build-aux/win32/vs10/Makefile
 
 	clutter/Makefile
 	clutter/config.h.win32
@@ -1208,8 +1207,6 @@ AC_CONFIG_FILES([
 
 	doc/Makefile
 	doc/reference/Makefile
-	doc/reference/clutter-docs.xml
-	doc/common/Makefile
 	doc/cookbook/Makefile
 	doc/cookbook/clutter-cookbook.xml
 	doc/cookbook/examples/Makefile

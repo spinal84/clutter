@@ -1,4 +1,4 @@
-include $(top_srcdir)/build/autotools/Makefile.am.silent
+include $(top_srcdir)/build-aux/autotools/Makefile.am.silent
 
 NULL =
 
@@ -141,4 +141,4 @@ EXTRA_DIST += $(ui_data) $(img_data)
 examples_DATA += $(ui_data) $(img_data) $(srcdir)/*.c $(srcdir)/*.h
 noinst_PROGRAMS += $(all_examples)
 
--include $(top_srcdir)/build/autotools/Makefile.am.gitignore
+-include $(top_srcdir)/build-aux/autotools/Makefile.am.gitignore
