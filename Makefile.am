@@ -22,6 +22,29 @@ EXTRA_DIST = \
 	NEWS				\
 	$(NULL)
 
+# Add the Meson build files to the Autotools dist
+meson_files = \
+	meson.build \
+	meson_options.txt \
+	clutter/meson.build \
+	clutter/cex100/meson.build \
+	doc/meson.build \
+	doc/cookbook/meson.build \
+	doc/reference/meson.build \
+	doc/reference/xml/gtkdocentities.ent.in \
+	doc/reference/xml/meson.build \
+	examples/meson.build \
+	po/meson.build \
+	tests/meson.build \
+	tests/interactive/meson.build \
+	tests/micro-bench/meson.build \
+	tests/conform/meson.build \
+	tests/accessibility/meson.build \
+	tests/performance/meson.build \
+	$()
+
+EXTRA_DIST += $(meson_files)
+
 CLEANFILES = $(pcfiles)
 
 DISTCLEANFILES =
