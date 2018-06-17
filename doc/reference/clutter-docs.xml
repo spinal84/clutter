@@ -9,7 +9,7 @@
 <book id="clutter" lang="en">
   <bookinfo>
     <title>Clutter Reference Manual</title>
-    <releaseinfo>for Clutter &PACKAGE_VERSION;</releaseinfo>
+    <releaseinfo>for Clutter &package_version;</releaseinfo>
 
     <copyright>
       <year>2006</year>
