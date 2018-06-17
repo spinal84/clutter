@@ -433,6 +433,7 @@ if enabled_backends.contains('x11')
     'x11/clutter-keymap-x11.c',
     'x11/clutter-stage-x11.c',
     'x11/clutter-x11-texture-pixmap.c',
+    'x11/clutter-glx-texture-pixmap.c',
   ]
 
   if build_xi2
@@ -661,6 +662,17 @@ configure_file(
   configuration: config_h,
 )
 
+clutter_inc = include_directories('.')
+cally_inc = include_directories('cally')
+clutter_cogl_inc = include_directories('cogl')
+clutter_x11_inc = include_directories('x11')
+clutter_osx_inc = include_directories('osx')
+clutter_wayland_inc = include_directories('wayland')
+clutter_win32_inc = include_directories('win32')
+clutter_gdk_inc = include_directories('gdk')
+clutter_egl_inc = include_directories('egl')
+clutter_mir_inc = include_directories('mir')
+
 libclutter = library(
   clutter_api_name,
   sources: [
@@ -676,7 +688,7 @@ libclutter = library(
   dependencies: clutter_deps + backend_deps,
   include_directories: [
     root_inc,
-    include_directories('.'),
+    clutter_inc,
     include_directories('cally'),
   ],
   soversion: clutter_soversion,
