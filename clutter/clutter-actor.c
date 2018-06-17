@@ -6619,7 +6619,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_ALLOCATION] =
     g_param_spec_boxed ("allocation",
                         P_("Allocation"),
-                        P_("The actor's allocation"),
+                        P_("The actor’s allocation"),
                         CLUTTER_TYPE_ACTOR_BOX,
                         G_PARAM_READABLE |
                         G_PARAM_STATIC_STRINGS |
@@ -6687,7 +6687,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_REQUEST_MODE] =
     g_param_spec_enum ("request-mode",
                        P_("Request Mode"),
-                       P_("The actor's request mode"),
+                       P_("The actor’s request mode"),
                        CLUTTER_TYPE_REQUEST_MODE,
                        CLUTTER_REQUEST_HEIGHT_FOR_WIDTH,
                        CLUTTER_PARAM_READWRITE);
@@ -6740,7 +6740,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_Z_POSITION] =
     g_param_spec_float ("z-position",
                         P_("Z Position"),
-                        P_("The actor's position on the Z axis"),
+                        P_("The actor’s position on the Z axis"),
                         -G_MAXFLOAT, G_MAXFLOAT,
                         0.0f,
                         G_PARAM_READWRITE |
@@ -7452,7 +7452,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_CLIP_TO_ALLOCATION] =
     g_param_spec_boolean ("clip-to-allocation",
                           P_("Clip to Allocation"),
-                          P_("Sets the clip region to track the actor's allocation"),
+                          P_("Sets the clip region to track the actor’s allocation"),
                           FALSE,
                           CLUTTER_PARAM_READWRITE);
 
@@ -7539,7 +7539,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_LAYOUT_MANAGER] =
     g_param_spec_object ("layout-manager",
                          P_("Layout Manager"),
-                         P_("The object controlling the layout of an actor's children"),
+                         P_("The object controlling the layout of an actor’s children"),
                          CLUTTER_TYPE_LAYOUT_MANAGER,
                          CLUTTER_PARAM_READWRITE);
 
@@ -7723,7 +7723,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_BACKGROUND_COLOR] =
     clutter_param_spec_color ("background-color",
                               P_("Background color"),
-                              P_("The actor's background color"),
+                              P_("The actor’s background color"),
                               CLUTTER_COLOR_Transparent,
                               G_PARAM_READWRITE |
                               G_PARAM_STATIC_STRINGS |
@@ -7739,7 +7739,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_FIRST_CHILD] =
     g_param_spec_object ("first-child",
                          P_("First Child"),
-                         P_("The actor's first child"),
+                         P_("The actor’s first child"),
                          CLUTTER_TYPE_ACTOR,
                          CLUTTER_PARAM_READABLE);
 
@@ -7753,7 +7753,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_LAST_CHILD] =
     g_param_spec_object ("last-child",
                          P_("Last Child"),
-                         P_("The actor's last child"),
+                         P_("The actor’s last child"),
                          CLUTTER_TYPE_ACTOR,
                          CLUTTER_PARAM_READABLE);
 
@@ -7768,7 +7768,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_CONTENT] =
     g_param_spec_object ("content",
                          P_("Content"),
-                         P_("Delegate object for painting the actor's content"),
+                         P_("Delegate object for painting the actor’s content"),
                          CLUTTER_TYPE_CONTENT,
                          CLUTTER_PARAM_READWRITE);
 
@@ -7794,7 +7794,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_CONTENT_GRAVITY] =
     g_param_spec_enum ("content-gravity",
                        P_("Content Gravity"),
-                       P_("Alignment of the actor's content"),
+                       P_("Alignment of the actor’s content"),
                        CLUTTER_TYPE_CONTENT_GRAVITY,
                        CLUTTER_CONTENT_GRAVITY_RESIZE_FILL,
                        CLUTTER_PARAM_READWRITE);
@@ -7815,7 +7815,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_CONTENT_BOX] =
     g_param_spec_boxed ("content-box",
                         P_("Content Box"),
-                        P_("The bounding box of the actor's content"),
+                        P_("The bounding box of the actor’s content"),
                         CLUTTER_TYPE_ACTOR_BOX,
                         G_PARAM_READABLE |
                         G_PARAM_STATIC_STRINGS |
@@ -7847,7 +7847,7 @@ clutter_actor_class_init (ClutterActorClass *klass)
   obj_props[PROP_CONTENT_REPEAT] =
     g_param_spec_flags ("content-repeat",
                         P_("Content Repeat"),
-                        P_("The repeat policy for the actor's content"),
+                        P_("The repeat policy for the actor’s content"),
                         CLUTTER_TYPE_CONTENT_REPEAT,
                         CLUTTER_REPEAT_NONE,
                         G_PARAM_READWRITE |
