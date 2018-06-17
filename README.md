@@ -108,28 +108,6 @@ The micro version indicates the origin of the release: even micro
 numbers are only used for released archives; odd micro numbers are
 only used on the Git repository.
 
-Contributing
-------------
-
-If you want to hack on and improve Clutter check the
-[HACKING](./docs/HACKING) file for general implementation guidelines, and
-the [HACKING.backends](./docs/HACKING.backends) for backend-specific
-implementation issues.
-
-The [CODING STYLE](./docs/CODING_STYLE) file contains the rules for writing
-code conformant to the style guidelines used throughout Clutter. Remember:
-the coding style is mandatory; patches not conforming to it will be rejected
-by default.
-
-The usual workflow for contributions should be:
-
-  1. Fork the repository
-  2. Create a branch (`git checkout -b my_work`)
-  3. Commit your changes (`git commit -am "Added my awesome feature"`)
-  4. Push to the branch (`git push origin my_work`)
-  5. Open a new merge request
-  6. Sit back, relax and wait for feedback and eventual merge
-
 Bugs
 ----
 
@@ -152,5 +130,12 @@ behaviour.
 
 If the bug exposes a crash, the exact text printed out and a stack trace
 obtained using gdb are greatly appreciated.
+
+Licensing
+---------
+
+Clutter is released under the terms of the GNU Lesser General Public
+License, either version 2.1 or, at your option, any later version. See
+the [COPYING](./COPYING) file for further information.
 
 [building-clutter]: https://wiki.gnome.org/Projects/Clutter/Building
