@@ -17,6 +17,7 @@ ACLOCAL_AMFLAGS = -I build-aux/autotools ${ACLOCAL_FLAGS}
 
 EXTRA_DIST = \
 	ChangeLog.pre-git-import	\
+	CONTRIBUTING.md			\
 	COPYING				\
 	README.md			\
 	NEWS				\

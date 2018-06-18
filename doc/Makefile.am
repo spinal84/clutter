@@ -12,5 +12,4 @@ DIST_SUBDIRS = reference cookbook
 
 EXTRA_DIST = \
 	CODING_STYLE.txt \
-	CONTRIBUTING.md \
 	BACKENDS.md
