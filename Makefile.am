@@ -39,6 +39,7 @@ meson_files = \
 	tests/interactive/meson.build \
 	tests/micro-bench/meson.build \
 	tests/conform/meson.build \
+	tests/conform/test.data.in \
 	tests/accessibility/meson.build \
 	tests/performance/meson.build \
 	$()

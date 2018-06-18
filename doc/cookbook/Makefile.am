@@ -8,22 +8,22 @@ HTML_DIR = $(datadir)/gtk-doc/html
 TARGET_DIR = $(HTML_DIR)/clutter-cookbook
 
 XML_FILES = \
-	$(top_srcdir)/doc/cookbook/actors.xml		\
-	$(top_srcdir)/doc/cookbook/animations.xml	\
-	$(top_srcdir)/doc/cookbook/events.xml		\
-	$(top_srcdir)/doc/cookbook/introduction.xml	\
-	$(top_srcdir)/doc/cookbook/text.xml		\
-	$(top_srcdir)/doc/cookbook/textures.xml		\
-	$(top_srcdir)/doc/cookbook/layouts.xml		\
-	$(top_srcdir)/doc/cookbook/script.xml		\
-	$(top_srcdir)/doc/cookbook/effects.xml		\
+	actors.xml		\
+	animations.xml		\
+	events.xml		\
+	introduction.xml	\
+	text.xml		\
+	textures.xml		\
+	layouts.xml		\
+	script.xml		\
+	effects.xml		\
 	$(NULL)
 
 XSLTOPTS = \
 	--stringparam html.stylesheet style.css 		\
-	--stringparam  chapter.autolabel 1 			\
-	--stringparam  appendix.autolabel 1 			\
-	--stringparam  section.autolabel 1 			\
+	--stringparam chapter.autolabel 1 			\
+	--stringparam appendix.autolabel 1 			\
+	--stringparam section.autolabel 1 			\
 	--stringparam gtkdoc.bookname "clutter-cookbook" 	\
 	--stringparam gtkdoc.version @CLUTTER_API_VERSION@ 	\
 	--stringparam callout.graphics 0			\
@@ -36,49 +36,55 @@ XSL_XHTML_URI = $(XSL_BASE_URI)/xhtml/docbook.xsl
 HTML_FILES = $(top_builddir)/doc/cookbook/html/*.html
 CSS_FILES = $(top_builddir)/doc/cookbook/html/*.css
 IMAGE_FILES = \
-	$(srcdir)/images/clutter-logo.png \
-	$(srcdir)/images/effects-basic.png \
-	$(srcdir)/images/effects-basic-background.png \
-	$(srcdir)/images/effects-built-in.png \
-	$(srcdir)/images/effects-custom-deform.png \
-	$(srcdir)/images/effects-custom-deform-back-material.png \
-	$(srcdir)/images/textures-reflection.png \
-	$(srcdir)/images/actors-opacity.png \
-	$(srcdir)/images/actors-opacity-container-affects-opacity.png \
-	$(srcdir)/images/text-shadow.png \
-	$(srcdir)/images/textures-sub-texture.png \
-	$(srcdir)/images/layouts-stacking-diff-actor-sizes.png \
-	$(srcdir)/images/events-pointer-motion-stacking.png	\
-	$(srcdir)/images/layouts-bind-constraint-stage.png	\
+	images/clutter-logo.png \
+	images/effects-basic.png \
+	images/effects-basic-background.png \
+	images/effects-built-in.png \
+	images/effects-custom-deform.png \
+	images/effects-custom-deform-back-material.png \
+	images/textures-reflection.png \
+	images/actors-opacity.png \
+	images/actors-opacity-container-affects-opacity.png \
+	images/text-shadow.png \
+	images/textures-sub-texture.png \
+	images/layouts-stacking-diff-actor-sizes.png \
+	images/events-pointer-motion-stacking.png	\
+	images/layouts-bind-constraint-stage.png	\
 	$(NULL)
 
 VIDEO_FILES = \
-	$(srcdir)/videos/animations-fading-out.ogv \
-	$(srcdir)/videos/animations-fading-in-then-out.ogv \
-	$(srcdir)/videos/animations-path.ogv \
-	$(srcdir)/videos/animations-rotating-x-minus-45.ogv \
-	$(srcdir)/videos/animations-rotating-y-45.ogv \
-	$(srcdir)/videos/animations-rotating-z-90.ogv \
-	$(srcdir)/videos/animations-rotating-x-minus-180-with-y-minus-96.ogv \
-	$(srcdir)/videos/animations-rotating-x-minus-180-with-z-minus-96.ogv \
-	$(srcdir)/videos/animations-rotating-x-centered.ogv \
-	$(srcdir)/videos/animations-rotating-y-centered.ogv \
-	$(srcdir)/videos/animations-rotating-z-centered.ogv \
-	$(srcdir)/videos/animations-rotating-container-reverses-direction.ogv \
-	$(srcdir)/videos/effects-custom-deform.ogv \
-	$(srcdir)/videos/textures-split-go.ogv \
-	$(srcdir)/videos/events-mouse-scroll.ogv \
-	$(srcdir)/videos/textures-crossfade-two-textures.ogv \
-	$(srcdir)/videos/animations-complex.ogv \
-	$(srcdir)/videos/animations-reuse.ogv \
-	$(srcdir)/videos/animations-moving-anchors.ogv \
-	$(srcdir)/videos/animations-moving-depth.ogv \
-	$(srcdir)/videos/animations-looping.ogv \
+	videos/animations-fading-out.ogv \
+	videos/animations-fading-in-then-out.ogv \
+	videos/animations-path.ogv \
+	videos/animations-rotating-x-minus-45.ogv \
+	videos/animations-rotating-y-45.ogv \
+	videos/animations-rotating-z-90.ogv \
+	videos/animations-rotating-x-minus-180-with-y-minus-96.ogv \
+	videos/animations-rotating-x-minus-180-with-z-minus-96.ogv \
+	videos/animations-rotating-x-centered.ogv \
+	videos/animations-rotating-y-centered.ogv \
+	videos/animations-rotating-z-centered.ogv \
+	videos/animations-rotating-container-reverses-direction.ogv \
+	videos/effects-custom-deform.ogv \
+	videos/textures-split-go.ogv \
+	videos/events-mouse-scroll.ogv \
+	videos/textures-crossfade-two-textures.ogv \
+	videos/animations-complex.ogv \
+	videos/animations-reuse.ogv \
+	videos/animations-moving-anchors.ogv \
+	videos/animations-moving-depth.ogv \
+	videos/animations-looping.ogv \
 	$(NULL)
 
 EXTRA_DIST = \
 	clutter-cookbook.xml.in \
+	common.xsl		\
+	cookbook.xsl		\
+	devhelp.xsl		\
+	html.xsl		\
 	recipe-template.xml	\
+	ref-html-style.xsl	\
+	style.css		\
 	$(IMAGE_FILES) \
 	$(XML_FILES) \
 	$(VIDEO_FILES)
