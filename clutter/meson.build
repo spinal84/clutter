@@ -723,7 +723,7 @@ libclutter = library(
     include_directories('cally'),
   ],
   soversion: clutter_soversion,
-  version: meson.project_version(),
+  version: clutter_libversion, 
   c_args: common_c_args,
   install: true,
 )

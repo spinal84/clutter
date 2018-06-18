@@ -22,7 +22,8 @@ clutter_api_name = '@0@-@1@'.format(meson.project_name(), clutter_api_version)
 clutter_so_age = 0
 clutter_interface_age = clutter_minor_version.is_even() ? clutter_micro_version : 0
 clutter_binary_age = 100 * clutter_minor_version + clutter_micro_version - clutter_interface_age
-clutter_soversion = '@0@.@1@.@2@'.format(clutter_so_age, clutter_binary_age, clutter_interface_age)
+clutter_soversion = clutter_so_age
+clutter_libversion = '@0@.@1@.@2@'.format(clutter_so_age, clutter_binary_age, clutter_interface_age)
 
 cc = meson.get_compiler('c')
 config_h = configuration_data()
