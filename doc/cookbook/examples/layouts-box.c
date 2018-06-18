@@ -2,10 +2,6 @@
 #include <clutter/clutter.h>
 
 static const ClutterColor stage_color = { 0x33, 0x33, 0x55, 0xff };
-static const ClutterColor box_color = { 0xff, 0xff, 0xff, 0xff };
-static const ClutterColor yellow_color = { 0xaa, 0xaa, 0x00, 0xff };
-static const ClutterColor red_color = { 0xff, 0x00, 0x00, 0xff };
-static const ClutterColor blue_color = { 0x00, 0x00, 0xff, 0xff };
 
 int
 main (int   argc,
