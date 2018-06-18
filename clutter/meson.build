@@ -97,7 +97,9 @@ clutter_public_headers = [
 ]
 
 install_headers(
-  clutter_public_headers,
+  clutter_public_headers + [
+    'clutter-autocleanups.h',
+  ],
   install_dir: clutter_full_includedir,
 )
 
