@@ -1,3 +1,5 @@
+subdir('examples')
+
 xml_files = [
   'actors.xml',
   'animations.xml',

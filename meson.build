@@ -96,6 +96,7 @@ all_backends = [
   'win32',
   'quartz',
   'cogl',
+  'eglnative',
 ]
 
 system_backends = []
