@@ -96,6 +96,11 @@ clutter_public_headers = [
   'clutter-zoom-action.h',
 ]
 
+install_headers(
+  clutter_public_headers,
+  install_dir: clutter_full_includedir,
+)
+
 sources = [
   'clutter-action.c',
   'clutter-actor-box.c',
