@@ -33,6 +33,16 @@ _scroll_event_cb (ClutterActor *viewport,
       y += SCROLL_AMOUNT;
       break;
 
+    case CLUTTER_SCROLL_SMOOTH:
+      {
+        double d_x, d_y;
+
+        clutter_event_get_scroll_delta (event, &d_x, &d_y);
+
+        y += d_y;
+      }
+      break;
+
     /* we're only interested in up and down */
     case CLUTTER_SCROLL_LEFT:
     case CLUTTER_SCROLL_RIGHT:
