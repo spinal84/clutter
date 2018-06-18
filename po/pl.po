@@ -1,15 +1,15 @@
 # Polish translation for clutter.
-# Copyright © 2010-2016 the clutter authors.
+# Copyright © 2010-2018 the clutter authors.
 # This file is distributed under the same license as the clutter package.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2016.
-# Aviary.pl <community-poland@mozilla.org>, 2010-2016.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2018.
+# Aviary.pl <community-poland@mozilla.org>, 2010-2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-22 18:52+0000\n"
-"PO-Revision-Date: 2016-09-07 04:17+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2018-06-17 20:10+0000\n"
+"PO-Revision-Date: 2018-06-18 16:48+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -164,7 +164,7 @@ msgid "Allocation"
 msgstr "Przydzielenie"
 
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
+msgid "The actor’s allocation"
 msgstr "Przydzielenie aktora"
 
 #: clutter/clutter-actor.c:6689
@@ -172,7 +172,7 @@ msgid "Request Mode"
 msgstr "Tryb żądania"
 
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
+msgid "The actor’s request mode"
 msgstr "Tryb żądania aktora"
 
 #: clutter/clutter-actor.c:6714
@@ -188,7 +188,7 @@ msgid "Z Position"
 msgstr "Położenie na osi Z"
 
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
+msgid "The actor’s position on the Z axis"
 msgstr "Położenie aktora na osi Z"
 
 #: clutter/clutter-actor.c:6760
@@ -485,7 +485,7 @@ msgid "Clip to Allocation"
 msgstr "Klamra do przydziału"
 
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
+msgid "Sets the clip region to track the actor’s allocation"
 msgstr "Ustawia obszar klamry do śledzenia przydzielenia aktora"
 
 #: clutter/clutter-actor.c:7468
@@ -533,7 +533,7 @@ msgid "Layout Manager"
 msgstr "Menedżer warstw"
 
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr "Obiekt kontrolujący układ potomków aktora"
 
 #: clutter/clutter-actor.c:7556
@@ -617,7 +617,7 @@ msgid "Background color"
 msgstr "Kolor tła"
 
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
+msgid "The actor’s background color"
 msgstr "Kolor tła aktora"
 
 #: clutter/clutter-actor.c:7741
@@ -625,7 +625,7 @@ msgid "First Child"
 msgstr "Pierwszy potomek"
 
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr "Pierwszy potomek aktora"
 
 #: clutter/clutter-actor.c:7755
@@ -633,7 +633,7 @@ msgid "Last Child"
 msgstr "Ostatni potomek"
 
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr "Ostatni potomek aktora"
 
 #: clutter/clutter-actor.c:7770
@@ -641,7 +641,7 @@ msgid "Content"
 msgstr "Zawartość"
 
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr "Deleguje obiekt do malowania zawartości aktora"
 
 #: clutter/clutter-actor.c:7796
@@ -649,7 +649,7 @@ msgid "Content Gravity"
 msgstr "Grawitacja zawartości"
 
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr "Wyrównanie zawartości aktora"
 
 #: clutter/clutter-actor.c:7817
@@ -657,7 +657,7 @@ msgid "Content Box"
 msgstr "Pole zawartości"
 
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr "Pole dookoła zawartości aktora"
 
 #: clutter/clutter-actor.c:7826
@@ -681,7 +681,7 @@ msgid "Content Repeat"
 msgstr "Powtarzanie zawartości"
 
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
 msgstr "Polityka powtarzania dla zawartości aktora"
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
@@ -739,7 +739,7 @@ msgstr ""
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
+msgid "The backend of type “%s” does not support creating multiple stages"
 msgstr "Mechanizm typu „%s” nie obsługuje tworzenia wielu scen"
 
 #: clutter/clutter-bind-constraint.c:344
@@ -1384,7 +1384,7 @@ msgid "Disable mipmapping on text"
 msgstr "Wyłącza mipmapowanie na tekście"
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
+msgid "Use “fuzzy” picking"
 msgstr "Używa wybierania „rozmytego”"
 
 #: clutter/clutter-main.c:1442
@@ -1461,27 +1461,27 @@ msgstr "Nazwa właściwości"
 msgid "The name of the property to animate"
 msgstr "Nazwa właściwości do animowania"
 
-#: clutter/clutter-script.c:463
+#: clutter/clutter-script.c:509
 msgid "Filename Set"
 msgstr "Ustawienie nazwy pliku"
 
-#: clutter/clutter-script.c:464
+#: clutter/clutter-script.c:510
 msgid "Whether the :filename property is set"
 msgstr "Określa, czy właściwość „:filename” jest ustawiona"
 
-#: clutter/clutter-script.c:478 clutter/deprecated/clutter-texture.c:1081
+#: clutter/clutter-script.c:524 clutter/deprecated/clutter-texture.c:1081
 msgid "Filename"
 msgstr "Nazwa pliku"
 
-#: clutter/clutter-script.c:479
+#: clutter/clutter-script.c:525
 msgid "The path of the currently parsed file"
 msgstr "Ścieżka do obecnie przetwarzanego pliku"
 
-#: clutter/clutter-script.c:496
+#: clutter/clutter-script.c:542
 msgid "Translation Domain"
 msgstr "Domena tłumaczeń"
 
-#: clutter/clutter-script.c:497
+#: clutter/clutter-script.c:543
 msgid "The translation domain used to localize string"
 msgstr "Domena tłumaczeń używana do lokalizowania tekstów"
 
@@ -1937,7 +1937,7 @@ msgid "Password Character"
 msgstr "Znak hasła"
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
 "Jeśli nie wynosi zero, używa tego znaku do wyświetlania zawartości aktora"
 
@@ -2461,6 +2461,10 @@ msgstr "Określa, czy cieniowanie jest skompilowane i skonsolidowane"
 msgid "Whether the shader is enabled"
 msgstr "Określa, czy cieniowanie jest włączone"
 
+#. translators: the first %s is the type of the shader, either
+#. * Vertex shader or Fragment shader; the second %s is the actual
+#. * error as reported by COGL
+#.
 #: clutter/deprecated/clutter-shader.c:521
 #, c-format
 msgid "%s compilation failed: %s"
@@ -2468,11 +2472,11 @@ msgstr "Kompilacja %s się nie powiodła: %s"
 
 #: clutter/deprecated/clutter-shader.c:522
 msgid "Vertex shader"
-msgstr "Cieniowanie wierzchołkowe"
+msgstr "cieniowania wierzchołkowego"
 
 #: clutter/deprecated/clutter-shader.c:523
 msgid "Fragment shader"
-msgstr "Cieniowanie fragmentów"
+msgstr "cieniowania fragmentów"
 
 #: clutter/deprecated/clutter-state.c:1500
 msgid "State"
