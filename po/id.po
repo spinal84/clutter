@@ -7,11 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-06-27 22:14+0000\n"
-"PO-Revision-Date: 2017-08-18 12:10+0700\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2018-06-17 20:10+0000\n"
+"PO-Revision-Date: 2018-06-23 10:07+0700\n"
+"Last-Translator: Andika Triwidada <atriwidada@gnome.org>\n"
 "Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -165,7 +164,7 @@ msgid "Allocation"
 msgstr "Alokasi"
 
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
+msgid "The actor’s allocation"
 msgstr "Alokasi aktor"
 
 #: clutter/clutter-actor.c:6689
@@ -173,7 +172,7 @@ msgid "Request Mode"
 msgstr "Moda Permintaan"
 
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
+msgid "The actor’s request mode"
 msgstr "Moda permintaan aktor"
 
 #: clutter/clutter-actor.c:6714
@@ -189,7 +188,7 @@ msgid "Z Position"
 msgstr "Posisi Z"
 
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
+msgid "The actor’s position on the Z axis"
 msgstr "Posisi aktor pada sumbu Z"
 
 #: clutter/clutter-actor.c:6760
@@ -486,7 +485,7 @@ msgid "Clip to Allocation"
 msgstr "Klip ke Alokasi"
 
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
+msgid "Sets the clip region to track the actor’s allocation"
 msgstr "Tata wilayah pemotongan untuk melacak alokasi aktor"
 
 #: clutter/clutter-actor.c:7468
@@ -534,7 +533,7 @@ msgid "Layout Manager"
 msgstr "Manajer Tata Letak"
 
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr "Objek yang mengendalikan tata letak anak aktor"
 
 #: clutter/clutter-actor.c:7556
@@ -614,7 +613,7 @@ msgid "Background color"
 msgstr "Warna latar belakang"
 
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
+msgid "The actor’s background color"
 msgstr "Warna latar belakang aktor"
 
 #: clutter/clutter-actor.c:7741
@@ -622,7 +621,7 @@ msgid "First Child"
 msgstr "Anak Pertama"
 
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr "Anak pertama aktor"
 
 #: clutter/clutter-actor.c:7755
@@ -630,7 +629,7 @@ msgid "Last Child"
 msgstr "Anak Terakhir"
 
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr "Anak terakhir aktor"
 
 #: clutter/clutter-actor.c:7770
@@ -638,7 +637,7 @@ msgid "Content"
 msgstr "Isi"
 
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr "Delegasikan objek untuk menggambar isi aktor"
 
 #: clutter/clutter-actor.c:7796
@@ -646,7 +645,7 @@ msgid "Content Gravity"
 msgstr "Gravitasi Isi"
 
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr "Perataan isi aktor"
 
 #: clutter/clutter-actor.c:7817
@@ -654,7 +653,7 @@ msgid "Content Box"
 msgstr "Kotak Isi"
 
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr "Kotak batas dari isi aktor"
 
 #: clutter/clutter-actor.c:7826
@@ -678,7 +677,7 @@ msgid "Content Repeat"
 msgstr "Pengulangan Isi"
 
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
 msgstr "Kebijakan pengulangan bagi isi aktor"
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
@@ -734,8 +733,8 @@ msgstr "Tak bisa menginisialisasi backend Clutter: tak tersedia penggerak."
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
-msgstr "Tipe backend '%s' tak mendukung pembuatan tingkat berganda"
+msgid "The backend of type “%s” does not support creating multiple stages"
+msgstr "Tipe backend \"%s\" tak mendukung pembuatan tingkat berganda"
 
 #: clutter/clutter-bind-constraint.c:344
 msgid "The source of the binding"
@@ -1374,8 +1373,8 @@ msgid "Disable mipmapping on text"
 msgstr "Matikan mipmap pada teks"
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
-msgstr "Gunakan pemetikan fuzzy"
+msgid "Use “fuzzy” picking"
+msgstr "Gunakan pemetikan \"fuzzy\""
 
 #: clutter/clutter-main.c:1442
 msgid "Clutter debugging flags to set"
@@ -1925,7 +1924,7 @@ msgid "Password Character"
 msgstr "Karakter Sandi"
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr "Bila bukan nol, gunakan karakter ini untuk menampilkan isi aktor"
 
 #: clutter/clutter-text.c:3810
