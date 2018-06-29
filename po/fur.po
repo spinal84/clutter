@@ -6,17 +6,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-08-24 02:15+0000\n"
-"PO-Revision-Date: 2018-02-27 18:02+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2018-06-17 20:10+0000\n"
+"PO-Revision-Date: 2018-06-29 15:53+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.8\n"
 
 #: clutter/clutter-actor.c:6313
 msgid "X coordinate"
@@ -163,15 +162,17 @@ msgid "Allocation"
 msgstr ""
 
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
-msgstr ""
+#, fuzzy
+#| msgid "The cursor position"
+msgid "The actor’s allocation"
+msgstr "La posizion dal cursôr"
 
 #: clutter/clutter-actor.c:6689
 msgid "Request Mode"
 msgstr "Modalitât richieste"
 
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
+msgid "The actor’s request mode"
 msgstr ""
 
 #: clutter/clutter-actor.c:6714
@@ -187,8 +188,10 @@ msgid "Z Position"
 msgstr "Posizion Z"
 
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
-msgstr ""
+#, fuzzy
+#| msgid "Position on the Z axis"
+msgid "The actor’s position on the Z axis"
+msgstr "Posizion sul as Z"
 
 #: clutter/clutter-actor.c:6760
 msgid "Opacity"
@@ -484,7 +487,7 @@ msgid "Clip to Allocation"
 msgstr ""
 
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
+msgid "Sets the clip region to track the actor’s allocation"
 msgstr ""
 
 #: clutter/clutter-actor.c:7468
@@ -532,7 +535,7 @@ msgid "Layout Manager"
 msgstr ""
 
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr ""
 
 #: clutter/clutter-actor.c:7556
@@ -601,50 +604,50 @@ msgstr "Spazi in plui a drete"
 
 #: clutter/clutter-actor.c:7708
 msgid "Background Color Set"
-msgstr ""
+msgstr "Colôr fondâl stabilît"
 
 #: clutter/clutter-actor.c:7709 clutter/deprecated/clutter-box.c:280
 msgid "Whether the background color is set"
-msgstr ""
+msgstr "Indiche se il colôr dal fondâl al è stabilît"
 
 #: clutter/clutter-actor.c:7725
 msgid "Background color"
-msgstr ""
+msgstr "Colôr fondâl"
 
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
+msgid "The actor’s background color"
 msgstr ""
 
 #: clutter/clutter-actor.c:7741
 msgid "First Child"
-msgstr ""
+msgstr "Prin fi"
 
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr ""
 
 #: clutter/clutter-actor.c:7755
 msgid "Last Child"
-msgstr ""
+msgstr "Ultin fi"
 
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr ""
 
 #: clutter/clutter-actor.c:7770
 msgid "Content"
-msgstr ""
+msgstr "Contignût"
 
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor.c:7796
 msgid "Content Gravity"
-msgstr ""
+msgstr "Gravitât contignût"
 
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor.c:7817
@@ -652,7 +655,7 @@ msgid "Content Box"
 msgstr ""
 
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor.c:7826
@@ -676,7 +679,7 @@ msgid "Content Repeat"
 msgstr ""
 
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
@@ -707,15 +710,15 @@ msgstr "Sorzint"
 
 #: clutter/clutter-align-constraint.c:280
 msgid "The source of the alignment"
-msgstr ""
+msgstr "La sorzint di inlineament"
 
 #: clutter/clutter-align-constraint.c:293
 msgid "Align Axis"
-msgstr ""
+msgstr "As par inlineâ"
 
 #: clutter/clutter-align-constraint.c:294
 msgid "The axis to align the position to"
-msgstr ""
+msgstr "L'as dulà inlineâ la posizion"
 
 #: clutter/clutter-align-constraint.c:313
 #: clutter/clutter-desaturate-effect.c:270
@@ -724,15 +727,16 @@ msgstr "Fatôr"
 
 #: clutter/clutter-align-constraint.c:314
 msgid "The alignment factor, between 0.0 and 1.0"
-msgstr ""
+msgstr "Il fatôr di inlineament, tra 0.0 e 1.0"
 
 #: clutter/clutter-backend.c:437
 msgid "Unable to initialize the Clutter backend: no available drivers found."
 msgstr ""
+"Impussibil inizializâ il backend Clutter: nissun driver disponibil cjatât."
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
+msgid "The backend of type “%s” does not support creating multiple stages"
 msgstr ""
 
 #: clutter/clutter-bind-constraint.c:344
@@ -794,7 +798,7 @@ msgstr "Pant"
 
 #: clutter/clutter-box-layout.c:350
 msgid "Allocate extra space for the child"
-msgstr ""
+msgstr "Assegne spazi adizionâl pal fi"
 
 #: clutter/clutter-box-layout.c:356
 #: clutter/deprecated/clutter-table-layout.c:579
@@ -850,7 +854,7 @@ msgstr "L'orientament de disposizion"
 
 #: clutter/clutter-box-layout.c:1380 clutter/clutter-flow-layout.c:943
 msgid "Homogeneous"
-msgstr ""
+msgstr "Omogjeni"
 
 #: clutter/clutter-box-layout.c:1381
 msgid ""
@@ -867,11 +871,11 @@ msgstr ""
 
 #: clutter/clutter-box-layout.c:1410
 msgid "Spacing"
-msgstr ""
+msgstr "Spaziadure"
 
 #: clutter/clutter-box-layout.c:1411
 msgid "Spacing between children"
-msgstr ""
+msgstr "Spaziadure tra i fîs"
 
 #: clutter/clutter-box-layout.c:1428
 #: clutter/deprecated/clutter-table-layout.c:1667
@@ -881,7 +885,7 @@ msgstr "Dopre animazions"
 #: clutter/clutter-box-layout.c:1429
 #: clutter/deprecated/clutter-table-layout.c:1668
 msgid "Whether layout changes should be animated"
-msgstr ""
+msgstr "Indiche se i cambiaments de disposizion a àn di jessi animâts"
 
 #: clutter/clutter-box-layout.c:1453
 #: clutter/deprecated/clutter-table-layout.c:1692
@@ -901,7 +905,7 @@ msgstr ""
 #: clutter/clutter-box-layout.c:1475
 #: clutter/deprecated/clutter-table-layout.c:1714
 msgid "The duration of the animations"
-msgstr ""
+msgstr "La durade des animazions"
 
 #: clutter/clutter-brightness-contrast-effect.c:321
 msgid "Brightness"
@@ -929,15 +933,15 @@ msgstr ""
 
 #: clutter/clutter-canvas.c:284
 msgid "Scale Factor Set"
-msgstr ""
+msgstr "Fatôr di scjale stabilît"
 
 #: clutter/clutter-canvas.c:285
 msgid "Whether the scale-factor property is set"
-msgstr ""
+msgstr "Indiche se la proprietât fatôr-di-scjale e je stabilide"
 
 #: clutter/clutter-canvas.c:306
 msgid "Scale Factor"
-msgstr ""
+msgstr "Fatôr di scjale"
 
 #: clutter/clutter-canvas.c:307
 msgid "The scaling factor for the surface"
@@ -965,7 +969,7 @@ msgstr "Indiche se l'element che si pues fâ clic al à di jessi tal stât frac�
 
 #: clutter/clutter-click-action.c:604
 msgid "Held"
-msgstr ""
+msgstr "Tignût"
 
 #: clutter/clutter-click-action.c:605
 msgid "Whether the clickable has a grab"
@@ -1030,7 +1034,7 @@ msgstr ""
 #: clutter/clutter-device-manager.c:136 clutter/clutter-input-device.c:376
 #: clutter/x11/clutter-keymap-x11.c:457
 msgid "Backend"
-msgstr ""
+msgstr "Backend"
 
 #: clutter/clutter-device-manager.c:137
 msgid "The ClutterBackend of the device manager"
@@ -1038,19 +1042,19 @@ msgstr ""
 
 #: clutter/clutter-drag-action.c:733
 msgid "Horizontal Drag Threshold"
-msgstr ""
+msgstr "Liminâr dal strissinâ orizontâl"
 
 #: clutter/clutter-drag-action.c:734
 msgid "The horizontal amount of pixels required to start dragging"
-msgstr ""
+msgstr "La cuantitât di pixel orizontâi necessaris par tacâ il strissinament"
 
 #: clutter/clutter-drag-action.c:761
 msgid "Vertical Drag Threshold"
-msgstr ""
+msgstr "Liminâr dal strissinâ verticâl"
 
 #: clutter/clutter-drag-action.c:762
 msgid "The vertical amount of pixels required to start dragging"
-msgstr ""
+msgstr "La cuantitât di pixel verticâi necessaris par tacâ il strissinament"
 
 #: clutter/clutter-drag-action.c:783
 msgid "Drag Handle"
@@ -1062,49 +1066,49 @@ msgstr ""
 
 #: clutter/clutter-drag-action.c:797
 msgid "Drag Axis"
-msgstr ""
+msgstr "As par strissinâ"
 
 #: clutter/clutter-drag-action.c:798
 msgid "Constraints the dragging to an axis"
-msgstr ""
+msgstr "Limite il strissinament a un as"
 
 #: clutter/clutter-drag-action.c:814
 msgid "Drag Area"
-msgstr ""
+msgstr "Aree par strissinâ"
 
 #: clutter/clutter-drag-action.c:815
 msgid "Constrains the dragging to a rectangle"
-msgstr ""
+msgstr "Limite il strissinament a un retangul"
 
 #: clutter/clutter-drag-action.c:828
 msgid "Drag Area Set"
-msgstr ""
+msgstr "Aree par strissinâ stabilide"
 
 #: clutter/clutter-drag-action.c:829
 msgid "Whether the drag area is set"
-msgstr ""
+msgstr "Indiche se la aree par strissinâ e je stabilide"
 
 #: clutter/clutter-flow-layout.c:944
 msgid "Whether each item should receive the same allocation"
-msgstr ""
+msgstr "Indiche se ogni element al à di ricevi la stesse assegnazion"
 
 #: clutter/clutter-flow-layout.c:959
 #: clutter/deprecated/clutter-table-layout.c:1627
 msgid "Column Spacing"
-msgstr ""
+msgstr "Spaziadure colone"
 
 #: clutter/clutter-flow-layout.c:960
 msgid "The spacing between columns"
-msgstr ""
+msgstr "La spaziadure tra colonis"
 
 #: clutter/clutter-flow-layout.c:976
 #: clutter/deprecated/clutter-table-layout.c:1643
 msgid "Row Spacing"
-msgstr ""
+msgstr "Spaziadure rie"
 
 #: clutter/clutter-flow-layout.c:977
 msgid "The spacing between rows"
-msgstr ""
+msgstr "La spaziadure tra riis"
 
 #: clutter/clutter-flow-layout.c:991
 msgid "Minimum Column Width"
@@ -1367,7 +1371,7 @@ msgid "Disable mipmapping on text"
 msgstr "Disabilite il mipmapping sul test"
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
+msgid "Use “fuzzy” picking"
 msgstr ""
 
 #: clutter/clutter-main.c:1442
@@ -1917,7 +1921,7 @@ msgid "Password Character"
 msgstr ""
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
 
 #: clutter/clutter-text.c:3810
