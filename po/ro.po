@@ -6,10 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-06-27 22:14+0000\n"
-"PO-Revision-Date: 2018-05-06 13:44+0300\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2018-06-17 20:10+0000\n"
+"PO-Revision-Date: 2018-06-18 18:48+0300\n"
 "Last-Translator: Florentina Mușat <florentina.musat.28 [at] gmail [dot] "
 "com>\n"
 "Language-Team: gnome-ro team\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.0.8\n"
 "X-Project-Style: gnome\n"
 
 #: clutter/clutter-actor.c:6313
@@ -167,7 +166,7 @@ msgid "Allocation"
 msgstr "Alocare"
 
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
+msgid "The actor’s allocation"
 msgstr "Alocarea actorului"
 
 #: clutter/clutter-actor.c:6689
@@ -175,8 +174,8 @@ msgid "Request Mode"
 msgstr "Mod de cereri"
 
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
-msgstr "Modul de cereri ale actorului"
+msgid "The actor’s request mode"
+msgstr "Modul de cerere al actorului"
 
 #: clutter/clutter-actor.c:6714
 msgid "Depth"
@@ -191,7 +190,7 @@ msgid "Z Position"
 msgstr "Poziția Z"
 
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
+msgid "The actor’s position on the Z axis"
 msgstr "Poziția actorului pe axa Z"
 
 #: clutter/clutter-actor.c:6760
@@ -490,8 +489,8 @@ msgid "Clip to Allocation"
 msgstr "Decupează la alocare"
 
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
-msgstr "Setează regiunea de decupare să urmărească alocarea actorului"
+msgid "Sets the clip region to track the actor’s allocation"
+msgstr "Stabilește regiunea de decupare să urmărească alocarea actorului"
 
 #: clutter/clutter-actor.c:7468
 msgid "Text Direction"
@@ -538,7 +537,7 @@ msgid "Layout Manager"
 msgstr "Administratorul de poziționare"
 
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr "Obiectul care controlează aranjamentul inferiorilor unui actor"
 
 #: clutter/clutter-actor.c:7556
@@ -620,7 +619,7 @@ msgid "Background color"
 msgstr "Culoare de fundal"
 
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
+msgid "The actor’s background color"
 msgstr "Culoarea de fundal a actorului"
 
 #: clutter/clutter-actor.c:7741
@@ -628,7 +627,7 @@ msgid "First Child"
 msgstr "Primul inferior"
 
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr "Primul inferior al actorului"
 
 #: clutter/clutter-actor.c:7755
@@ -636,7 +635,7 @@ msgid "Last Child"
 msgstr "Ultimul inferior"
 
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr "Ultimul inferior al actorului"
 
 #: clutter/clutter-actor.c:7770
@@ -644,7 +643,7 @@ msgid "Content"
 msgstr "Conținut"
 
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr "Desemnați obiectul pentru pictarea conținutului actorului"
 
 #: clutter/clutter-actor.c:7796
@@ -652,7 +651,7 @@ msgid "Content Gravity"
 msgstr "Gravitație conținut"
 
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr "Alinierea conținutului actorului"
 
 #: clutter/clutter-actor.c:7817
@@ -660,7 +659,7 @@ msgid "Content Box"
 msgstr "Cutie de conținut"
 
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr "Cutia de legare a conținutului actorului"
 
 #: clutter/clutter-actor.c:7826
@@ -684,7 +683,7 @@ msgid "Content Repeat"
 msgstr "Repetare de conținut"
 
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
 msgstr "Regulile de repetare pentru conținutul actorului"
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
@@ -737,13 +736,12 @@ msgstr "Factorul de aliniere, între 0.0 și 1.0"
 #: clutter/clutter-backend.c:437
 msgid "Unable to initialize the Clutter backend: no available drivers found."
 msgstr ""
-"Nu s-a putut inițializa backend-ul Clutter: nu s-au găsit drivere "
-"compatibile."
+"Nu s-a putut inițializa suportul Clutter: nu s-au găsit drivere compatibile."
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
-msgstr "Backend-ul de tip „%s” nu suportă crearea de scene multiple"
+msgid "The backend of type “%s” does not support creating multiple stages"
+msgstr "Suportul de tip „%s” nu suportă crearea de scene multiple"
 
 #: clutter/clutter-bind-constraint.c:344
 msgid "The source of the binding"
@@ -1054,11 +1052,11 @@ msgstr "Factorul de desaturare"
 #: clutter/clutter-device-manager.c:136 clutter/clutter-input-device.c:376
 #: clutter/x11/clutter-keymap-x11.c:457
 msgid "Backend"
-msgstr "Backend"
+msgstr "Suport"
 
 #: clutter/clutter-device-manager.c:137
 msgid "The ClutterBackend of the device manager"
-msgstr "ClutterBackend-ul administratorului de dispozitive"
+msgstr "Suportul Clutter al administratorului de dispozitive"
 
 #: clutter/clutter-drag-action.c:733
 msgid "Horizontal Drag Threshold"
@@ -1318,7 +1316,7 @@ msgstr "Numărul axelor de pe dispozitiv"
 
 #: clutter/clutter-input-device.c:377
 msgid "The backend instance"
-msgstr "Instanța backend-ului"
+msgstr "Instanța suportului"
 
 #: clutter/clutter-input-device.c:390 clutter/clutter-input-device.c:391
 msgid "Vendor ID"
@@ -1392,8 +1390,8 @@ msgid "Disable mipmapping on text"
 msgstr "Dezactivează maparea MIP pe text"
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
-msgstr "Folosește alegerea „fuzzy”"
+msgid "Use “fuzzy” picking"
+msgstr "Utilizează alegerea „fuzzy”"
 
 #: clutter/clutter-main.c:1442
 msgid "Clutter debugging flags to set"
@@ -1953,9 +1951,9 @@ msgid "Password Character"
 msgstr "Caracter parolă"
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
-"Dacă este diferit de zero, folosește acest caracter pentru a afișa "
+"Dacă este diferit de zero, utilizează acest caracter pentru a afișa "
 "conținutul actorului"
 
 #: clutter/clutter-text.c:3810
@@ -2763,7 +2761,7 @@ msgstr "Dezactivează suportul XInput"
 
 #: clutter/x11/clutter-keymap-x11.c:458
 msgid "The Clutter backend"
-msgstr "Backend-ul Clutter"
+msgstr "Suportul Clutter"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:534
 msgid "Pixmap"
