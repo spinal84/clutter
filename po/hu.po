@@ -7,18 +7,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter clutter-1.16\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-08-22 18:52+0000\n"
-"PO-Revision-Date: 2016-09-25 11:04+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng at ubuntu dot com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2018-06-17 20:10+0000\n"
+"PO-Revision-Date: 2018-06-20 19:25+0200\n"
+"Last-Translator: Meskó Balázs <mesko.balazs@fsf.hu>\n"
 "Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.8\n"
 
 #: clutter/clutter-actor.c:6313
 msgid "X coordinate"
@@ -165,7 +164,7 @@ msgid "Allocation"
 msgstr "Lefoglalás"
 
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
+msgid "The actor’s allocation"
 msgstr "A szereplő lefoglalása"
 
 #: clutter/clutter-actor.c:6689
@@ -173,7 +172,7 @@ msgid "Request Mode"
 msgstr "Kérés mód"
 
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
+msgid "The actor’s request mode"
 msgstr "A szereplő kérés módja"
 
 #: clutter/clutter-actor.c:6714
@@ -189,7 +188,7 @@ msgid "Z Position"
 msgstr "Z pozíció"
 
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
+msgid "The actor’s position on the Z axis"
 msgstr "A szereplő pozíciója a Z tengelyen"
 
 #: clutter/clutter-actor.c:6760
@@ -487,7 +486,7 @@ msgid "Clip to Allocation"
 msgstr "Vágás a lefoglalásra"
 
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
+msgid "Sets the clip region to track the actor’s allocation"
 msgstr "Beállítja a vágási területet a szereplő foglalásának követéséhez"
 
 #: clutter/clutter-actor.c:7468
@@ -535,7 +534,7 @@ msgid "Layout Manager"
 msgstr "Elrendezéskezelő"
 
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr "Egy szereplő gyermekeinek elrendezését vezérlő objektum"
 
 #: clutter/clutter-actor.c:7556
@@ -615,7 +614,7 @@ msgid "Background color"
 msgstr "Háttérszín"
 
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
+msgid "The actor’s background color"
 msgstr "A szereplő háttérszíne"
 
 #: clutter/clutter-actor.c:7741
@@ -623,7 +622,7 @@ msgid "First Child"
 msgstr "Első gyermek"
 
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr "A szereplő első gyermeke"
 
 #: clutter/clutter-actor.c:7755
@@ -631,7 +630,7 @@ msgid "Last Child"
 msgstr "Utolsó gyermek"
 
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr "A szereplő utolsó gyermeke"
 
 #: clutter/clutter-actor.c:7770
@@ -639,7 +638,7 @@ msgid "Content"
 msgstr "Tartalom"
 
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr "Objektum delegálása a szereplő tartalmának kirajzolásához"
 
 #: clutter/clutter-actor.c:7796
@@ -647,7 +646,7 @@ msgid "Content Gravity"
 msgstr "Tartalom gravitáció"
 
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr "A szereplő tartalmának igazítása"
 
 #: clutter/clutter-actor.c:7817
@@ -655,7 +654,7 @@ msgid "Content Box"
 msgstr "Tartalom doboz"
 
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr "A szereplő tartalmának határoló doboza"
 
 #: clutter/clutter-actor.c:7826
@@ -679,7 +678,7 @@ msgid "Content Repeat"
 msgstr "Tartalom ismétlés"
 
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
 msgstr "A szereplő tartalmának ismétlési házirendje"
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
@@ -737,7 +736,7 @@ msgstr ""
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
+msgid "The backend of type “%s” does not support creating multiple stages"
 msgstr ""
 "A(z) „%s” típusú háttérprogram nem támogatja több helyszín létrehozását"
 
@@ -1382,7 +1381,7 @@ msgid "Disable mipmapping on text"
 msgstr "Mipmapelés tiltása a szövegen"
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
+msgid "Use “fuzzy” picking"
 msgstr "„fuzzy” jelölés használata"
 
 #: clutter/clutter-main.c:1442
@@ -1458,27 +1457,27 @@ msgstr "Tulajdonságnév"
 msgid "The name of the property to animate"
 msgstr "Az animálandó tulajdonság neve"
 
-#: clutter/clutter-script.c:463
+#: clutter/clutter-script.c:509
 msgid "Filename Set"
 msgstr "Fájlnév beállítva"
 
-#: clutter/clutter-script.c:464
+#: clutter/clutter-script.c:510
 msgid "Whether the :filename property is set"
 msgstr "A :filename tulajdonság be van-e állítva"
 
-#: clutter/clutter-script.c:478 clutter/deprecated/clutter-texture.c:1081
+#: clutter/clutter-script.c:524 clutter/deprecated/clutter-texture.c:1081
 msgid "Filename"
 msgstr "Fájlnév"
 
-#: clutter/clutter-script.c:479
+#: clutter/clutter-script.c:525
 msgid "The path of the currently parsed file"
 msgstr "A jelenleg feldolgozott fájl útvonala"
 
-#: clutter/clutter-script.c:496
+#: clutter/clutter-script.c:542
 msgid "Translation Domain"
 msgstr "Fordítási tartomány"
 
-#: clutter/clutter-script.c:497
+#: clutter/clutter-script.c:543
 msgid "The translation domain used to localize string"
 msgstr "A szöveg honosításához használt fordítási tartomány"
 
@@ -1937,7 +1936,7 @@ msgid "Password Character"
 msgstr "Jelszó karakter"
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
 "Ha nem nulla, használja ezt a karaktert a szereplő tartalmainak "
 "megjelenítéséhez"
@@ -2464,6 +2463,10 @@ msgstr "Az árnyaló le van-e fordítva és linkelve van-e"
 msgid "Whether the shader is enabled"
 msgstr "Engedélyezve van-e az árnyaló"
 
+#. translators: the first %s is the type of the shader, either
+#. * Vertex shader or Fragment shader; the second %s is the actual
+#. * error as reported by COGL
+#.
 #: clutter/deprecated/clutter-shader.c:521
 #, c-format
 msgid "%s compilation failed: %s"
