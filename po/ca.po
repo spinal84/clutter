@@ -8,9 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-06-27 22:14+0000\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2018-06-17 20:10+0000\n"
 "PO-Revision-Date: 2014-03-21 05:55+0100\n"
 "Last-Translator: Pau Iranzo <paugnu@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
@@ -165,7 +164,7 @@ msgid "Allocation"
 msgstr "Assignació"
 
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
+msgid "The actor’s allocation"
 msgstr "L'assignació de l'actor"
 
 #: clutter/clutter-actor.c:6689
@@ -173,7 +172,7 @@ msgid "Request Mode"
 msgstr "Mode sol·licitat"
 
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
+msgid "The actor’s request mode"
 msgstr "El mode sol·licitat per l'actor"
 
 #: clutter/clutter-actor.c:6714
@@ -189,7 +188,7 @@ msgid "Z Position"
 msgstr "Posició Z"
 
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
+msgid "The actor’s position on the Z axis"
 msgstr "La posició de l'actor en l'eix de la Z"
 
 #: clutter/clutter-actor.c:6760
@@ -487,7 +486,7 @@ msgid "Clip to Allocation"
 msgstr "Retalla a l'assignació"
 
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
+msgid "Sets the clip region to track the actor’s allocation"
 msgstr ""
 "Estableix la regió de retallat per fer un seguiment de l'assignació de "
 "l'actor"
@@ -537,7 +536,7 @@ msgid "Layout Manager"
 msgstr "Gestor de disposició"
 
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr "L'objecte que controla la disposició dels fills de l'actor"
 
 #: clutter/clutter-actor.c:7556
@@ -617,7 +616,7 @@ msgid "Background color"
 msgstr "Color de fons"
 
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
+msgid "The actor’s background color"
 msgstr "El color de fons de l'actor"
 
 #: clutter/clutter-actor.c:7741
@@ -625,7 +624,7 @@ msgid "First Child"
 msgstr "Primer fill"
 
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr "El primer fill de l'actor"
 
 #: clutter/clutter-actor.c:7755
@@ -633,7 +632,7 @@ msgid "Last Child"
 msgstr "Últim fill"
 
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr "L'últim fill de l'actor"
 
 #: clutter/clutter-actor.c:7770
@@ -641,7 +640,7 @@ msgid "Content"
 msgstr "Contingut"
 
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr "L'objecte al que es delega el pintat del contingut de l'actor"
 
 #: clutter/clutter-actor.c:7796
@@ -649,7 +648,7 @@ msgid "Content Gravity"
 msgstr "Gravetat del contingut"
 
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr "L'alineació del contingut de l'actor"
 
 #: clutter/clutter-actor.c:7817
@@ -657,7 +656,7 @@ msgid "Content Box"
 msgstr "Caixa del contingut"
 
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr "La caixa de limitació que conté el contingut de l'actor"
 
 #: clutter/clutter-actor.c:7826
@@ -681,7 +680,7 @@ msgid "Content Repeat"
 msgstr "Repetició del contingut"
 
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
 msgstr "La política de repetició del contingut de l'actor"
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
@@ -739,7 +738,7 @@ msgstr ""
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
+msgid "The backend of type “%s” does not support creating multiple stages"
 msgstr "El rerefons, de tipus «%s», no permet crear múltiples escenaris"
 
 #: clutter/clutter-bind-constraint.c:344
@@ -1383,7 +1382,7 @@ msgid "Disable mipmapping on text"
 msgstr "Inhabilita el mapat MIP en el text"
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
+msgid "Use “fuzzy” picking"
 msgstr "Utilitza una selecció «difusa»"
 
 #: clutter/clutter-main.c:1442
@@ -1941,7 +1940,7 @@ msgid "Password Character"
 msgstr "Caràcter de contrasenya"
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
 "Si no és zero, utilitza aquest caràcter per mostrar els continguts de l'actor"
 
