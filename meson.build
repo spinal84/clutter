@@ -65,7 +65,6 @@ clutter_deps = [
 ]
 
 mathlib_dep = cc.find_library('m', required: false)
-clutter_deps += mathlib_dep
 
 # Linker flags
 common_ldflags = []

@@ -389,7 +389,9 @@ if enabled_backends.contains('x11') or
     'cogl/clutter-stage-cogl.c',
   ]
 
-  backend_pc_files += 'clutter-cogl-@0@'.format(clutter_api_version)
+  backend_pc_files += [
+    [ 'clutter-cogl-@0@'.format(clutter_api_version), [], ],
+  ]
 endif
 
 cogl_dep = dependency('cogl-1.0')
@@ -469,15 +471,15 @@ if enabled_backends.contains('x11')
   )
 
   backend_pc_files += [
-    'clutter-x11-@0@'.format(clutter_api_version),
-    'clutter-glx-@0@'.format(clutter_api_version),
+    [ 'clutter-x11-@0@'.format(clutter_api_version), x11_deps ],
+    [ 'clutter-glx-@0@'.format(clutter_api_version), x11_deps ],
   ]
 endif
 
 if enabled_backends.contains('gdk')
-  backend_deps += [
-    dependency('gdk-3.0', version: gdk_req_version)
-  ]
+  gdk_dep = dependency('gdk-3.0', version: gdk_req_version)
+
+  backend_deps += gdk_dep
 
   backend_sources += [
     'gdk/clutter-backend-gdk.c',
@@ -488,7 +490,9 @@ if enabled_backends.contains('gdk')
     'gdk/clutter-stage-gdk.c',
   ]
 
-  backend_pc_files += 'clutter-gdk-@0@'.format(clutter_api_version)
+  backend_pc_files += [
+    [ 'clutter-gdk-@0@'.format(clutter_api_version), gdk_dep ],
+  ]
 
   install_headers([
       'gdk/clutter-gdk.h',
@@ -505,7 +509,9 @@ if enabled_backends.contains('win32')
     'win32/clutter-stage-win32.c',
   ]
 
-  backend_pc_files += 'clutter-win32-@0@'.format(clutter_api_version)
+  backend_pc_files += [
+    [ 'clutter-win32-@0@'.format(clutter_api_version), [] ],
+  ]
 
   install_headers([
       'win32/clutter-win32.h',
@@ -534,7 +540,9 @@ if enabled_backends.contains('cex100')
     error('libgdl.h is not available')
   endif
 
-  backend_pc_files += 'clutter-cex100-@0@'.format(clutter_api_version)
+  backend_pc_files += [
+    [ 'clutter-cex100-@0@'.format(clutter_api_version), [] ],
+  ]
 
   subdir('cex100')
   backend_sources += [
@@ -565,12 +573,14 @@ if enabled_backends.contains('wayland')
     error('Cogl compiled without Wayland support')
   endif
 
-  backend_deps += [
+  wayland_deps = [
     dependency('wayland-client'),
     dependency('wayland-cursor'),
     dependency('xkbcommon'),
     dependency('gdk-pixbuf-2.0'),
   ]
+
+  backend_deps += wayland_deps
 
   backend_sources += [
     'wayland/clutter-backend-wayland.c',
@@ -586,7 +596,9 @@ if enabled_backends.contains('wayland')
     install_dir: join_paths(clutter_full_includedir, 'wayland'),
   )
 
-  backend_pc_files += 'clutter-wayland-@0@'.format(clutter_api_version)
+  backend_pc_files += [
+    [ 'clutter-wayland-@0@'.format(clutter_api_version), wayland_deps ],
+  ]
 
   enable_wayland_compositor = get_option('wayland_compositor')
   if enable_wayland_compositor
@@ -594,7 +606,9 @@ if enabled_backends.contains('wayland')
       'wayland/clutter-wayland-surface.c',
     ]
 
-    backend_pc_files += 'clutter-wayland-compositor-@0@'.format(clutter_api_version)
+    backend_pc_files += [
+      [ 'clutter-wayland-compositor-@0@'.format(clutter_api_version), wayland_deps ],
+    ]
 
     install_headers([
         'wayland/clutter-wayland-compositor.h',
@@ -618,7 +632,9 @@ if enabled_backends.contains('mir')
     'mir/clutter-device-manager-mir.c',
   ]
 
-  backend_pc_files += 'clutter-mir-@0@'.format(clutter_api_version)
+  backend_pc_files += [
+    [ 'clutter-mir-@0@'.format(clutter_api_version), [] ],
+  ]
 
   install_headers([
       'mir/clutter-mir.h',
@@ -636,7 +652,9 @@ if enabled_backends.contains('quartz')
     'osx/clutter-device-manager-osx.c',
   ]
 
-  backend_pc_files += 'clutter-osx-@0@'.format(clutter_api_version)
+  backend_pc_files += [
+    [ 'clutter-osx-@0@'.format(clutter_api_version), [] ],
+  ]
 
   install_headers([
       'osx/clutter-osx.h',
@@ -716,7 +734,7 @@ libclutter = library(
     clutter_enums,
     clutter_marshal,
   ],
-  dependencies: clutter_deps + backend_deps,
+  dependencies: clutter_deps + backend_deps + [mathlib_dep],
   include_directories: [
     root_inc,
     clutter_inc,
@@ -767,14 +785,16 @@ libclutter_dep = declare_dependency(
   link_with: libclutter,
   sources: [ clutter_enums[1], libclutter_gir, ],
   include_directories: root_inc,
-  dependencies: clutter_deps,
+  dependencies: clutter_deps + [mathlib_dep],
 )
 
 pkgconf_files = [
-  'clutter-@0@'.format(clutter_api_version),
+  [ 'clutter-@0@'.format(clutter_api_version), clutter_deps ],
 ] + backend_pc_files
 
 foreach pkg: pkgconf_files
+  pkg_name = pkg[0]
+  pkg_deps = pkg[1]
   pkgconf.generate(
     libraries: libclutter,
     name: 'Clutter',
@@ -784,7 +804,8 @@ foreach pkg: pkgconf_files
       'apiversion=@0@'.format(clutter_api_version),
       'backends=@0@'.format(','.join(enabled_backends)),
     ],
-    filebase: pkg,
+    requires: pkg_deps,
+    filebase: pkg_name,
     subdirs: clutter_api_name,
     install_dir: join_paths(clutter_libdir, 'pkgconfig'),
   )
