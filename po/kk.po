@@ -6,17 +6,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-08-22 18:52+0000\n"
-"PO-Revision-Date: 2016-09-11 18:36+0500\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2018-06-17 20:10+0000\n"
+"PO-Revision-Date: 2018-08-25 22:31+0500\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
 "Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #: clutter/clutter-actor.c:6313
 msgid "X coordinate"
@@ -163,7 +162,7 @@ msgid "Allocation"
 msgstr "Бөлінуі"
 
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
+msgid "The actor’s allocation"
 msgstr ""
 
 #: clutter/clutter-actor.c:6689
@@ -171,7 +170,7 @@ msgid "Request Mode"
 msgstr ""
 
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
+msgid "The actor’s request mode"
 msgstr ""
 
 #: clutter/clutter-actor.c:6714
@@ -187,7 +186,7 @@ msgid "Z Position"
 msgstr ""
 
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
+msgid "The actor’s position on the Z axis"
 msgstr ""
 
 #: clutter/clutter-actor.c:6760
@@ -484,7 +483,7 @@ msgid "Clip to Allocation"
 msgstr ""
 
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
+msgid "Sets the clip region to track the actor’s allocation"
 msgstr ""
 
 #: clutter/clutter-actor.c:7468
@@ -532,7 +531,7 @@ msgid "Layout Manager"
 msgstr ""
 
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr ""
 
 #: clutter/clutter-actor.c:7556
@@ -612,7 +611,8 @@ msgid "Background color"
 msgstr "Фон түсі"
 
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
+#| msgid "Background color"
+msgid "The actor’s background color"
 msgstr ""
 
 #: clutter/clutter-actor.c:7741
@@ -620,7 +620,7 @@ msgid "First Child"
 msgstr ""
 
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr ""
 
 #: clutter/clutter-actor.c:7755
@@ -628,7 +628,7 @@ msgid "Last Child"
 msgstr ""
 
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr ""
 
 #: clutter/clutter-actor.c:7770
@@ -636,7 +636,7 @@ msgid "Content"
 msgstr "Құрамасы"
 
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor.c:7796
@@ -644,7 +644,7 @@ msgid "Content Gravity"
 msgstr ""
 
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor.c:7817
@@ -652,7 +652,7 @@ msgid "Content Box"
 msgstr ""
 
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor.c:7826
@@ -676,7 +676,7 @@ msgid "Content Repeat"
 msgstr ""
 
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
@@ -732,7 +732,7 @@ msgstr ""
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
+msgid "The backend of type “%s” does not support creating multiple stages"
 msgstr ""
 
 #: clutter/clutter-bind-constraint.c:344
@@ -1367,7 +1367,7 @@ msgid "Disable mipmapping on text"
 msgstr ""
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
+msgid "Use “fuzzy” picking"
 msgstr ""
 
 #: clutter/clutter-main.c:1442
@@ -1443,27 +1443,27 @@ msgstr "Қасиетінің атауы"
 msgid "The name of the property to animate"
 msgstr ""
 
-#: clutter/clutter-script.c:463
+#: clutter/clutter-script.c:509
 msgid "Filename Set"
 msgstr ""
 
-#: clutter/clutter-script.c:464
+#: clutter/clutter-script.c:510
 msgid "Whether the :filename property is set"
 msgstr ""
 
-#: clutter/clutter-script.c:478 clutter/deprecated/clutter-texture.c:1081
+#: clutter/clutter-script.c:524 clutter/deprecated/clutter-texture.c:1081
 msgid "Filename"
 msgstr "Файл аты"
 
-#: clutter/clutter-script.c:479
+#: clutter/clutter-script.c:525
 msgid "The path of the currently parsed file"
 msgstr ""
 
-#: clutter/clutter-script.c:496
+#: clutter/clutter-script.c:542
 msgid "Translation Domain"
 msgstr ""
 
-#: clutter/clutter-script.c:497
+#: clutter/clutter-script.c:543
 msgid "The translation domain used to localize string"
 msgstr ""
 
@@ -1910,7 +1910,7 @@ msgid "Password Character"
 msgstr ""
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
 
 #: clutter/clutter-text.c:3810
@@ -2433,6 +2433,10 @@ msgstr ""
 msgid "Whether the shader is enabled"
 msgstr ""
 
+#. translators: the first %s is the type of the shader, either
+#. * Vertex shader or Fragment shader; the second %s is the actual
+#. * error as reported by COGL
+#.
 #: clutter/deprecated/clutter-shader.c:521
 #, c-format
 msgid "%s compilation failed: %s"
