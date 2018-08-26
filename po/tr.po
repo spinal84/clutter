@@ -5,16 +5,16 @@
 # Kaan Özdinçer <kaanozdincer@gmail.com>, 2015.
 # Furkan Tokaç <developmentft@gmail.com>, 2017.
 # Muhammet Kara <muhammetk@gnome.org>, 2011, 2015, 2017, 2018.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-12-03 17:35+0000\n"
-"PO-Revision-Date: 2018-03-12 14:45+0300\n"
-"Last-Translator: Muhammet Kara <muhammetk@gnome.org>\n"
-"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2018-06-17 20:10+0000\n"
+"PO-Revision-Date: 2018-08-21 21:15+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -168,7 +168,8 @@ msgid "Allocation"
 msgstr "Yer Ayırma"
 
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
+#| msgid "The actor's allocation"
+msgid "The actor’s allocation"
 msgstr "Aktör için yer tahsisi"
 
 #: clutter/clutter-actor.c:6689
@@ -176,7 +177,8 @@ msgid "Request Mode"
 msgstr "İstek Kipi"
 
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
+#| msgid "The actor's request mode"
+msgid "The actor’s request mode"
 msgstr "Aktörün istek kipi"
 
 #: clutter/clutter-actor.c:6714
@@ -192,7 +194,8 @@ msgid "Z Position"
 msgstr "Z Konumu"
 
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
+#| msgid "The actor's position on the Z axis"
+msgid "The actor’s position on the Z axis"
 msgstr "Aktörün Z eksenindeki konumu"
 
 #: clutter/clutter-actor.c:6760
@@ -491,8 +494,9 @@ msgid "Clip to Allocation"
 msgstr ""
 
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
-msgstr ""
+#| msgid "The clip region for the actor"
+msgid "Sets the clip region to track the actor’s allocation"
+msgstr "Aktör için klip bölgesi"
 
 #: clutter/clutter-actor.c:7468
 msgid "Text Direction"
@@ -539,7 +543,8 @@ msgid "Layout Manager"
 msgstr "Yerleşim Yöneticisi"
 
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+#| msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr "Bir aktörün alt ögelerinin yerleşimini denetleyen nesne"
 
 #: clutter/clutter-actor.c:7556
@@ -619,7 +624,8 @@ msgid "Background color"
 msgstr "Arkaplan rengi"
 
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
+#| msgid "The actor's background color"
+msgid "The actor’s background color"
 msgstr "Aktörün arkaplan rengi"
 
 #: clutter/clutter-actor.c:7741
@@ -627,7 +633,8 @@ msgid "First Child"
 msgstr "İlk Alt Öge"
 
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+#| msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr "Aktörün ilk alt ögesi"
 
 #: clutter/clutter-actor.c:7755
@@ -635,7 +642,8 @@ msgid "Last Child"
 msgstr "Son Alt Öge"
 
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+#| msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr "Aktörün son alt ögesi"
 
 #: clutter/clutter-actor.c:7770
@@ -643,7 +651,8 @@ msgid "Content"
 msgstr "İçerik"
 
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+#| msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr "Aktörün içeriğini boyamak için nesneye yetki ver"
 
 #: clutter/clutter-actor.c:7796
@@ -651,7 +660,8 @@ msgid "Content Gravity"
 msgstr "İçerik Ağırlık Merkezi"
 
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+#| msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr "Aktörün içeriğinin yerleşimi"
 
 #: clutter/clutter-actor.c:7817
@@ -659,7 +669,8 @@ msgid "Content Box"
 msgstr "İçerik Kutusu"
 
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+#| msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr "Aktörün içeriğinin sınırlayıcı kutusu"
 
 #: clutter/clutter-actor.c:7826
@@ -680,11 +691,12 @@ msgstr "İçeriğin boyutunu büyütürken kullanılan süzgeç"
 
 #: clutter/clutter-actor.c:7849
 msgid "Content Repeat"
-msgstr "İçerik Tekrarı"
+msgstr "İçerik Yinelemesi"
 
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
-msgstr "Aktörün içeriği için tekrarlama ilkesi"
+#| msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
+msgstr "Aktörün içeriği için yineleme ilkesi"
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
 msgid "Actor"
@@ -739,9 +751,9 @@ msgstr "Clutter arka yüzü ilklendirilemedi: kullanılabilir sürücü bulunama
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
-msgstr ""
-"'%s' türü art alan uygulaması birden fazla aşama oluşturmayı desteklemez"
+#| msgid "The backend of type '%s' does not support creating multiple stages"
+msgid "The backend of type “%s” does not support creating multiple stages"
+msgstr "“%s” türü art alan uygulaması birden çok aşama oluşturmayı desteklemez"
 
 #: clutter/clutter-bind-constraint.c:344
 msgid "The source of the binding"
@@ -1380,8 +1392,9 @@ msgid "Disable mipmapping on text"
 msgstr "Metinde haritalamayı devre dışı bırak"
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
-msgstr "'bulanık' toplama kullan"
+#| msgid "Use 'fuzzy' picking"
+msgid "Use “fuzzy” picking"
+msgstr "“fuzzy” toplama kullan"
 
 #: clutter/clutter-main.c:1442
 msgid "Clutter debugging flags to set"
@@ -1933,7 +1946,8 @@ msgid "Password Character"
 msgstr "Parola Karakteri"
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+#| msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
 "Eğer sıfır değilse, aktörün içeriklerini göstermek için bu karakteri kullan"
 
@@ -2013,11 +2027,11 @@ msgstr ""
 
 #: clutter/clutter-timeline.c:673
 msgid "Repeat Count"
-msgstr "Sayıyı Tekrarla"
+msgstr "Sayıyı Yinele"
 
 #: clutter/clutter-timeline.c:674
 msgid "How many times the timeline should repeat"
-msgstr "Zaman tüneli kaç defa tekrarlanmalı"
+msgstr "Zaman tüneli kaç defa yinelenmeli"
 
 #: clutter/clutter-timeline.c:688
 msgid "Progress Mode"
@@ -2104,7 +2118,7 @@ msgstr "Milisaniye cinsinden canlandırma süresi"
 
 #: clutter/deprecated/clutter-animation.c:517
 msgid "Whether the animation should loop"
-msgstr "Canlandırmanın tekrarlanıp tekrarlanmayacağı"
+msgstr "Canlandırmanın yinelenip yinelenmeyeceği"
 
 #: clutter/deprecated/clutter-animation.c:532
 msgid "The timeline used by the animation"
@@ -2571,19 +2585,19 @@ msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1019
 msgid "Horizontal repeat"
-msgstr "Yatay tekrarla"
+msgstr "Yatay yinele"
 
 #: clutter/deprecated/clutter-texture.c:1020
 msgid "Repeat the contents rather than scaling them horizontally"
-msgstr "İçerikleri yatay olarak ölçeklemek yerine tekrarla"
+msgstr "İçerikleri yatay olarak ölçeklemek yerine yinele"
 
 #: clutter/deprecated/clutter-texture.c:1027
 msgid "Vertical repeat"
-msgstr "Dikey tekrarla"
+msgstr "Dikey yinele"
 
 #: clutter/deprecated/clutter-texture.c:1028
 msgid "Repeat the contents rather than scaling them vertically"
-msgstr "İçerikleri dikey olarak ölçeklemek yerine tekrarla"
+msgstr "İçerikleri dikey olarak ölçeklemek yerine yinele"
 
 #: clutter/deprecated/clutter-texture.c:1035
 msgid "Filter Quality"
@@ -2701,7 +2715,6 @@ msgid "Surface width"
 msgstr "Yüzey genişliği"
 
 #: clutter/wayland/clutter-wayland-surface.c:428
-#| msgid "The width of the Cairo surface"
 msgid "The width of the underlying wayland surface"
 msgstr "Altta yatan wayland yüzeyinin genişliği"
 
@@ -2710,7 +2723,6 @@ msgid "Surface height"
 msgstr "Yüzey yüksekliği"
 
 #: clutter/wayland/clutter-wayland-surface.c:437
-#| msgid "The height of the Cairo surface"
 msgid "The height of the underlying wayland surface"
 msgstr "Altta yatan wayland yüzeyinin yüksekliği"
 
