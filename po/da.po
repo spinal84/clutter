@@ -1,10 +1,10 @@
 # Danish translation for clutter-1.0
-# Copyright (c) 2010, 2014-2016 Rosetta Contributors and Canonical Ltd 2010, GNOME developers
+# Copyright (c) 2010, 2014-2016, 2018 Rosetta Contributors and Canonical Ltd 2010, GNOME developers
 # This file is distributed under the same license as the clutter-1.0 package.
 #
 # Jonas Skovsgaard Christensen
 # Kenneth Nielsen <k.nielsen81@gmail.com>, 2012
-# Ask Hjorth Larsen <asklarsen@gmail.com>, 2011, 12, 2014-2016
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2011, 12, 2014-2016, 2018
 #
 # uafklaret:
 # vertex -> vertex
@@ -13,10 +13,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter-1.0\n"
-"Report-Msgid-Bugs-To: "
-"https://bugzilla.gnome.org/enter_bug.cgi?product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-06-27 22:14+0000\n"
-"PO-Revision-Date: 2016-03-21 22:27+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2018-06-17 20:10+0000\n"
+"PO-Revision-Date: 2018-08-30 18:33+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -174,7 +173,7 @@ msgid "Allocation"
 msgstr "Allokering"
 
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
+msgid "The actor’s allocation"
 msgstr "Aktørens allokering"
 
 #: clutter/clutter-actor.c:6689
@@ -182,7 +181,7 @@ msgid "Request Mode"
 msgstr "Forespørgselstilstand"
 
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
+msgid "The actor’s request mode"
 msgstr "Aktørens forespørgselstilstand"
 
 #: clutter/clutter-actor.c:6714
@@ -198,7 +197,7 @@ msgid "Z Position"
 msgstr "Z-position"
 
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
+msgid "The actor’s position on the Z axis"
 msgstr "Aktørens position på Z-aksen"
 
 #: clutter/clutter-actor.c:6760
@@ -496,7 +495,7 @@ msgid "Clip to Allocation"
 msgstr "Klip til allokation"
 
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
+msgid "Sets the clip region to track the actor’s allocation"
 msgstr "Sætter udklipsregionen til at overvåge aktørens allokering"
 
 #: clutter/clutter-actor.c:7468
@@ -546,7 +545,7 @@ msgid "Layout Manager"
 msgstr "Layout-manager"
 
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr "Objektet som kontrollerer layoutet af en aktørs underelementer"
 
 #: clutter/clutter-actor.c:7556
@@ -628,7 +627,7 @@ msgid "Background color"
 msgstr "Baggrundsfarve"
 
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
+msgid "The actor’s background color"
 msgstr "Aktørens baggrundsfarve"
 
 #: clutter/clutter-actor.c:7741
@@ -636,7 +635,7 @@ msgid "First Child"
 msgstr "Første underelement"
 
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr "Aktørens første underelement"
 
 #: clutter/clutter-actor.c:7755
@@ -644,7 +643,7 @@ msgid "Last Child"
 msgstr "Sidste underelement"
 
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr "Aktørens sidste underelement"
 
 #: clutter/clutter-actor.c:7770
@@ -652,7 +651,7 @@ msgid "Content"
 msgstr "Indhold"
 
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr "Delegeringsobjekt til optegning af aktørens indhold"
 
 #: clutter/clutter-actor.c:7796
@@ -660,7 +659,7 @@ msgid "Content Gravity"
 msgstr "Indholdstyngdekraft"
 
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr "Justering af aktørens indhold"
 
 #: clutter/clutter-actor.c:7817
@@ -668,7 +667,7 @@ msgid "Content Box"
 msgstr "Indholdsboks"
 
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr "Afgrænsningsboksen for aktørens indhold"
 
 #: clutter/clutter-actor.c:7826
@@ -692,7 +691,7 @@ msgid "Content Repeat"
 msgstr "Indhold gentages"
 
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
 msgstr "Gentagelsespolitikken for aktørens indhold"
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
@@ -748,9 +747,8 @@ msgstr "Kan ikke klargøre Clutter-motoren: ingen tilgængelige drivere fundet."
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
-msgstr ""
-"Det underliggende program af typen “%s” understøtter ikke flere scener"
+msgid "The backend of type “%s” does not support creating multiple stages"
+msgstr "Det underliggende program af typen “%s” understøtter ikke flere scener"
 
 #: clutter/clutter-bind-constraint.c:344
 msgid "The source of the binding"
@@ -1394,7 +1392,7 @@ msgid "Disable mipmapping on text"
 msgstr "Slå mipmapping fra i tekst"
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
+msgid "Use “fuzzy” picking"
 msgstr "Brug “blød” udvælgelse"
 
 #: clutter/clutter-main.c:1442
@@ -1527,8 +1525,7 @@ msgstr "Trækketærskel"
 
 #: clutter/clutter-settings.c:542
 msgid "The distance the cursor should travel before starting to drag"
-msgstr ""
-"Afstanden som markøren skal flyttes før der startes en trækkeoperation"
+msgstr "Afstanden som markøren skal flyttes før der startes en trækkeoperation"
 
 #: clutter/clutter-settings.c:557 clutter/clutter-text.c:3408
 msgid "Font Name"
@@ -1957,7 +1954,7 @@ msgid "Password Character"
 msgstr "Adgangskodetegn"
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
 "Hvis forskelligt fra nul, bruges dette tegn til at vise aktørens tekstindhold"
 
@@ -2829,8 +2826,7 @@ msgid "Window Redirect Automatic"
 msgstr "Automatisk vinduesomdirigering"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:589
-msgid ""
-"If composite window redirects are set to Automatic (or Manual if false)"
+msgid "If composite window redirects are set to Automatic (or Manual if false)"
 msgstr ""
 "Om sammensatte vinduesomdirigeringer er sat til automatisk (eller Manuel "
 "hvis falsk)"
@@ -2904,5 +2900,3 @@ msgstr "Om dette er et vindue som tilsidesætter omdirigering"
 
 #~ msgid "VBlank method to be used (none, dri or glx)"
 #~ msgstr "VBlank-metode der skal bruges (none, dri eller glx)"
-
-
