@@ -4,10 +4,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-03-07 21:51+0000\n"
-"PO-Revision-Date: 2017-03-26 19:17+0300\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2018-06-17 20:10+0000\n"
+"PO-Revision-Date: 2018-09-06 16:07+0300\n"
 "Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "Language: be\n"
@@ -16,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Project-Style: gnome\n"
 
 #: clutter/clutter-actor.c:6313
@@ -164,7 +163,7 @@ msgid "Allocation"
 msgstr "Размеркаванне"
 
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
+msgid "The actor’s allocation"
 msgstr "Размеркаванне актара"
 
 #: clutter/clutter-actor.c:6689
@@ -172,7 +171,7 @@ msgid "Request Mode"
 msgstr "Рэжым запыту"
 
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
+msgid "The actor’s request mode"
 msgstr "Рэжым запыту актара"
 
 #: clutter/clutter-actor.c:6714
@@ -188,7 +187,7 @@ msgid "Z Position"
 msgstr "Z-пазіцыя"
 
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
+msgid "The actor’s position on the Z axis"
 msgstr "Пазіцыя актара на Z-восі"
 
 #: clutter/clutter-actor.c:6760
@@ -485,7 +484,7 @@ msgid "Clip to Allocation"
 msgstr "Заціск для размеркавання"
 
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
+msgid "Sets the clip region to track the actor’s allocation"
 msgstr "Настаўляе абшар заціску для адсочвання размеркавання актара"
 
 #: clutter/clutter-actor.c:7468
@@ -533,7 +532,7 @@ msgid "Layout Manager"
 msgstr "Кіраўнік размяшчэння"
 
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr "Аб'ект, які кіруе размяшчэннем нашчадкаў актара"
 
 #: clutter/clutter-actor.c:7556
@@ -613,7 +612,7 @@ msgid "Background color"
 msgstr "Фонавы колер"
 
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
+msgid "The actor’s background color"
 msgstr "Фонавы колер актара"
 
 #: clutter/clutter-actor.c:7741
@@ -621,7 +620,7 @@ msgid "First Child"
 msgstr "Першы нашчадак"
 
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr "Першы нашчадак актара"
 
 #: clutter/clutter-actor.c:7755
@@ -629,7 +628,7 @@ msgid "Last Child"
 msgstr "Апошні нашчадак"
 
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr "Апошні нашчадак актара"
 
 #: clutter/clutter-actor.c:7770
@@ -637,7 +636,7 @@ msgid "Content"
 msgstr "Змесціва"
 
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr "Аб'ект-дэлегат для малявання змесціва актара"
 
 #: clutter/clutter-actor.c:7796
@@ -645,7 +644,7 @@ msgid "Content Gravity"
 msgstr "Прыцягненне змесціва"
 
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr "Раўнаванне змесціва актара"
 
 #: clutter/clutter-actor.c:7817
@@ -653,7 +652,7 @@ msgid "Content Box"
 msgstr "Рамка са змесцівам"
 
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr "Рамка, у якой знаходзіцца змесціва актара"
 
 #: clutter/clutter-actor.c:7826
@@ -677,7 +676,7 @@ msgid "Content Repeat"
 msgstr "Паўтор змесціва"
 
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
 msgstr "Правілы паўтору змесціва актара"
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
@@ -734,7 +733,7 @@ msgstr ""
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
+msgid "The backend of type “%s” does not support creating multiple stages"
 msgstr "Праграмны драйвер тыпу \"%s\" не падтрымлівае стварэнне некалькіх сцэн"
 
 #: clutter/clutter-bind-constraint.c:344
@@ -1379,7 +1378,7 @@ msgid "Disable mipmapping on text"
 msgstr "Выключыць mip-адлюстраванне тэксту"
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
+msgid "Use “fuzzy” picking"
 msgstr "Ужыць \"няпэўны\" выбар"
 
 #: clutter/clutter-main.c:1442
@@ -1931,7 +1930,7 @@ msgid "Password Character"
 msgstr "Знак пароля"
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr "Ужыць гэты знак для паказу змесціва актара, калі знак не роўны нулю"
 
 #: clutter/clutter-text.c:3810
@@ -2676,7 +2675,6 @@ msgid "YUV textures are not supported"
 msgstr "YUV-тэкстуры не падтрымліваюцца"
 
 #: clutter/deprecated/clutter-texture.c:1776
-#| msgid "YUV textures are not supported"
 msgid "YUV2 textures are not supported"
 msgstr "YUV2-тэкстуры не падтрымліваюцца"
 
