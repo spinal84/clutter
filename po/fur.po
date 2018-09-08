@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
-"POT-Creation-Date: 2018-06-17 20:10+0000\n"
-"PO-Revision-Date: 2018-06-29 15:53+0200\n"
+"POT-Creation-Date: 2018-06-29 13:55+0000\n"
+"PO-Revision-Date: 2018-09-08 15:02+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: clutter/clutter-actor.c:6313
 msgid "X coordinate"
@@ -23,7 +23,7 @@ msgstr "Coordenade X"
 
 #: clutter/clutter-actor.c:6314
 msgid "X coordinate of the actor"
-msgstr ""
+msgstr "Coordenade X dal atôr"
 
 #: clutter/clutter-actor.c:6332
 msgid "Y coordinate"
@@ -31,7 +31,7 @@ msgstr "Coordenade Y"
 
 #: clutter/clutter-actor.c:6333
 msgid "Y coordinate of the actor"
-msgstr ""
+msgstr "Coordenade Y dal atôr"
 
 #: clutter/clutter-actor.c:6355
 msgid "Position"
@@ -39,7 +39,7 @@ msgstr "Posizion"
 
 #: clutter/clutter-actor.c:6356
 msgid "The position of the origin of the actor"
-msgstr ""
+msgstr "La posizion di origjin dal atôr"
 
 #: clutter/clutter-actor.c:6373 clutter/clutter-canvas.c:248
 #: clutter/clutter-grid-layout.c:1239
@@ -49,7 +49,7 @@ msgstr "Largjece"
 
 #: clutter/clutter-actor.c:6374
 msgid "Width of the actor"
-msgstr ""
+msgstr "Largjece dal atôr"
 
 #: clutter/clutter-actor.c:6392 clutter/clutter-canvas.c:264
 #: clutter/clutter-grid-layout.c:1246
@@ -59,7 +59,7 @@ msgstr "Altece"
 
 #: clutter/clutter-actor.c:6393
 msgid "Height of the actor"
-msgstr ""
+msgstr "Altece dal atôr"
 
 #: clutter/clutter-actor.c:6414
 msgid "Size"
@@ -67,7 +67,7 @@ msgstr "Dimension"
 
 #: clutter/clutter-actor.c:6415
 msgid "The size of the actor"
-msgstr ""
+msgstr "La dimension dal atôr"
 
 #: clutter/clutter-actor.c:6433
 msgid "Fixed X"
@@ -75,7 +75,7 @@ msgstr "X fisse"
 
 #: clutter/clutter-actor.c:6434
 msgid "Forced X position of the actor"
-msgstr ""
+msgstr "Posizion X sfuarçade dal atôr"
 
 #: clutter/clutter-actor.c:6451
 msgid "Fixed Y"
@@ -83,7 +83,7 @@ msgstr "Y Fisse"
 
 #: clutter/clutter-actor.c:6452
 msgid "Forced Y position of the actor"
-msgstr ""
+msgstr "Posizion Y sfuarçade dal atôr"
 
 #: clutter/clutter-actor.c:6467
 msgid "Fixed position set"
@@ -91,7 +91,7 @@ msgstr "Cumbinazion di posizion fisse"
 
 #: clutter/clutter-actor.c:6468
 msgid "Whether to use fixed positioning for the actor"
-msgstr ""
+msgstr "Indiche se doprâ il posizionament fissât pal atôr"
 
 #: clutter/clutter-actor.c:6486
 msgid "Min Width"
@@ -159,13 +159,11 @@ msgstr "Indiche se doprâ la proprietât altece-naturâl"
 
 #: clutter/clutter-actor.c:6621
 msgid "Allocation"
-msgstr ""
+msgstr "Assegnazion"
 
 #: clutter/clutter-actor.c:6622
-#, fuzzy
-#| msgid "The cursor position"
 msgid "The actor’s allocation"
-msgstr "La posizion dal cursôr"
+msgstr "La assegnazion dal atôr"
 
 #: clutter/clutter-actor.c:6689
 msgid "Request Mode"
@@ -173,7 +171,7 @@ msgstr "Modalitât richieste"
 
 #: clutter/clutter-actor.c:6690
 msgid "The actor’s request mode"
-msgstr ""
+msgstr "La modalitât di richieste dal atôr"
 
 #: clutter/clutter-actor.c:6714
 msgid "Depth"
@@ -188,10 +186,8 @@ msgid "Z Position"
 msgstr "Posizion Z"
 
 #: clutter/clutter-actor.c:6743
-#, fuzzy
-#| msgid "Position on the Z axis"
 msgid "The actor’s position on the Z axis"
-msgstr "Posizion sul as Z"
+msgstr "La posizion sul as Z dal atôr"
 
 #: clutter/clutter-actor.c:6760
 msgid "Opacity"
@@ -199,7 +195,7 @@ msgstr "Opacitât"
 
 #: clutter/clutter-actor.c:6761
 msgid "Opacity of an actor"
-msgstr ""
+msgstr "Opacitât di un atôr"
 
 #: clutter/clutter-actor.c:6781
 msgid "Offscreen redirect"
@@ -215,7 +211,7 @@ msgstr "Visibil"
 
 #: clutter/clutter-actor.c:6797
 msgid "Whether the actor is visible or not"
-msgstr ""
+msgstr "Indiche se l'atôr al è visibil o no"
 
 #: clutter/clutter-actor.c:6811
 msgid "Mapped"
@@ -223,7 +219,7 @@ msgstr "Mapât"
 
 #: clutter/clutter-actor.c:6812
 msgid "Whether the actor will be painted"
-msgstr ""
+msgstr "Indiche se l'atôr al vignarà disegnât"
 
 #: clutter/clutter-actor.c:6825
 msgid "Realized"
@@ -231,7 +227,7 @@ msgstr "Realizât"
 
 #: clutter/clutter-actor.c:6826
 msgid "Whether the actor has been realized"
-msgstr ""
+msgstr "Indiche se l'atôr al è stât realizât"
 
 #: clutter/clutter-actor.c:6841
 msgid "Reactive"
@@ -239,7 +235,7 @@ msgstr "Reatîf"
 
 #: clutter/clutter-actor.c:6842
 msgid "Whether the actor is reactive to events"
-msgstr ""
+msgstr "Indiche se l'atôr al rispuint ai events"
 
 #: clutter/clutter-actor.c:6853
 msgid "Has Clip"
@@ -263,7 +259,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6888
 msgid "The visible region of the actor"
-msgstr ""
+msgstr "La regjon visibile dal atôr"
 
 #: clutter/clutter-actor.c:6902 clutter/clutter-actor-meta.c:205
 #: clutter/clutter-binding-pool.c:318 clutter/clutter-input-device.c:268
@@ -272,7 +268,7 @@ msgstr "Non"
 
 #: clutter/clutter-actor.c:6903
 msgid "Name of the actor"
-msgstr ""
+msgstr "Non dal atôr"
 
 #: clutter/clutter-actor.c:6924
 msgid "Pivot Point"
@@ -420,27 +416,27 @@ msgstr ""
 
 #: clutter/clutter-actor.c:7293
 msgid "Translation X"
-msgstr ""
+msgstr "Traslazion X"
 
 #: clutter/clutter-actor.c:7294
 msgid "Translation along the X axis"
-msgstr ""
+msgstr "Traslazion sul as X"
 
 #: clutter/clutter-actor.c:7313
 msgid "Translation Y"
-msgstr ""
+msgstr "Traslazion Y"
 
 #: clutter/clutter-actor.c:7314
 msgid "Translation along the Y axis"
-msgstr ""
+msgstr "Traslazion sul as Y"
 
 #: clutter/clutter-actor.c:7333
 msgid "Translation Z"
-msgstr ""
+msgstr "Traslazion Z"
 
 #: clutter/clutter-actor.c:7334
 msgid "Translation along the Z axis"
-msgstr ""
+msgstr "Traslazion sul as Z"
 
 #: clutter/clutter-actor.c:7364
 msgid "Transform"
@@ -500,11 +496,11 @@ msgstr "Direzion dal test"
 
 #: clutter/clutter-actor.c:7484
 msgid "Has Pointer"
-msgstr ""
+msgstr "Al à il pontadôr"
 
 #: clutter/clutter-actor.c:7485
 msgid "Whether the actor contains the pointer of an input device"
-msgstr ""
+msgstr "Indiche se l'atôr al conten il pontadôr di un dispositîf di input"
 
 #: clutter/clutter-actor.c:7498
 msgid "Actions"
@@ -512,7 +508,7 @@ msgstr "Azions"
 
 #: clutter/clutter-actor.c:7499
 msgid "Adds an action to the actor"
-msgstr ""
+msgstr "Al zonte une azion al atôr"
 
 #: clutter/clutter-actor.c:7512
 msgid "Constraints"
@@ -624,7 +620,7 @@ msgstr "Prin fi"
 
 #: clutter/clutter-actor.c:7742
 msgid "The actor’s first child"
-msgstr ""
+msgstr "Il prin fi dal atôr"
 
 #: clutter/clutter-actor.c:7755
 msgid "Last Child"
@@ -632,7 +628,7 @@ msgstr "Ultin fi"
 
 #: clutter/clutter-actor.c:7756
 msgid "The actor’s last child"
-msgstr ""
+msgstr "L'ultin fi dal atôr"
 
 #: clutter/clutter-actor.c:7770
 msgid "Content"
@@ -648,7 +644,7 @@ msgstr "Gravitât contignût"
 
 #: clutter/clutter-actor.c:7797
 msgid "Alignment of the actor’s content"
-msgstr ""
+msgstr "Inliniament dal contignût dal atôr"
 
 #: clutter/clutter-actor.c:7817
 msgid "Content Box"
@@ -684,15 +680,15 @@ msgstr ""
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
 msgid "Actor"
-msgstr ""
+msgstr "Atôr"
 
 #: clutter/clutter-actor-meta.c:192
 msgid "The actor attached to the meta"
-msgstr ""
+msgstr "L'atôr tacât al meta"
 
 #: clutter/clutter-actor-meta.c:206
 msgid "The name of the meta"
-msgstr ""
+msgstr "Il non dal meta"
 
 #: clutter/clutter-actor-meta.c:219 clutter/clutter-input-device.c:347
 #: clutter/deprecated/clutter-shader.c:309
@@ -701,7 +697,7 @@ msgstr "Abilitât"
 
 #: clutter/clutter-actor-meta.c:220
 msgid "Whether the meta is enabled"
-msgstr ""
+msgstr "Indiche se il meta al è abilitât"
 
 #: clutter/clutter-align-constraint.c:279 clutter/clutter-bind-constraint.c:343
 #: clutter/clutter-clone.c:348 clutter/clutter-snap-constraint.c:321
@@ -1005,19 +1001,19 @@ msgstr "La tinte di aplicâ"
 
 #: clutter/clutter-deform-effect.c:591
 msgid "Horizontal Tiles"
-msgstr ""
+msgstr "Tassei orizontâi"
 
 #: clutter/clutter-deform-effect.c:592
 msgid "The number of horizontal tiles"
-msgstr ""
+msgstr "Il numar di tassei orizontâi"
 
 #: clutter/clutter-deform-effect.c:607
 msgid "Vertical Tiles"
-msgstr ""
+msgstr "Tassei verticâi"
 
 #: clutter/clutter-deform-effect.c:608
 msgid "The number of vertical tiles"
-msgstr ""
+msgstr "Il numar di tassei verticâi"
 
 #: clutter/clutter-deform-effect.c:625
 msgid "Back Material"
@@ -1029,7 +1025,7 @@ msgstr ""
 
 #: clutter/clutter-desaturate-effect.c:271
 msgid "The desaturation factor"
-msgstr ""
+msgstr "Il fatôr di desaturazion"
 
 #: clutter/clutter-device-manager.c:136 clutter/clutter-input-device.c:376
 #: clutter/x11/clutter-keymap-x11.c:457
@@ -1204,19 +1200,19 @@ msgstr ""
 
 #: clutter/clutter-grid-layout.c:1583
 msgid "Row spacing"
-msgstr ""
+msgstr "Spaziadure rie"
 
 #: clutter/clutter-grid-layout.c:1584
 msgid "The amount of space between two consecutive rows"
-msgstr ""
+msgstr "La cuantitât di spazi tra dôs riis consecutivis"
 
 #: clutter/clutter-grid-layout.c:1597
 msgid "Column spacing"
-msgstr ""
+msgstr "Spaziadure colone"
 
 #: clutter/clutter-grid-layout.c:1598
 msgid "The amount of space between two consecutive columns"
-msgstr ""
+msgstr "La cuantitât di spazi tra dôs colonis consecutivis"
 
 #: clutter/clutter-grid-layout.c:1612
 msgid "Row Homogeneous"
@@ -1237,7 +1233,7 @@ msgstr ""
 #: clutter/clutter-image.c:238 clutter/clutter-image.c:306
 #: clutter/clutter-image.c:399
 msgid "Unable to load image data"
-msgstr ""
+msgstr "Impussibil cjariâ i dâts de imagjin"
 
 #: clutter/clutter-input-device.c:252
 msgid "Id"
@@ -1245,7 +1241,7 @@ msgstr "Id"
 
 #: clutter/clutter-input-device.c:253
 msgid "Unique identifier of the device"
-msgstr ""
+msgstr "Identificadôr univoc dal dispositîf"
 
 #: clutter/clutter-input-device.c:269
 msgid "The name of the device"
@@ -1465,11 +1461,11 @@ msgstr "Il percors dal file cumò analizât"
 
 #: clutter/clutter-script.c:542
 msgid "Translation Domain"
-msgstr ""
+msgstr "Domini di traduzion"
 
 #: clutter/clutter-script.c:543
 msgid "The translation domain used to localize string"
-msgstr ""
+msgstr "Il domini di traduzion doprât par localizâ la stringhe"
 
 #: clutter/clutter-scroll-actor.c:184
 msgid "Scroll Mode"
@@ -1566,11 +1562,11 @@ msgstr ""
 
 #: clutter/clutter-settings.c:682
 msgid "Window Scaling Factor"
-msgstr ""
+msgstr "Fatôr di scjale dal barcon"
 
 #: clutter/clutter-settings.c:683
 msgid "The scaling factor to be applied to windows"
-msgstr ""
+msgstr "Il fatôr di scjale di aplicâ ai barcons"
 
 #: clutter/clutter-settings.c:690
 msgid "Fontconfig configuration timestamp"
@@ -1602,7 +1598,7 @@ msgstr ""
 
 #: clutter/clutter-snap-constraint.c:335
 msgid "From Edge"
-msgstr ""
+msgstr "Dal ôr"
 
 #: clutter/clutter-snap-constraint.c:336
 msgid "The edge of the actor that should be snapped"
@@ -1610,7 +1606,7 @@ msgstr ""
 
 #: clutter/clutter-snap-constraint.c:350
 msgid "To Edge"
-msgstr ""
+msgstr "Al ôr"
 
 #: clutter/clutter-snap-constraint.c:351
 msgid "The edge of the source that should be snapped"
@@ -1696,7 +1692,7 @@ msgstr ""
 
 #: clutter/clutter-stage.c:1941
 msgid "Use Alpha"
-msgstr ""
+msgstr "Dopre alpha"
 
 #: clutter/clutter-stage.c:1942
 msgid "Whether to honour the alpha component of the stage color"
@@ -1732,7 +1728,7 @@ msgstr "Test"
 
 #: clutter/clutter-text-buffer.c:348
 msgid "The contents of the buffer"
-msgstr ""
+msgstr "I contignûts dal buffer"
 
 #: clutter/clutter-text-buffer.c:361
 msgid "Text length"
@@ -1740,7 +1736,7 @@ msgstr "Lungjece test"
 
 #: clutter/clutter-text-buffer.c:362
 msgid "Length of the text currently in the buffer"
-msgstr ""
+msgstr "Lungjece dal test che cumò al è tal buffer"
 
 #: clutter/clutter-text-buffer.c:375
 msgid "Maximum length"
@@ -1748,7 +1744,7 @@ msgstr "Massime lungjece"
 
 #: clutter/clutter-text-buffer.c:376
 msgid "Maximum number of characters for this entry. Zero if no maximum"
-msgstr ""
+msgstr "Massim numar di caratars par cheste vôs. Zero par nissun massim"
 
 #: clutter/clutter-text.c:3390
 msgid "Buffer"
@@ -1784,23 +1780,23 @@ msgstr "Colôr dal caratar doprât dal test"
 
 #: clutter/clutter-text.c:3474
 msgid "Editable"
-msgstr ""
+msgstr "Modificabil"
 
 #: clutter/clutter-text.c:3475
 msgid "Whether the text is editable"
-msgstr ""
+msgstr "Indiche se si pues modificâ il test"
 
 #: clutter/clutter-text.c:3493
 msgid "Selectable"
-msgstr ""
+msgstr "Selezionabil"
 
 #: clutter/clutter-text.c:3494
 msgid "Whether the text is selectable"
-msgstr ""
+msgstr "Indiche se si pues selezionâ il test"
 
 #: clutter/clutter-text.c:3508
 msgid "Activatable"
-msgstr ""
+msgstr "Ativabil"
 
 #: clutter/clutter-text.c:3509
 msgid "Whether pressing return causes the activate signal to be emitted"
@@ -1808,7 +1804,7 @@ msgstr ""
 
 #: clutter/clutter-text.c:3528
 msgid "Whether the input cursor is visible"
-msgstr ""
+msgstr "Indiche se il cursôr di input al è visibil"
 
 #: clutter/clutter-text.c:3542 clutter/clutter-text.c:3543
 msgid "Cursor Color"
@@ -1828,7 +1824,7 @@ msgstr "Dimension cursôr"
 
 #: clutter/clutter-text.c:3575
 msgid "The width of the cursor, in pixels"
-msgstr ""
+msgstr "La largjece dal cursôr, in pixel"
 
 #: clutter/clutter-text.c:3591 clutter/clutter-text.c:3609
 msgid "Cursor Position"
@@ -1868,11 +1864,11 @@ msgstr ""
 
 #: clutter/clutter-text.c:3696
 msgid "Use markup"
-msgstr ""
+msgstr "Dopre il markup"
 
 #: clutter/clutter-text.c:3697
 msgid "Whether or not the text includes Pango markup"
-msgstr ""
+msgstr "Indiche se il test al inclût la marcadure(markup) Pango o no"
 
 #: clutter/clutter-text.c:3713
 msgid "Line wrap"
@@ -1886,11 +1882,11 @@ msgstr ""
 
 #: clutter/clutter-text.c:3729
 msgid "Line wrap mode"
-msgstr ""
+msgstr "Modalitât rie gnove"
 
 #: clutter/clutter-text.c:3730
 msgid "Control how line-wrapping is done"
-msgstr ""
+msgstr "Controle ce mût che lis riis gnovis a vegnin fatis"
 
 #: clutter/clutter-text.c:3745
 msgid "Ellipsize"
@@ -1918,39 +1914,40 @@ msgstr ""
 
 #: clutter/clutter-text.c:3795
 msgid "Password Character"
-msgstr ""
+msgstr "Caratar pes password"
 
 #: clutter/clutter-text.c:3796
 msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
+"Se divers di zero, dopre chest caratar par mostrâ i contignûts dal atôr"
 
 #: clutter/clutter-text.c:3810
 msgid "Max Length"
-msgstr ""
+msgstr "Lungjece massime"
 
 #: clutter/clutter-text.c:3811
 msgid "Maximum length of the text inside the actor"
-msgstr ""
+msgstr "Lungjece massime di test dentri dal atôr"
 
 #: clutter/clutter-text.c:3834
 msgid "Single Line Mode"
-msgstr ""
+msgstr "Modalitât rie ugnule"
 
 #: clutter/clutter-text.c:3835
 msgid "Whether the text should be a single line"
-msgstr ""
+msgstr "Indiche se il test al à di jessi intune rie sole"
 
 #: clutter/clutter-text.c:3849 clutter/clutter-text.c:3850
 msgid "Selected Text Color"
-msgstr ""
+msgstr "Colôr di test selezionât"
 
 #: clutter/clutter-text.c:3865
 msgid "Selected Text Color Set"
-msgstr ""
+msgstr "Colôr di test selezionât stabilît"
 
 #: clutter/clutter-text.c:3866
 msgid "Whether the selected text color has been set"
-msgstr ""
+msgstr "Indiche se il colôr di test selezionât al è stât configurât"
 
 #: clutter/clutter-timeline.c:591 clutter/deprecated/clutter-animation.c:516
 msgid "Loop"
@@ -1966,7 +1963,7 @@ msgstr "Ritart"
 
 #: clutter/clutter-timeline.c:607
 msgid "Delay before start"
-msgstr ""
+msgstr "Ritart prime di tacâ"
 
 #: clutter/clutter-timeline.c:622 clutter/deprecated/clutter-animation.c:500
 #: clutter/deprecated/clutter-animator.c:1794
@@ -2057,11 +2054,11 @@ msgstr ""
 
 #: clutter/deprecated/clutter-alpha.c:365
 msgid "Alpha value"
-msgstr ""
+msgstr "Valôr alpha"
 
 #: clutter/deprecated/clutter-alpha.c:366
 msgid "Alpha value as computed by the alpha"
-msgstr ""
+msgstr "Valôr alpha come elaborât dal alpha"
 
 #: clutter/deprecated/clutter-alpha.c:387
 #: clutter/deprecated/clutter-animation.c:484
@@ -2099,7 +2096,7 @@ msgstr ""
 #: clutter/deprecated/clutter-animation.c:548
 #: clutter/deprecated/clutter-behaviour.c:234
 msgid "Alpha"
-msgstr ""
+msgstr "Alpha"
 
 #: clutter/deprecated/clutter-animation.c:549
 msgid "The alpha used by the animation"
@@ -2177,15 +2174,15 @@ msgstr ""
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:475
 msgid "Width of the ellipse"
-msgstr ""
+msgstr "Largjece dal elìs"
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:491
 msgid "Height of ellipse"
-msgstr ""
+msgstr "Altece dal elìs"
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:506
 msgid "Center"
-msgstr ""
+msgstr "Centri"
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:507
 msgid "Center of ellipse"
@@ -2418,11 +2415,11 @@ msgstr "Indiche se il retangul al à di vê un ôr"
 
 #: clutter/deprecated/clutter-shader.c:257
 msgid "Vertex Source"
-msgstr ""
+msgstr "Sorzint vertiç (vertex)"
 
 #: clutter/deprecated/clutter-shader.c:258
 msgid "Source of vertex shader"
-msgstr ""
+msgstr "Sorzint de ombrenadure dal vertiç (vertex shader)"
 
 #: clutter/deprecated/clutter-shader.c:274
 msgid "Fragment Source"
