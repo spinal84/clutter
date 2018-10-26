@@ -5,34 +5,33 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-06-27 22:14+0000\n"
-"PO-Revision-Date: 2017-08-21 01:40+0530\n"
-"Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2018-06-17 20:10+0000\n"
+"PO-Revision-Date: 2018-10-26 23:44+0530\n"
+"Last-Translator: ബാലശങ്കർ സി <balasankarc@autistici.org>\n"
 "Language-Team: Swatantra Malayalam Computing\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #: clutter/clutter-actor.c:6313
 msgid "X coordinate"
-msgstr ""
+msgstr "X കോർഡിനേറ്റ്"
 
 #: clutter/clutter-actor.c:6314
 msgid "X coordinate of the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ X കോർഡിനേറ്റ്"
 
 #: clutter/clutter-actor.c:6332
 msgid "Y coordinate"
-msgstr ""
+msgstr "Y കോർഡിനേറ്റ്"
 
 #: clutter/clutter-actor.c:6333
 msgid "Y coordinate of the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ Y കോർഡിനേറ്റ്"
 
 #: clutter/clutter-actor.c:6355
 msgid "Position"
@@ -40,27 +39,25 @@ msgstr "സ്ഥാനം"
 
 #: clutter/clutter-actor.c:6356
 msgid "The position of the origin of the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ ഉത്ഭവസ്ഥാനം"
 
-#: clutter/clutter-actor.c:6373 clutter/clutter-canvas.c:248
-#: clutter/clutter-grid-layout.c:1239
+#: clutter/clutter-actor.c:6373 clutter/clutter-canvas.c:248 clutter/clutter-grid-layout.c:1239
 #: clutter/deprecated/clutter-behaviour-ellipse.c:474
 msgid "Width"
 msgstr "വീതി"
 
 #: clutter/clutter-actor.c:6374
 msgid "Width of the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ വീതി"
 
-#: clutter/clutter-actor.c:6392 clutter/clutter-canvas.c:264
-#: clutter/clutter-grid-layout.c:1246
+#: clutter/clutter-actor.c:6392 clutter/clutter-canvas.c:264 clutter/clutter-grid-layout.c:1246
 #: clutter/deprecated/clutter-behaviour-ellipse.c:490
 msgid "Height"
 msgstr "ഉയരം"
 
 #: clutter/clutter-actor.c:6393
 msgid "Height of the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ ഉയരം"
 
 #: clutter/clutter-actor.c:6414
 msgid "Size"
@@ -68,7 +65,7 @@ msgstr "വലിപ്പം"
 
 #: clutter/clutter-actor.c:6415
 msgid "The size of the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ വലിപ്പം"
 
 #: clutter/clutter-actor.c:6433
 msgid "Fixed X"
@@ -76,7 +73,7 @@ msgstr "സ്ഥിരമായ X"
 
 #: clutter/clutter-actor.c:6434
 msgid "Forced X position of the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ നിർബന്ധിത X സ്ഥാനം"
 
 #: clutter/clutter-actor.c:6451
 msgid "Fixed Y"
@@ -84,15 +81,15 @@ msgstr "സ്ഥിരമായ Y"
 
 #: clutter/clutter-actor.c:6452
 msgid "Forced Y position of the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ നിർബന്ധിത Y സ്ഥാനം"
 
 #: clutter/clutter-actor.c:6467
 msgid "Fixed position set"
-msgstr ""
+msgstr "നിശ്ചിത സ്ഥാനം സജ്ജമാക്കുക"
 
 #: clutter/clutter-actor.c:6468
 msgid "Whether to use fixed positioning for the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ നിശ്ചിത സ്ഥാനീകരണം ഉപയോഗിക്കണമോ"
 
 #: clutter/clutter-actor.c:6486
 msgid "Min Width"
@@ -100,7 +97,7 @@ msgstr "കുറഞ്ഞ വീതി"
 
 #: clutter/clutter-actor.c:6487
 msgid "Forced minimum width request for the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ ഏറ്റവും കുറഞ്ഞ വീതിക്കായുള്ള നിർബന്ധിത അപേക്ഷ"
 
 #: clutter/clutter-actor.c:6505
 msgid "Min Height"
@@ -108,7 +105,7 @@ msgstr "കുറഞ്ഞ പൊക്കം"
 
 #: clutter/clutter-actor.c:6506
 msgid "Forced minimum height request for the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ ഏറ്റവും കുറഞ്ഞ പൊക്കത്തിനായുള്ള നിർബന്ധിത അപേക്ഷ"
 
 #: clutter/clutter-actor.c:6524
 msgid "Natural Width"
@@ -116,7 +113,7 @@ msgstr "സാധാരണ വീതി"
 
 #: clutter/clutter-actor.c:6525
 msgid "Forced natural width request for the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ സാധാരണ വീതിക്കായുള്ള നിർബന്ധിത അഭ്യർത്ഥന"
 
 #: clutter/clutter-actor.c:6543
 msgid "Natural Height"
@@ -124,55 +121,55 @@ msgstr "സാധാരണ പൊക്കം"
 
 #: clutter/clutter-actor.c:6544
 msgid "Forced natural height request for the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ സാധാരണ പൊക്കത്തിനായുള്ള നിർബന്ധിത അഭ്യർത്ഥന"
 
 #: clutter/clutter-actor.c:6559
 msgid "Minimum width set"
-msgstr ""
+msgstr "ക്രമീകരിച്ച ഏറ്റവും കുറഞ്ഞ വീതി"
 
 #: clutter/clutter-actor.c:6560
 msgid "Whether to use the min-width property"
-msgstr ""
+msgstr "min-width വിശേഷണം ഉപയോഗിക്കണോ എന്ന്"
 
 #: clutter/clutter-actor.c:6574
 msgid "Minimum height set"
-msgstr ""
+msgstr "ക്രമീകരിച്ച ഏറ്റവും കുറഞ്ഞ പൊക്കം"
 
 #: clutter/clutter-actor.c:6575
 msgid "Whether to use the min-height property"
-msgstr ""
+msgstr "min-height വിശേഷണം ഉപയോഗിക്കണോ എന്ന്"
 
 #: clutter/clutter-actor.c:6589
 msgid "Natural width set"
-msgstr ""
+msgstr "ക്രമീകരിച്ച സാധാരണ വീതി"
 
 #: clutter/clutter-actor.c:6590
 msgid "Whether to use the natural-width property"
-msgstr ""
+msgstr "min-width വിശേഷണം ഉപയോഗിക്കണോ എന്ന്"
 
 #: clutter/clutter-actor.c:6604
 msgid "Natural height set"
-msgstr ""
+msgstr "ക്രമീകരിച്ച സാധാരണ പൊക്കം"
 
 #: clutter/clutter-actor.c:6605
 msgid "Whether to use the natural-height property"
-msgstr ""
+msgstr "natural-height വിശേഷണം ഉപയോഗിക്കണോ എന്ന്"
 
 #: clutter/clutter-actor.c:6621
 msgid "Allocation"
-msgstr ""
+msgstr "വിന്യാസം"
 
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
-msgstr ""
+msgid "The actor’s allocation"
+msgstr "ആക്ടറിന്റെ വിന്യാസം"
 
 #: clutter/clutter-actor.c:6689
 msgid "Request Mode"
-msgstr ""
+msgstr "അഭ്യർത്ഥനാരീതി"
 
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
-msgstr ""
+msgid "The actor’s request mode"
+msgstr "ആക്ടറിന്റെ അഭ്യർത്ഥനാരീതി"
 
 #: clutter/clutter-actor.c:6714
 msgid "Depth"
@@ -187,8 +184,8 @@ msgid "Z Position"
 msgstr "Z സ്ഥാനം"
 
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
-msgstr ""
+msgid "The actor’s position on the Z axis"
+msgstr "ആക്ടറിന്റെ Z അച്ചുതണ്ടിന്റെ സ്ഥാനം"
 
 #: clutter/clutter-actor.c:6760
 msgid "Opacity"
@@ -196,15 +193,15 @@ msgstr "അതാര്യത"
 
 #: clutter/clutter-actor.c:6761
 msgid "Opacity of an actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ അതാര്യത"
 
 #: clutter/clutter-actor.c:6781
 msgid "Offscreen redirect"
-msgstr ""
+msgstr "ഓഫ്സ്ക്രീൻ തിരിച്ചുവിടൽ"
 
 #: clutter/clutter-actor.c:6782
 msgid "Flags controlling when to flatten the actor into a single image"
-msgstr ""
+msgstr "ആക്ടറിനെ ഒരു ചിത്രത്തിലേക്ക് ഫ്ലാറ്റൻ ചെയ്യണോ എന്ന് നിയന്ത്രിക്കുന്ന ഫ്ലാഗുകൾ"
 
 #: clutter/clutter-actor.c:6796
 msgid "Visible"
@@ -212,19 +209,19 @@ msgstr "കാണാവുന്നത്"
 
 #: clutter/clutter-actor.c:6797
 msgid "Whether the actor is visible or not"
-msgstr ""
+msgstr "ആക്ടറെ ദൃശ്യമാണോ അല്ലയോ"
 
 #: clutter/clutter-actor.c:6811
 msgid "Mapped"
-msgstr ""
+msgstr "ചിത്രീകരിച്ചു"
 
 #: clutter/clutter-actor.c:6812
 msgid "Whether the actor will be painted"
-msgstr ""
+msgstr "ആക്ടറെ പെയിന്റ് ചെയ്യും അല്ലെങ്കിൽ ഇല്ല"
 
 #: clutter/clutter-actor.c:6825
 msgid "Realized"
-msgstr ""
+msgstr "മനസ്സിലായി"
 
 #: clutter/clutter-actor.c:6826
 msgid "Whether the actor has been realized"
@@ -240,7 +237,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6853
 msgid "Has Clip"
-msgstr ""
+msgstr "ക്ലിപ്പ് ഉണ്ട്"
 
 #: clutter/clutter-actor.c:6854
 msgid "Whether the actor has a clip set"
@@ -248,224 +245,227 @@ msgstr ""
 
 #: clutter/clutter-actor.c:6867
 msgid "Clip"
-msgstr ""
+msgstr "മുറിക്കുക"
 
 #: clutter/clutter-actor.c:6868
 msgid "The clip region for the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ മുറിക്കേണ്ട മേഖല"
 
 #: clutter/clutter-actor.c:6887
 msgid "Clip Rectangle"
-msgstr ""
+msgstr "മുറിക്കേണ്ട ദീർഘചതുരം"
 
 #: clutter/clutter-actor.c:6888
 msgid "The visible region of the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ ദൃശ്യമായ പ്രദേശം"
 
-#: clutter/clutter-actor.c:6902 clutter/clutter-actor-meta.c:205
-#: clutter/clutter-binding-pool.c:318 clutter/clutter-input-device.c:268
+#: clutter/clutter-actor.c:6902 clutter/clutter-actor-meta.c:205 clutter/clutter-binding-pool.c:318
+#: clutter/clutter-input-device.c:268
 msgid "Name"
 msgstr "പേരു്"
 
 #: clutter/clutter-actor.c:6903
 msgid "Name of the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ പേരു്"
 
 #: clutter/clutter-actor.c:6924
 msgid "Pivot Point"
-msgstr ""
+msgstr "പിവട്ട് പോയിന്റ്"
 
 #: clutter/clutter-actor.c:6925
 msgid "The point around which the scaling and rotation occur"
-msgstr ""
+msgstr "ഏതൊരു ബിന്ദുവിനെ ചുറ്റിയാണോ വലിപ്പം മാറ്റലും തിരിക്കലും സംഭവിക്കുന്നത് അത്"
 
 #: clutter/clutter-actor.c:6943
 msgid "Pivot Point Z"
-msgstr ""
+msgstr "പിവട്ട് പോയിന്റ് Z"
 
 #: clutter/clutter-actor.c:6944
 msgid "Z component of the pivot point"
-msgstr ""
+msgstr "പിവട്ട് പോയിന്റിന്റെ Z ഘടകം"
 
 #: clutter/clutter-actor.c:6962
 msgid "Scale X"
-msgstr ""
+msgstr "സ്കെയിൽ X"
 
 #: clutter/clutter-actor.c:6963
 msgid "Scale factor on the X axis"
-msgstr ""
+msgstr "X അച്ചുതണ്ടിലെ അളവ് ഘടകം"
 
 #: clutter/clutter-actor.c:6981
 msgid "Scale Y"
-msgstr ""
+msgstr "സ്കെയിൽ Y"
 
 #: clutter/clutter-actor.c:6982
 msgid "Scale factor on the Y axis"
-msgstr ""
+msgstr "Y അച്ചുതണ്ടിലെ അളവ് ഘടകം"
 
 #: clutter/clutter-actor.c:7000
 msgid "Scale Z"
-msgstr ""
+msgstr "സ്കെയിൽ Z"
 
 #: clutter/clutter-actor.c:7001
 msgid "Scale factor on the Z axis"
-msgstr ""
+msgstr "Z അച്ചുതണ്ടിലെ അളവ് ഘടകം"
 
 #: clutter/clutter-actor.c:7019
 msgid "Scale Center X"
-msgstr ""
+msgstr "സ്കെയിൽ സെന്റർ X"
 
 #: clutter/clutter-actor.c:7020
 msgid "Horizontal scale center"
-msgstr ""
+msgstr "തിരശ്ചീന സ്കെയിൽ സെന്റർ"
 
 #: clutter/clutter-actor.c:7038
 msgid "Scale Center Y"
-msgstr ""
+msgstr "സ്കെയിൽ സെന്റർ Y"
 
 #: clutter/clutter-actor.c:7039
 msgid "Vertical scale center"
-msgstr ""
+msgstr "ലംബ സ്കെയിൽ സെന്റർ"
 
 #: clutter/clutter-actor.c:7057
 msgid "Scale Gravity"
-msgstr ""
+msgstr "അളവ് ഗുരുത്വാകർഷണം"
 
 #: clutter/clutter-actor.c:7058
 msgid "The center of scaling"
-msgstr ""
+msgstr "സ്കെയിലിംഗിന്റെ മദ്ധ്യഭാഗം"
 
 #: clutter/clutter-actor.c:7076
 msgid "Rotation Angle X"
-msgstr ""
+msgstr "തിരിയുന്ന അംഗുശം X"
 
 #: clutter/clutter-actor.c:7077
 msgid "The rotation angle on the X axis"
-msgstr ""
+msgstr "X അച്ചുതണ്ടിലെ തിരിച്ചിൽ കോൺ"
 
 #: clutter/clutter-actor.c:7095
 msgid "Rotation Angle Y"
-msgstr ""
+msgstr "തിരിയുന്ന കോൺ Y"
 
 #: clutter/clutter-actor.c:7096
 msgid "The rotation angle on the Y axis"
-msgstr ""
+msgstr "Y അച്ചുതണ്ടിലെ തിരിച്ചിൽ കോൺ"
 
 #: clutter/clutter-actor.c:7114
 msgid "Rotation Angle Z"
-msgstr ""
+msgstr "തിരിയുന്ന കോൺ Z"
 
 #: clutter/clutter-actor.c:7115
 msgid "The rotation angle on the Z axis"
-msgstr ""
+msgstr "Z അച്ചുതണ്ടിലെ തിരിച്ചിൽ കോൺ"
 
 #: clutter/clutter-actor.c:7133
 msgid "Rotation Center X"
-msgstr ""
+msgstr "ഭ്രമണ കേന്ദ്രം X"
 
 #: clutter/clutter-actor.c:7134
 msgid "The rotation center on the X axis"
-msgstr ""
+msgstr "X അച്ചുതണ്ടിലെ ഭ്രമണ കേന്ദ്രം"
 
 #: clutter/clutter-actor.c:7151
 msgid "Rotation Center Y"
-msgstr ""
+msgstr "ഭ്രമണ കേന്ദ്രം Y"
 
 #: clutter/clutter-actor.c:7152
 msgid "The rotation center on the Y axis"
-msgstr ""
+msgstr "Y അച്ചുതണ്ടിലെ ഭ്രമണ കേന്ദ്രം"
 
 #: clutter/clutter-actor.c:7169
 msgid "Rotation Center Z"
-msgstr ""
+msgstr "ഭ്രമണ കേന്ദ്രം Z"
 
 #: clutter/clutter-actor.c:7170
 msgid "The rotation center on the Z axis"
-msgstr ""
+msgstr "Z അച്ചുതണ്ടിലെ ഭ്രമണ കേന്ദ്രം"
 
 #: clutter/clutter-actor.c:7187
 msgid "Rotation Center Z Gravity"
-msgstr ""
+msgstr "ഭ്രമണ കേന്ദ്രം Z ഗുരുത്വാകർഷണം"
 
 #: clutter/clutter-actor.c:7188
 msgid "Center point for rotation around the Z axis"
-msgstr ""
+msgstr "Z അക്ഷത്തിനു ചുറ്റും ഭ്രമണം ചെയ്യാനുള്ള മദ്ധ്യബിന്ദു"
 
 #: clutter/clutter-actor.c:7216
 msgid "Anchor X"
-msgstr ""
+msgstr "ആങ്കർ X"
 
 #: clutter/clutter-actor.c:7217
 msgid "X coordinate of the anchor point"
-msgstr ""
+msgstr "ആങ്കർ പോയിന്റിലെ X കോഡിനേറ്റ്"
 
 #: clutter/clutter-actor.c:7245
 msgid "Anchor Y"
-msgstr ""
+msgstr "ആങ്കർ Y"
 
 #: clutter/clutter-actor.c:7246
 msgid "Y coordinate of the anchor point"
-msgstr ""
+msgstr "ആങ്കർ പോയിന്റിലെ Y കോർഡിനേറ്റ്"
 
 #: clutter/clutter-actor.c:7273
 msgid "Anchor Gravity"
-msgstr ""
+msgstr "ആങ്കർ ഗുരുത്വാകർഷണം"
 
 #: clutter/clutter-actor.c:7274
 msgid "The anchor point as a ClutterGravity"
-msgstr ""
+msgstr "ക്ലറ്റെർഗ്രാവിറ്റി രീതിയിലുള്ള ആങ്കർ ബിന്ദു"
 
 #: clutter/clutter-actor.c:7293
 msgid "Translation X"
-msgstr ""
+msgstr "വിവർത്തനം X"
 
 #: clutter/clutter-actor.c:7294
 msgid "Translation along the X axis"
-msgstr ""
+msgstr "X അച്ചുതണ്ടിലുള്ള വിവർത്തനം"
 
 #: clutter/clutter-actor.c:7313
 msgid "Translation Y"
-msgstr ""
+msgstr "വിവർത്തനം X"
 
 #: clutter/clutter-actor.c:7314
 msgid "Translation along the Y axis"
-msgstr ""
+msgstr "Y അച്ചുതണ്ടിലുള്ള വിവർത്തനം"
 
 #: clutter/clutter-actor.c:7333
 msgid "Translation Z"
-msgstr ""
+msgstr "വിവർത്തനം X"
 
 #: clutter/clutter-actor.c:7334
 msgid "Translation along the Z axis"
-msgstr ""
+msgstr "Z അച്ചുതണ്ടിലുള്ള വിവർത്തനം"
 
 #: clutter/clutter-actor.c:7364
 msgid "Transform"
-msgstr ""
+msgstr "പരിവർത്തനം ചെയ്യുക"
 
 #: clutter/clutter-actor.c:7365
 msgid "Transformation matrix"
-msgstr ""
+msgstr "പരിവർത്തനമെട്രിക്സ്"
 
 #: clutter/clutter-actor.c:7380
 msgid "Transform Set"
-msgstr ""
+msgstr "പരിവർത്തനം സജ്ജമാക്കുക"
 
 #: clutter/clutter-actor.c:7381
 msgid "Whether the transform property is set"
-msgstr ""
+msgstr "ട്രാൻസ്ഫർ സവിശേഷത സജ്ജമാക്കിയിട്ടുണ്ടോ"
 
 #: clutter/clutter-actor.c:7402
+#, fuzzy
 msgid "Child Transform"
-msgstr ""
+msgstr "കുട്ടിയെ പരിവർത്തനം ചെയ്യുന്നു"
 
 #: clutter/clutter-actor.c:7403
+#, fuzzy
 msgid "Children transformation matrix"
-msgstr ""
+msgstr "കുട്ടിയുടെ പരിവർത്തന മെട്രിക്സ്"
 
 #: clutter/clutter-actor.c:7418
+#, fuzzy
 msgid "Child Transform Set"
-msgstr ""
+msgstr "ചൈൽഡ് ട്രാൻസ്ഫോർമേഷൻ സെറ്റ്"
 
 #: clutter/clutter-actor.c:7419
 msgid "Whether the child-transform property is set"
@@ -481,23 +481,23 @@ msgstr ""
 
 #: clutter/clutter-actor.c:7454
 msgid "Clip to Allocation"
-msgstr ""
+msgstr "അലോക്കേഷൻ ക്ലിപ്പുചെയ്യുക"
 
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
+msgid "Sets the clip region to track the actor’s allocation"
 msgstr ""
 
 #: clutter/clutter-actor.c:7468
 msgid "Text Direction"
-msgstr ""
+msgstr "ടെക്സ്റ്റ് ദിശ"
 
 #: clutter/clutter-actor.c:7469
 msgid "Direction of the text"
-msgstr ""
+msgstr "ടെക്സ്റ്റിന്റെ ദിശ"
 
 #: clutter/clutter-actor.c:7484
 msgid "Has Pointer"
-msgstr ""
+msgstr "പോയിന്റർ ഉണ്ട്"
 
 #: clutter/clutter-actor.c:7485
 msgid "Whether the actor contains the pointer of an input device"
@@ -505,19 +505,19 @@ msgstr ""
 
 #: clutter/clutter-actor.c:7498
 msgid "Actions"
-msgstr "പ്രവര്‍ത്തികള്‍"
+msgstr "പ്രവൃത്തികള്‍"
 
 #: clutter/clutter-actor.c:7499
 msgid "Adds an action to the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ പ്രവർത്തനം ചേർക്കുന്നു"
 
 #: clutter/clutter-actor.c:7512
 msgid "Constraints"
-msgstr ""
+msgstr "പരിമിതികൾ"
 
 #: clutter/clutter-actor.c:7513
 msgid "Adds a constraint to the actor"
-msgstr ""
+msgstr "ആക്ടറിന്റെ നിയന്ത്രണങ്ങൾ ചേർക്കുക"
 
 #: clutter/clutter-actor.c:7526
 msgid "Effect"
@@ -525,35 +525,35 @@ msgstr "പ്രഭാവം"
 
 #: clutter/clutter-actor.c:7527
 msgid "Add an effect to be applied on the actor"
-msgstr ""
+msgstr "ആക്ടറിൽ നടപ്പിലാക്കേണ്ട ഒരു പ്രഭാവം ചേർക്കുക"
 
 #: clutter/clutter-actor.c:7541
 msgid "Layout Manager"
-msgstr ""
+msgstr "രൂപരേഖ ക്രമീകരണം"
 
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr ""
 
 #: clutter/clutter-actor.c:7556
 msgid "X Expand"
-msgstr ""
+msgstr "X വികസിപ്പിക്കുക"
 
 #: clutter/clutter-actor.c:7557
 msgid "Whether extra horizontal space should be assigned to the actor"
-msgstr ""
+msgstr "ആക്ടറിന് അധികം തിരശ്ചീനസ്ഥലം കൊടുക്കണോ എന്ന്"
 
 #: clutter/clutter-actor.c:7572
 msgid "Y Expand"
-msgstr ""
+msgstr "Y വികസിപ്പിക്കുക"
 
 #: clutter/clutter-actor.c:7573
 msgid "Whether extra vertical space should be assigned to the actor"
-msgstr ""
+msgstr "ആക്ടറിന് അധികം ലംബസ്ഥലം കൊടുക്കണോ എന്ന്"
 
 #: clutter/clutter-actor.c:7589
 msgid "X Alignment"
-msgstr ""
+msgstr "X വിന്യാസം"
 
 #: clutter/clutter-actor.c:7590
 msgid "The alignment of the actor on the X axis within its allocation"
@@ -561,7 +561,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:7605
 msgid "Y Alignment"
-msgstr ""
+msgstr "Y വിന്യാസം"
 
 #: clutter/clutter-actor.c:7606
 msgid "The alignment of the actor on the Y axis within its allocation"
@@ -612,15 +612,17 @@ msgid "Background color"
 msgstr "പശ്ചാത്തല നിറം"
 
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
-msgstr ""
+#, fuzzy
+#| msgid "Background color"
+msgid "The actor’s background color"
+msgstr "പശ്ചാത്തല നിറം"
 
 #: clutter/clutter-actor.c:7741
 msgid "First Child"
 msgstr ""
 
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr ""
 
 #: clutter/clutter-actor.c:7755
@@ -628,7 +630,7 @@ msgid "Last Child"
 msgstr ""
 
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr ""
 
 #: clutter/clutter-actor.c:7770
@@ -636,7 +638,7 @@ msgid "Content"
 msgstr "ഉള്ളടക്കം"
 
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor.c:7796
@@ -644,7 +646,7 @@ msgid "Content Gravity"
 msgstr ""
 
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor.c:7817
@@ -652,7 +654,7 @@ msgid "Content Box"
 msgstr ""
 
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor.c:7826
@@ -676,7 +678,7 @@ msgid "Content Repeat"
 msgstr ""
 
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
 msgstr ""
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
@@ -717,8 +719,7 @@ msgstr ""
 msgid "The axis to align the position to"
 msgstr ""
 
-#: clutter/clutter-align-constraint.c:313
-#: clutter/clutter-desaturate-effect.c:270
+#: clutter/clutter-align-constraint.c:313 clutter/clutter-desaturate-effect.c:270
 msgid "Factor"
 msgstr ""
 
@@ -732,7 +733,7 @@ msgstr ""
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
+msgid "The backend of type “%s” does not support creating multiple stages"
 msgstr ""
 
 #: clutter/clutter-bind-constraint.c:344
@@ -760,8 +761,7 @@ msgstr ""
 msgid "The unique name of the binding pool"
 msgstr ""
 
-#: clutter/clutter-bin-layout.c:220 clutter/clutter-bin-layout.c:633
-#: clutter/clutter-box-layout.c:374
+#: clutter/clutter-bin-layout.c:220 clutter/clutter-bin-layout.c:633 clutter/clutter-box-layout.c:374
 #: clutter/deprecated/clutter-table-layout.c:600
 msgid "Horizontal Alignment"
 msgstr ""
@@ -770,8 +770,7 @@ msgstr ""
 msgid "Horizontal alignment for the actor inside the layout manager"
 msgstr ""
 
-#: clutter/clutter-bin-layout.c:229 clutter/clutter-bin-layout.c:653
-#: clutter/clutter-box-layout.c:383
+#: clutter/clutter-bin-layout.c:229 clutter/clutter-bin-layout.c:653 clutter/clutter-box-layout.c:383
 #: clutter/deprecated/clutter-table-layout.c:615
 msgid "Vertical Alignment"
 msgstr "വെര്‍ട്ടിക്കല്‍ അലൈന്‍മെന്റ്"
@@ -796,37 +795,31 @@ msgstr "വലുതാക്കുക"
 msgid "Allocate extra space for the child"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:356
-#: clutter/deprecated/clutter-table-layout.c:579
+#: clutter/clutter-box-layout.c:356 clutter/deprecated/clutter-table-layout.c:579
 msgid "Horizontal Fill"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:357
-#: clutter/deprecated/clutter-table-layout.c:580
+#: clutter/clutter-box-layout.c:357 clutter/deprecated/clutter-table-layout.c:580
 msgid ""
-"Whether the child should receive priority when the container is allocating "
-"spare space on the horizontal axis"
+"Whether the child should receive priority when the container is allocating spare space on the "
+"horizontal axis"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:365
-#: clutter/deprecated/clutter-table-layout.c:586
+#: clutter/clutter-box-layout.c:365 clutter/deprecated/clutter-table-layout.c:586
 msgid "Vertical Fill"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:366
-#: clutter/deprecated/clutter-table-layout.c:587
+#: clutter/clutter-box-layout.c:366 clutter/deprecated/clutter-table-layout.c:587
 msgid ""
-"Whether the child should receive priority when the container is allocating "
-"spare space on the vertical axis"
+"Whether the child should receive priority when the container is allocating spare space on the "
+"vertical axis"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:375
-#: clutter/deprecated/clutter-table-layout.c:601
+#: clutter/clutter-box-layout.c:375 clutter/deprecated/clutter-table-layout.c:601
 msgid "Horizontal alignment of the actor within the cell"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:384
-#: clutter/deprecated/clutter-table-layout.c:616
+#: clutter/clutter-box-layout.c:384 clutter/deprecated/clutter-table-layout.c:616
 msgid "Vertical alignment of the actor within the cell"
 msgstr ""
 
@@ -853,8 +846,7 @@ msgid "Homogeneous"
 msgstr ""
 
 #: clutter/clutter-box-layout.c:1381
-msgid ""
-"Whether the layout should be homogeneous, i.e. all children get the same size"
+msgid "Whether the layout should be homogeneous, i.e. all children get the same size"
 msgstr ""
 
 #: clutter/clutter-box-layout.c:1396
@@ -873,33 +865,27 @@ msgstr ""
 msgid "Spacing between children"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:1428
-#: clutter/deprecated/clutter-table-layout.c:1667
+#: clutter/clutter-box-layout.c:1428 clutter/deprecated/clutter-table-layout.c:1667
 msgid "Use Animations"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:1429
-#: clutter/deprecated/clutter-table-layout.c:1668
+#: clutter/clutter-box-layout.c:1429 clutter/deprecated/clutter-table-layout.c:1668
 msgid "Whether layout changes should be animated"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:1453
-#: clutter/deprecated/clutter-table-layout.c:1692
+#: clutter/clutter-box-layout.c:1453 clutter/deprecated/clutter-table-layout.c:1692
 msgid "Easing Mode"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:1454
-#: clutter/deprecated/clutter-table-layout.c:1693
+#: clutter/clutter-box-layout.c:1454 clutter/deprecated/clutter-table-layout.c:1693
 msgid "The easing mode of the animations"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:1474
-#: clutter/deprecated/clutter-table-layout.c:1713
+#: clutter/clutter-box-layout.c:1474 clutter/deprecated/clutter-table-layout.c:1713
 msgid "Easing Duration"
 msgstr ""
 
-#: clutter/clutter-box-layout.c:1475
-#: clutter/deprecated/clutter-table-layout.c:1714
+#: clutter/clutter-box-layout.c:1475 clutter/deprecated/clutter-table-layout.c:1714
 msgid "The duration of the animations"
 msgstr ""
 
@@ -1092,8 +1078,7 @@ msgstr ""
 msgid "Whether each item should receive the same allocation"
 msgstr ""
 
-#: clutter/clutter-flow-layout.c:959
-#: clutter/deprecated/clutter-table-layout.c:1627
+#: clutter/clutter-flow-layout.c:959 clutter/deprecated/clutter-table-layout.c:1627
 msgid "Column Spacing"
 msgstr "നിരകളുടെ ഇടയിലുളള സ്ഥലം"
 
@@ -1101,8 +1086,7 @@ msgstr "നിരകളുടെ ഇടയിലുളള സ്ഥലം"
 msgid "The spacing between columns"
 msgstr "നിരകളുടെ ഇടയിലുളള സ്ഥലം"
 
-#: clutter/clutter-flow-layout.c:976
-#: clutter/deprecated/clutter-table-layout.c:1643
+#: clutter/clutter-flow-layout.c:976 clutter/deprecated/clutter-table-layout.c:1643
 msgid "Row Spacing"
 msgstr "വരികളുടെ ഇടയിലുളള സ്ഥലം"
 
@@ -1234,8 +1218,7 @@ msgstr ""
 msgid "If TRUE, the columns are all the same width"
 msgstr ""
 
-#: clutter/clutter-image.c:238 clutter/clutter-image.c:306
-#: clutter/clutter-image.c:399
+#: clutter/clutter-image.c:238 clutter/clutter-image.c:306 clutter/clutter-image.c:399
 msgid "Unable to load image data"
 msgstr ""
 
@@ -1371,7 +1354,7 @@ msgid "Disable mipmapping on text"
 msgstr ""
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
+msgid "Use “fuzzy” picking"
 msgstr ""
 
 #: clutter/clutter-main.c:1442
@@ -1426,8 +1409,7 @@ msgstr ""
 msgid "Factor applied to the momentum when starting the interpolated phase"
 msgstr ""
 
-#: clutter/clutter-path-constraint.c:212
-#: clutter/deprecated/clutter-behaviour-path.c:221
+#: clutter/clutter-path-constraint.c:212 clutter/deprecated/clutter-behaviour-path.c:221
 msgid "Path"
 msgstr "വഴി"
 
@@ -1508,8 +1490,7 @@ msgid "Font Name"
 msgstr "ഫോണ്ടിന്റെ പേര്"
 
 #: clutter/clutter-settings.c:558
-msgid ""
-"The description of the default font, as one that could be parsed by Pango"
+msgid "The description of the default font, as one that could be parsed by Pango"
 msgstr ""
 
 #: clutter/clutter-settings.c:573
@@ -1517,9 +1498,7 @@ msgid "Font Antialias"
 msgstr ""
 
 #: clutter/clutter-settings.c:574
-msgid ""
-"Whether to use antialiasing (1 to enable, 0 to disable, and -1 to use the "
-"default)"
+msgid "Whether to use antialiasing (1 to enable, 0 to disable, and -1 to use the default)"
 msgstr ""
 
 #: clutter/clutter-settings.c:590 clutter/clutter-settings.c:598
@@ -1527,8 +1506,7 @@ msgid "Font DPI"
 msgstr ""
 
 #: clutter/clutter-settings.c:591 clutter/clutter-settings.c:599
-msgid ""
-"The resolution of the font, in 1024 * dots/inch, or -1 to use the default"
+msgid "The resolution of the font, in 1024 * dots/inch, or -1 to use the default"
 msgstr ""
 
 #: clutter/clutter-settings.c:615
@@ -1536,8 +1514,7 @@ msgid "Font Hinting"
 msgstr ""
 
 #: clutter/clutter-settings.c:616
-msgid ""
-"Whether to use hinting (1 to enable, 0 to disable and -1 to use the default)"
+msgid "Whether to use hinting (1 to enable, 0 to disable and -1 to use the default)"
 msgstr ""
 
 #: clutter/clutter-settings.c:636
@@ -1914,7 +1891,7 @@ msgid "Password Character"
 msgstr ""
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
 
 #: clutter/clutter-text.c:3810
@@ -1962,8 +1939,7 @@ msgid "Delay before start"
 msgstr ""
 
 #: clutter/clutter-timeline.c:622 clutter/deprecated/clutter-animation.c:500
-#: clutter/deprecated/clutter-animator.c:1794
-#: clutter/deprecated/clutter-media.c:225
+#: clutter/deprecated/clutter-animator.c:1794 clutter/deprecated/clutter-media.c:225
 #: clutter/deprecated/clutter-state.c:1518
 msgid "Duration"
 msgstr "സമയ പരിധി"
@@ -1972,8 +1948,7 @@ msgstr "സമയ പരിധി"
 msgid "Duration of the timeline in milliseconds"
 msgstr ""
 
-#: clutter/clutter-timeline.c:638
-#: clutter/deprecated/clutter-behaviour-ellipse.c:521
+#: clutter/clutter-timeline.c:638 clutter/deprecated/clutter-behaviour-ellipse.c:521
 #: clutter/deprecated/clutter-behaviour-rotate.c:330
 msgid "Direction"
 msgstr "ദിശ"
@@ -2038,8 +2013,7 @@ msgstr ""
 msgid "Constraints the zoom to an axis"
 msgstr ""
 
-#: clutter/deprecated/clutter-alpha.c:347
-#: clutter/deprecated/clutter-animation.c:531
+#: clutter/deprecated/clutter-alpha.c:347 clutter/deprecated/clutter-animation.c:531
 #: clutter/deprecated/clutter-animator.c:1811
 msgid "Timeline"
 msgstr ""
@@ -2056,8 +2030,7 @@ msgstr ""
 msgid "Alpha value as computed by the alpha"
 msgstr ""
 
-#: clutter/deprecated/clutter-alpha.c:387
-#: clutter/deprecated/clutter-animation.c:484
+#: clutter/deprecated/clutter-alpha.c:387 clutter/deprecated/clutter-animation.c:484
 msgid "Mode"
 msgstr "രീതി"
 
@@ -2089,8 +2062,7 @@ msgstr ""
 msgid "The timeline used by the animation"
 msgstr ""
 
-#: clutter/deprecated/clutter-animation.c:548
-#: clutter/deprecated/clutter-behaviour.c:234
+#: clutter/deprecated/clutter-animation.c:548 clutter/deprecated/clutter-behaviour.c:234
 msgid "Alpha"
 msgstr "ആല്‍ഫാ"
 
@@ -2130,8 +2102,7 @@ msgstr ""
 msgid "Start Angle"
 msgstr "തുടക്ക കോണ്‍"
 
-#: clutter/deprecated/clutter-behaviour-ellipse.c:395
-#: clutter/deprecated/clutter-behaviour-rotate.c:277
+#: clutter/deprecated/clutter-behaviour-ellipse.c:395 clutter/deprecated/clutter-behaviour-rotate.c:277
 msgid "Initial angle"
 msgstr "ആദ്യ കോണ്‍"
 
@@ -2139,8 +2110,7 @@ msgstr "ആദ്യ കോണ്‍"
 msgid "End Angle"
 msgstr "അവസാന കോണ്‍"
 
-#: clutter/deprecated/clutter-behaviour-ellipse.c:411
-#: clutter/deprecated/clutter-behaviour-rotate.c:295
+#: clutter/deprecated/clutter-behaviour-ellipse.c:411 clutter/deprecated/clutter-behaviour-rotate.c:295
 msgid "Final angle"
 msgstr "അവസാന കോണ്‍"
 
@@ -2184,8 +2154,7 @@ msgstr "മദ്ധ്യത്തില്‍"
 msgid "Center of ellipse"
 msgstr "ദീര്‍ഘവൃത്തത്തിന്റെ മധ്യം"
 
-#: clutter/deprecated/clutter-behaviour-ellipse.c:522
-#: clutter/deprecated/clutter-behaviour-rotate.c:331
+#: clutter/deprecated/clutter-behaviour-ellipse.c:522 clutter/deprecated/clutter-behaviour-rotate.c:331
 msgid "Direction of rotation"
 msgstr "കറക്കത്തിന്റെ ദിശ"
 
@@ -2536,8 +2505,7 @@ msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1001
 msgid ""
-"Forces the underlying texture to be singular and not made of smaller space "
-"saving individual textures"
+"Forces the underlying texture to be singular and not made of smaller space saving individual textures"
 msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1010
@@ -2580,13 +2548,11 @@ msgstr ""
 msgid "The Cogl pixel format to use"
 msgstr ""
 
-#: clutter/deprecated/clutter-texture.c:1053
-#: clutter/wayland/clutter-wayland-surface.c:445
+#: clutter/deprecated/clutter-texture.c:1053 clutter/wayland/clutter-wayland-surface.c:445
 msgid "Cogl Texture"
 msgstr ""
 
-#: clutter/deprecated/clutter-texture.c:1054
-#: clutter/wayland/clutter-wayland-surface.c:446
+#: clutter/deprecated/clutter-texture.c:1054 clutter/wayland/clutter-wayland-surface.c:446
 msgid "The underlying Cogl texture handle used to draw this actor"
 msgstr ""
 
@@ -2607,9 +2573,7 @@ msgid "Keep Aspect Ratio"
 msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1090
-msgid ""
-"Keep the aspect ratio of the texture when requesting the preferred width or "
-"height"
+msgid "Keep the aspect ratio of the texture when requesting the preferred width or height"
 msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1118
@@ -2617,8 +2581,7 @@ msgid "Load asynchronously"
 msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1119
-msgid ""
-"Load files inside a thread to avoid blocking when loading images from disk"
+msgid "Load files inside a thread to avoid blocking when loading images from disk"
 msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1137
@@ -2626,9 +2589,7 @@ msgid "Load data asynchronously"
 msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1138
-msgid ""
-"Decode image data files inside a thread to reduce blocking when loading "
-"images from disk"
+msgid "Decode image data files inside a thread to reduce blocking when loading images from disk"
 msgstr ""
 
 #: clutter/deprecated/clutter-texture.c:1164
@@ -2639,10 +2600,8 @@ msgstr ""
 msgid "Shape actor with alpha channel when picking"
 msgstr ""
 
-#: clutter/deprecated/clutter-texture.c:1608
-#: clutter/deprecated/clutter-texture.c:2003
-#: clutter/deprecated/clutter-texture.c:2100
-#: clutter/deprecated/clutter-texture.c:2402
+#: clutter/deprecated/clutter-texture.c:1608 clutter/deprecated/clutter-texture.c:2003
+#: clutter/deprecated/clutter-texture.c:2100 clutter/deprecated/clutter-texture.c:2402
 msgid "Failed to load the image data"
 msgstr ""
 
