@@ -5,22 +5,22 @@
 # Alexandre Franke <alexandre.franke@gmail.com> 2011,
 # Bruno Brouard <annoa.b@gmail.com>, 2012
 # Alain Lojewski <Allomervan@gmail.com>, 2012
-# Charles Monzat <superboa@hotmail.fr>, 2018.
+# Charles Monzat <charles.monzat@numericable.fr>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter 1.3.14\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
-"POT-Creation-Date: 2018-06-17 20:10+0000\n"
-"PO-Revision-Date: 2018-06-18 11:08+0200\n"
-"Last-Translator: Charles Monzat <superboa@hotmail.fr>\n"
+"POT-Creation-Date: 2018-07-20 07:55+0000\n"
+"PO-Revision-Date: 2018-11-14 22:07+0100\n"
+"Last-Translator: Charles Monzat <charles.monzat@numericable.fr>\n"
 "Language-Team: français <gnomefr@traduc.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Gtranslator 3.30.0\n"
 
 #: clutter/clutter-actor.c:6313
 msgid "X coordinate"
@@ -172,7 +172,6 @@ msgid "Allocation"
 msgstr "Allocation"
 
 #: clutter/clutter-actor.c:6622
-#| msgid "The actor's allocation"
 msgid "The actor’s allocation"
 msgstr "L’allocation de l’acteur"
 
@@ -181,7 +180,6 @@ msgid "Request Mode"
 msgstr "Mode de requête"
 
 #: clutter/clutter-actor.c:6690
-#| msgid "The actor's request mode"
 msgid "The actor’s request mode"
 msgstr "Le mode de requête de l’acteur"
 
@@ -198,7 +196,6 @@ msgid "Z Position"
 msgstr "Position Z"
 
 #: clutter/clutter-actor.c:6743
-#| msgid "The actor's position on the Z axis"
 msgid "The actor’s position on the Z axis"
 msgstr "Position de l’acteur sur l’axe Z"
 
@@ -498,7 +495,6 @@ msgid "Clip to Allocation"
 msgstr "Coupure d’allocation"
 
 #: clutter/clutter-actor.c:7455
-#| msgid "Sets the clip region to track the actor's allocation"
 msgid "Sets the clip region to track the actor’s allocation"
 msgstr "Définit la région de la coupure pour détecter l’allocation de l’acteur"
 
@@ -516,7 +512,7 @@ msgstr "Contient le pointeur"
 
 #: clutter/clutter-actor.c:7485
 msgid "Whether the actor contains the pointer of an input device"
-msgstr "Indique si l’acteur contient le pointer d’un périphérique d’entrée"
+msgstr "Indique si l’acteur contient le pointeur d’un périphérique d’entrée"
 
 #: clutter/clutter-actor.c:7498
 msgid "Actions"
@@ -547,7 +543,6 @@ msgid "Layout Manager"
 msgstr "Gestionnaire de disposition"
 
 #: clutter/clutter-actor.c:7542
-#| msgid "The object controlling the layout of an actor's children"
 msgid "The object controlling the layout of an actor’s children"
 msgstr "L’objet contrôlant la disposition des enfants d’un acteur"
 
@@ -630,7 +625,6 @@ msgid "Background color"
 msgstr "Couleur de fond"
 
 #: clutter/clutter-actor.c:7726
-#| msgid "The actor's background color"
 msgid "The actor’s background color"
 msgstr "La couleur de fond de l’acteur"
 
@@ -639,7 +633,6 @@ msgid "First Child"
 msgstr "Premier enfant"
 
 #: clutter/clutter-actor.c:7742
-#| msgid "The actor's first child"
 msgid "The actor’s first child"
 msgstr "Le premier enfant de l’acteur"
 
@@ -648,7 +641,6 @@ msgid "Last Child"
 msgstr "Dernier enfant"
 
 #: clutter/clutter-actor.c:7756
-#| msgid "The actor's last child"
 msgid "The actor’s last child"
 msgstr "Le dernier enfant de l’acteur"
 
@@ -657,7 +649,6 @@ msgid "Content"
 msgstr "Contenu"
 
 #: clutter/clutter-actor.c:7771
-#| msgid "Delegate object for painting the actor's content"
 msgid "Delegate object for painting the actor’s content"
 msgstr "Délègue l’objet au dessin du contenu de l’acteur"
 
@@ -666,7 +657,6 @@ msgid "Content Gravity"
 msgstr "Centre de gravité du contenu"
 
 #: clutter/clutter-actor.c:7797
-#| msgid "Alignment of the actor's content"
 msgid "Alignment of the actor’s content"
 msgstr "Alignement du contenu de l’acteur"
 
@@ -675,7 +665,6 @@ msgid "Content Box"
 msgstr "Boîte du contenu"
 
 #: clutter/clutter-actor.c:7818
-#| msgid "The bounding box of the actor's content"
 msgid "The bounding box of the actor’s content"
 msgstr "La boîte délimitant le contenu de l’acteur"
 
@@ -700,7 +689,6 @@ msgid "Content Repeat"
 msgstr "Répétition du contenu"
 
 #: clutter/clutter-actor.c:7850
-#| msgid "The repeat policy for the actor's content"
 msgid "The repeat policy for the actor’s content"
 msgstr "La règle de répétition du contenu de l’acteur"
 
@@ -757,7 +745,6 @@ msgstr "Impossible d’initialiser le moteur Clutter : aucun pilote disponible.
 
 #: clutter/clutter-backend.c:517
 #, c-format
-#| msgid "The backend of type '%s' does not support creating multiple stages"
 msgid "The backend of type “%s” does not support creating multiple stages"
 msgstr ""
 "Le moteur du type « %s » ne prend pas en charge la création de plusieurs "
@@ -1410,7 +1397,6 @@ msgid "Disable mipmapping on text"
 msgstr "Désactiver le MIP mapping pour le texte"
 
 #: clutter/clutter-main.c:1439
-#| msgid "Use 'fuzzy' picking"
 msgid "Use “fuzzy” picking"
 msgstr "Utiliser la sélection « approximative »"
 
@@ -1464,7 +1450,7 @@ msgstr "Facteur d’accélération initial"
 
 #: clutter/clutter-pan-action.c:529
 msgid "Factor applied to the momentum when starting the interpolated phase"
-msgstr "Facteur appliqué au moment au démarrage de la phase d’interpolation"
+msgstr "Facteur appliqué au moment du démarrage de la phase d’interpolation"
 
 #: clutter/clutter-path-constraint.c:212
 #: clutter/deprecated/clutter-behaviour-path.c:221
@@ -1973,7 +1959,6 @@ msgid "Password Character"
 msgstr "Caractère de mot de passe"
 
 #: clutter/clutter-text.c:3796
-#| msgid "If non-zero, use this character to display the actor's contents"
 msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
 "Si différent de zéro, utilise ce caractère pour afficher le contenu de "
