@@ -201,7 +201,7 @@ msgstr "Opacitat d'un actor"
 
 #: clutter/clutter-actor.c:6781
 msgid "Offscreen redirect"
-msgstr "Redireccionament fora de pantalla"
+msgstr "Redirecció fora de pantalla"
 
 #: clutter/clutter-actor.c:6782
 msgid "Flags controlling when to flatten the actor into a single image"
@@ -589,7 +589,7 @@ msgstr "Espai extra a la part inferior"
 
 #: clutter/clutter-actor.c:7669
 msgid "Margin Left"
-msgstr "Marge esquerra"
+msgstr "Marge esquerre"
 
 #: clutter/clutter-actor.c:7670
 msgid "Extra space at the left"
@@ -983,7 +983,7 @@ msgstr "Agafat"
 
 #: clutter/clutter-click-action.c:605
 msgid "Whether the clickable has a grab"
-msgstr "Si l'element que s'hi pot fer clic té un afagador"
+msgstr "Si l'element que s'hi pot fer clic té un agafador"
 
 #: clutter/clutter-click-action.c:622 clutter/clutter-settings.c:674
 msgid "Long Press Duration"
