@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
-"POT-Creation-Date: 2018-06-29 13:55+0000\n"
-"PO-Revision-Date: 2018-09-08 15:02+0200\n"
+"POT-Creation-Date: 2018-09-08 13:05+0000\n"
+"PO-Revision-Date: 2019-09-03 10:18+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: clutter/clutter-actor.c:6313
 msgid "X coordinate"
@@ -392,27 +392,27 @@ msgstr "Pont di centri pe rotazion ator dal as Z"
 
 #: clutter/clutter-actor.c:7216
 msgid "Anchor X"
-msgstr ""
+msgstr "Ancure X"
 
 #: clutter/clutter-actor.c:7217
 msgid "X coordinate of the anchor point"
-msgstr ""
+msgstr "La coordenade X dal pont de ancure"
 
 #: clutter/clutter-actor.c:7245
 msgid "Anchor Y"
-msgstr ""
+msgstr "Ancure Y"
 
 #: clutter/clutter-actor.c:7246
 msgid "Y coordinate of the anchor point"
-msgstr ""
+msgstr "La coordenade Y dal pont de ancure"
 
 #: clutter/clutter-actor.c:7273
 msgid "Anchor Gravity"
-msgstr ""
+msgstr "Gravitât de ancure"
 
 #: clutter/clutter-actor.c:7274
 msgid "The anchor point as a ClutterGravity"
-msgstr ""
+msgstr "Il pont de ancure come un ClutterGravity"
 
 #: clutter/clutter-actor.c:7293
 msgid "Translation X"
@@ -1140,7 +1140,7 @@ msgstr "Altece massime par ogni rie"
 
 #: clutter/clutter-flow-layout.c:1054 clutter/clutter-flow-layout.c:1055
 msgid "Snap to grid"
-msgstr ""
+msgstr "Tire dongje ae gridele"
 
 #: clutter/clutter-gesture-action.c:680
 msgid "Number touch points"
@@ -1329,11 +1329,11 @@ msgstr "Valôr finâl dal interval"
 
 #: clutter/clutter-layout-meta.c:117
 msgid "Manager"
-msgstr ""
+msgstr "Gjestôr"
 
 #: clutter/clutter-layout-meta.c:118
 msgid "The manager that created this data"
-msgstr ""
+msgstr "Il gjestôr che al à creât chest dât"
 
 #. Translators: Leave this UNTRANSLATED if your language is
 #. * left-to-right.  If your language is right-to-left
@@ -1578,19 +1578,20 @@ msgstr ""
 
 #: clutter/clutter-settings.c:708
 msgid "Password Hint Time"
-msgstr ""
+msgstr "Timp di sugjeriment de password"
 
 #: clutter/clutter-settings.c:709
 msgid "How long to show the last input character in hidden entries"
 msgstr ""
+"Par trop timp che si à di mostrâ l'ultin caratar jentrât intes vôs platadis"
 
 #: clutter/clutter-shader-effect.c:487
 msgid "Shader Type"
-msgstr ""
+msgstr "Gjenar di ombrenadure (shader)"
 
 #: clutter/clutter-shader-effect.c:488
 msgid "The type of shader used"
-msgstr ""
+msgstr "Il gjenar di ombrenadure (shader) doprât"
 
 #: clutter/clutter-snap-constraint.c:322
 msgid "The source of the constraint"
@@ -2116,37 +2117,37 @@ msgstr ""
 
 #: clutter/deprecated/clutter-behaviour-depth.c:180
 msgid "Start Depth"
-msgstr ""
+msgstr "Profonditât iniziâl"
 
 #: clutter/deprecated/clutter-behaviour-depth.c:181
 msgid "Initial depth to apply"
-msgstr ""
+msgstr "Profonditât iniziâl di aplicâ"
 
 #: clutter/deprecated/clutter-behaviour-depth.c:196
 msgid "End Depth"
-msgstr ""
+msgstr "Profonditât finâl"
 
 #: clutter/deprecated/clutter-behaviour-depth.c:197
 msgid "Final depth to apply"
-msgstr ""
+msgstr "Profonditât finâl di aplicâ"
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:394
 msgid "Start Angle"
-msgstr ""
+msgstr "Angul di inizi"
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:395
 #: clutter/deprecated/clutter-behaviour-rotate.c:277
 msgid "Initial angle"
-msgstr ""
+msgstr "Angul iniziâl"
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:410
 msgid "End Angle"
-msgstr ""
+msgstr "Angul di fin"
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:411
 #: clutter/deprecated/clutter-behaviour-rotate.c:295
 msgid "Final angle"
-msgstr ""
+msgstr "Angul finâl"
 
 #: clutter/deprecated/clutter-behaviour-ellipse.c:426
 msgid "Angle x tilt"
@@ -2215,11 +2216,11 @@ msgstr ""
 
 #: clutter/deprecated/clutter-behaviour-rotate.c:276
 msgid "Angle Begin"
-msgstr ""
+msgstr "Inizi angul"
 
 #: clutter/deprecated/clutter-behaviour-rotate.c:294
 msgid "Angle End"
-msgstr ""
+msgstr "Fin angul"
 
 #: clutter/deprecated/clutter-behaviour-rotate.c:312
 msgid "Axis"
@@ -2612,13 +2613,12 @@ msgstr "Manten la proporzion di aspiet"
 
 # texture -> ?
 #: clutter/deprecated/clutter-texture.c:1090
-#, fuzzy
 msgid ""
 "Keep the aspect ratio of the texture when requesting the preferred width or "
 "height"
 msgstr ""
-"Manten la proporzion dal aspiet de texture cuant che si domande la largjece "
-"o la altece preferide"
+"Manten la proporzion dal aspiet de struture (texture) cuant che si domande "
+"la largjece o la altece preferide"
 
 #: clutter/deprecated/clutter-texture.c:1118
 msgid "Load asynchronously"
