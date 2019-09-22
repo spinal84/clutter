@@ -1,16 +1,18 @@
 # Japanese translation for clutter.
-# Copyright (C) 2012 clutter's COPYRIGHT HOLDER
+# Copyright (C) 2012-2019 clutter's COPYRIGHT HOLDER
 # This file is distributed under the same license as the clutter package.
 # Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2012.
 # Nishio Futoshi <fut_nis@d3.dion.ne.jp>, 2012.
+# OKANO Takayoshi <kano@na.rim.or.jp>, 2012.
+# sicklylife <translation@sicklylife.jp>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
 "POT-Creation-Date: 2018-06-17 20:10+0000\n"
-"PO-Revision-Date: 2012-10-16 20:54+0900\n"
-"Last-Translator: OKANO Takayoshi <kano@na.rim.or.jp>\n"
+"PO-Revision-Date: 2019-09-22 21:00+0900\n"
+"Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -167,8 +169,6 @@ msgid "Allocation"
 msgstr "領域"
 
 #: clutter/clutter-actor.c:6622
-#, fuzzy
-#| msgid "The actor's allocation"
 msgid "The actor’s allocation"
 msgstr "アクターの領域"
 
@@ -177,8 +177,6 @@ msgid "Request Mode"
 msgstr "要求されたモード"
 
 #: clutter/clutter-actor.c:6690
-#, fuzzy
-#| msgid "The actor's request mode"
 msgid "The actor’s request mode"
 msgstr "アクターが要求するモード"
 
@@ -195,10 +193,8 @@ msgid "Z Position"
 msgstr "Z軸の位置"
 
 #: clutter/clutter-actor.c:6743
-#, fuzzy
-#| msgid "The actor's position on the Z axis"
 msgid "The actor’s position on the Z axis"
-msgstr "Z軸上の アクターの位置"
+msgstr "Z軸上のアクターの位置"
 
 #: clutter/clutter-actor.c:6760
 msgid "Opacity"
@@ -214,7 +210,7 @@ msgstr "オフスクリーンリダイレクト"
 
 #: clutter/clutter-actor.c:6782
 msgid "Flags controlling when to flatten the actor into a single image"
-msgstr "単一イメージに アクターを配置した時の制御フラグ"
+msgstr "単一イメージにアクターを配置した時の制御フラグ"
 
 #: clutter/clutter-actor.c:6796
 msgid "Visible"
@@ -497,8 +493,6 @@ msgid "Clip to Allocation"
 msgstr "領域のクリップ"
 
 #: clutter/clutter-actor.c:7455
-#, fuzzy
-#| msgid "Sets the clip region to track the actor's allocation"
 msgid "Sets the clip region to track the actor’s allocation"
 msgstr "アクターの領域をトレースし、クリップ領域を設定する"
 
@@ -547,8 +541,6 @@ msgid "Layout Manager"
 msgstr "レイアウトマネジャー"
 
 #: clutter/clutter-actor.c:7542
-#, fuzzy
-#| msgid "The object controlling the layout of an actor's children"
 msgid "The object controlling the layout of an actor’s children"
 msgstr "アクターの子オブジェクトのレイアウトを制御するオブジェクト"
 
@@ -629,8 +621,6 @@ msgid "Background color"
 msgstr "背景色"
 
 #: clutter/clutter-actor.c:7726
-#, fuzzy
-#| msgid "The actor's background color"
 msgid "The actor’s background color"
 msgstr "アクターの背景色"
 
@@ -639,8 +629,6 @@ msgid "First Child"
 msgstr "最初の子オブジェクト"
 
 #: clutter/clutter-actor.c:7742
-#, fuzzy
-#| msgid "The actor's first child"
 msgid "The actor’s first child"
 msgstr "アクターの最初の子オブジェクト"
 
@@ -649,8 +637,6 @@ msgid "Last Child"
 msgstr "最後の子オブジェクト"
 
 #: clutter/clutter-actor.c:7756
-#, fuzzy
-#| msgid "The actor's last child"
 msgid "The actor’s last child"
 msgstr "アクターの最後の子オブジェクト"
 
@@ -659,8 +645,6 @@ msgid "Content"
 msgstr "中身"
 
 #: clutter/clutter-actor.c:7771
-#, fuzzy
-#| msgid "Delegate object for painting the actor's content"
 msgid "Delegate object for painting the actor’s content"
 msgstr "アクターの中身描画をオブジェクトに移譲する"
 
@@ -669,8 +653,6 @@ msgid "Content Gravity"
 msgstr "中身の重力"
 
 #: clutter/clutter-actor.c:7797
-#, fuzzy
-#| msgid "Alignment of the actor's content"
 msgid "Alignment of the actor’s content"
 msgstr "アクターの中身の整列"
 
@@ -679,8 +661,6 @@ msgid "Content Box"
 msgstr "コンテンツボックス"
 
 #: clutter/clutter-actor.c:7818
-#, fuzzy
-#| msgid "The bounding box of the actor's content"
 msgid "The bounding box of the actor’s content"
 msgstr "アクターの中身の境界を示す立方体"
 
@@ -705,8 +685,6 @@ msgid "Content Repeat"
 msgstr "中身の繰り返し"
 
 #: clutter/clutter-actor.c:7850
-#, fuzzy
-#| msgid "The repeat policy for the actor's content"
 msgid "The repeat policy for the actor’s content"
 msgstr "アクターの中身の繰り返し方法"
 
@@ -758,17 +736,14 @@ msgid "The alignment factor, between 0.0 and 1.0"
 msgstr "整列の係数。0.0から1.0まで"
 
 #: clutter/clutter-backend.c:437
-#, fuzzy
-#| msgid "Unable to initialize the Clutter backend"
 msgid "Unable to initialize the Clutter backend: no available drivers found."
-msgstr "Clutter のバックエンドを初期化できません"
+msgstr "Clutter のバックエンドを初期化できません: 利用可能なドライバーが見つかりません。"
 
 #: clutter/clutter-backend.c:517
-#, fuzzy, c-format
-#| msgid "The backend of type '%s' does not support creating multiple stages"
+#, c-format
 msgid "The backend of type “%s” does not support creating multiple stages"
 msgstr ""
-"バックエンドの形式 '%s' は作成している複数のステージでサポートされていません"
+"バックエンドの形式“%s”は作成している複数のステージでサポートされていません"
 
 #: clutter/clutter-bind-constraint.c:344
 msgid "The source of the binding"
@@ -892,10 +867,6 @@ msgid "Homogeneous"
 msgstr "均等配置"
 
 #: clutter/clutter-box-layout.c:1381
-#, fuzzy
-#| msgid ""
-#| "Whether the layout should be homogeneous, i.e. all childs get the same "
-#| "size"
 msgid ""
 "Whether the layout should be homogeneous, i.e. all children get the same size"
 msgstr ""
@@ -974,28 +945,20 @@ msgid "The height of the canvas"
 msgstr "カンバスの高さ"
 
 #: clutter/clutter-canvas.c:284
-#, fuzzy
-#| msgid "Selection Color Set"
 msgid "Scale Factor Set"
-msgstr "選択色の設定"
+msgstr ""
 
 #: clutter/clutter-canvas.c:285
-#, fuzzy
-#| msgid "Whether the transform property is set"
 msgid "Whether the scale-factor property is set"
-msgstr "変形プロパティを設定するかどうか"
+msgstr ""
 
 #: clutter/clutter-canvas.c:306
-#, fuzzy
-#| msgid "Factor"
 msgid "Scale Factor"
-msgstr "係数"
+msgstr ""
 
 #: clutter/clutter-canvas.c:307
-#, fuzzy
-#| msgid "The height of the Cairo surface"
 msgid "The scaling factor for the surface"
-msgstr "Cairo 表面の高さ"
+msgstr ""
 
 #: clutter/clutter-child-meta.c:127
 msgid "Container"
@@ -1197,46 +1160,36 @@ msgid "Snap to grid"
 msgstr ""
 
 #: clutter/clutter-gesture-action.c:680
-#, fuzzy
-#| msgid "Number of Axes"
 msgid "Number touch points"
-msgstr "軸の数"
+msgstr ""
 
 #: clutter/clutter-gesture-action.c:681
-#, fuzzy
-#| msgid "Number of Axes"
 msgid "Number of touch points"
-msgstr "軸の数"
+msgstr ""
 
 #: clutter/clutter-gesture-action.c:696
 msgid "Threshold Trigger Edge"
 msgstr ""
 
 #: clutter/clutter-gesture-action.c:697
-#, fuzzy
-#| msgid "The timeline used by the animation"
 msgid "The trigger edge used by the action"
-msgstr "アニメーションで使用するタイムライン"
+msgstr ""
 
 #: clutter/clutter-gesture-action.c:716
 msgid "Threshold Trigger Horizontal Distance"
 msgstr ""
 
 #: clutter/clutter-gesture-action.c:717
-#, fuzzy
-#| msgid "The timeline used by the animation"
 msgid "The horizontal trigger distance used by the action"
-msgstr "アニメーションで使用するタイムライン"
+msgstr ""
 
 #: clutter/clutter-gesture-action.c:735
 msgid "Threshold Trigger Vertical Distance"
 msgstr ""
 
 #: clutter/clutter-gesture-action.c:736
-#, fuzzy
-#| msgid "The timeline used by the animation"
 msgid "The vertical trigger distance used by the action"
-msgstr "アニメーションで使用するタイムライン"
+msgstr ""
 
 #: clutter/clutter-grid-layout.c:1223
 msgid "Left attachment"
@@ -1361,11 +1314,11 @@ msgstr "バックエンドのインスタンス"
 
 #: clutter/clutter-input-device.c:390 clutter/clutter-input-device.c:391
 msgid "Vendor ID"
-msgstr ""
+msgstr "ベンダー ID"
 
 #: clutter/clutter-input-device.c:404 clutter/clutter-input-device.c:405
 msgid "Product ID"
-msgstr ""
+msgstr "プロダクト ID"
 
 #: clutter/clutter-interval.c:557
 msgid "Value Type"
@@ -1434,10 +1387,8 @@ msgid "Disable mipmapping on text"
 msgstr "テキストのミップマッピングを利用不可にする"
 
 #: clutter/clutter-main.c:1439
-#, fuzzy
-#| msgid "Use 'fuzzy' picking"
 msgid "Use “fuzzy” picking"
-msgstr "fuzzy 選択を使用"
+msgstr "“fuzzy”選択を使用"
 
 #: clutter/clutter-main.c:1442
 msgid "Clutter debugging flags to set"
@@ -1635,10 +1586,8 @@ msgid "Window Scaling Factor"
 msgstr ""
 
 #: clutter/clutter-settings.c:683
-#, fuzzy
-#| msgid "Add an effect to be applied on the actor"
 msgid "The scaling factor to be applied to windows"
-msgstr "アクターに適用する効果を追加する"
+msgstr ""
 
 #: clutter/clutter-settings.c:690
 msgid "Fontconfig configuration timestamp"
@@ -1987,8 +1936,6 @@ msgid "Password Character"
 msgstr "パスワード文字"
 
 #: clutter/clutter-text.c:3796
-#, fuzzy
-#| msgid "If non-zero, use this character to display the actor's contents"
 msgid "If non-zero, use this character to display the actor’s contents"
 msgstr "ゼロでない場合、アクターの中身をその文字を使って表示する"
 
@@ -2737,14 +2684,12 @@ msgid "YUV textures are not supported"
 msgstr "YUV形式のテクスチャーはサポートしていません"
 
 #: clutter/deprecated/clutter-texture.c:1776
-#, fuzzy
-#| msgid "YUV textures are not supported"
 msgid "YUV2 textures are not supported"
-msgstr "YUV形式のテクスチャーはサポートしていません"
+msgstr "YUV2形式のテクスチャーはサポートしていません"
 
 #: clutter/gdk/clutter-backend-gdk.c:174
 msgid "Could not initialize Gdk"
-msgstr ""
+msgstr "GDK を初期化できません"
 
 #: clutter/gdk/clutter-backend-gdk.c:294
 #, c-format
@@ -2788,10 +2733,8 @@ msgid "Make X calls synchronous"
 msgstr "X の呼び出しを同期する"
 
 #: clutter/x11/clutter-backend-x11.c:529
-#, fuzzy
-#| msgid "Enable XInput support"
 msgid "Disable XInput support"
-msgstr "XInput サポートを利用可能にする"
+msgstr "XInput サポートを無効にする"
 
 #: clutter/x11/clutter-keymap-x11.c:458
 msgid "The Clutter backend"
