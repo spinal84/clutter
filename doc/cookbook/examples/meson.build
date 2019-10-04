@@ -58,7 +58,7 @@ foreach e: all_examples
       '-DCOGL_DISABLE_DEPRECATION_WARNINGS',
       '-DCLUTTER_DISABLE_DEPRECATION_WARNINGS',
     ],
-    link_args: ['-export-dynamic'],
+    link_args: ['-Wl,--export-dynamic'],
   )
 
   example_data += files(example_src, e.get(2, []))
