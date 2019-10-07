@@ -1,6 +1,18 @@
 Clutter
 =======
 
+Notice
+------
+
+Clutter is in deep maintenance mode; only micro releases addressing bug fixes
+are planned from now on. Additionally, the API and features are frozen.
+
+The planned replacement for Clutter is GTK 4.0.
+
+If you are fixing a bug in [Mutter](https://gitlab.gnome.org/GNOME/mutter) then
+please open a merge request against the internal copy of Clutter inside that
+project.
+
 What is Clutter?
 ----------------
 
