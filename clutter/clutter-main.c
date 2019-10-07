@@ -617,12 +617,12 @@ _clutter_id_to_color (guint         id_,
   g_assert (bpc == 8 || bpc == 10);
 
   /* compute the numbers we'll store in the components */
-  red   = (id_ >> (ctx->fb_g_mask_used+ctx->fb_b_mask_used))
-        & (0xff >> (bpc-ctx->fb_r_mask_used));
+  red   = (id_ >> (ctx->fb_g_mask_used + ctx->fb_b_mask_used))
+        & (0xff >> (bpc - ctx->fb_r_mask_used));
   green = (id_ >> ctx->fb_b_mask_used)
-        & (0xff >> (bpc-ctx->fb_g_mask_used));
+        & (0xff >> (bpc - ctx->fb_g_mask_used));
   blue  = (id_)
-        & (0xff >> (bpc-ctx->fb_b_mask_used));
+        & (0xff >> (bpc - ctx->fb_b_mask_used));
 
   /* shift left bits a bit and add one, this circumvents
    * at least some potential rounding errors in GL/GLES
@@ -652,9 +652,9 @@ _clutter_id_to_color (guint         id_,
    */
   if (G_UNLIKELY (clutter_pick_debug_flags & CLUTTER_DEBUG_DUMP_PICK_BUFFERS))
     {
-      col->red   = (col->red << bpc/2)   | (col->red >> bpc/2);
-      col->green = (col->green << bpc/2) | (col->green >> bpc/2);
-      col->blue  = (col->blue << bpc/2)  | (col->blue >> bpc/2);
+      col->red   = (col->red << bpc / 2)   | (col->red >> bpc / 2);
+      col->green = (col->green << bpc / 2) | (col->green >> bpc / 2);
+      col->blue  = (col->blue << bpc / 2)  | (col->blue >> bpc / 2);
     }
 }
 
@@ -685,11 +685,11 @@ _clutter_pixel_to_id (guchar pixel[4])
        * identifiers (otherwise pick buffers dumped to an image will pretty
        * much just look black.) Here we reverse that rotation.
        */
-      tmp = ((pixel[0] << bpc/2) | (pixel[0] >> bpc/2));
+      tmp = ((pixel[0] << bpc / 2) | (pixel[0] >> bpc / 2));
       red = tmp >> (bpc - ctx->fb_r_mask);
-      tmp = ((pixel[1] << bpc/2) | (pixel[1] >> bpc/2));
+      tmp = ((pixel[1] << bpc / 2) | (pixel[1] >> bpc / 2));
       green = tmp >> (bpc - ctx->fb_g_mask);
-      tmp = ((pixel[2] << bpc/2) | (pixel[2] >> bpc/2));
+      tmp = ((pixel[2] << bpc / 2) | (pixel[2] >> bpc / 2));
       blue = tmp >> (bpc - ctx->fb_b_mask);
     }
   else
