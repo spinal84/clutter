@@ -8,10 +8,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clutter clutter-1.16\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=clutter&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-09-10 14:27+0000\n"
-"PO-Revision-Date: 2016-09-10 16:26+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
+"POT-Creation-Date: 2019-09-22 12:10+0000\n"
+"PO-Revision-Date: 2020-01-28 09:49+0100\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: slovenčina <>\n"
 "Language: sk\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 2.2.4\n"
 
 # nick
 #: clutter/clutter-actor.c:6313
@@ -205,7 +204,7 @@ msgstr "Vyhradený priestor"
 
 # blurb
 #: clutter/clutter-actor.c:6622
-msgid "The actor's allocation"
+msgid "The actor’s allocation"
 msgstr "Priestor vyhradený pre aktéra"
 
 # PM: Toto nastavenie očakáva výber spomedzi dvoch hodnot a to síce či sa má doplniť výška podľa šírky alebo šírka podľa výšky - nemyslím si že režim požiadaviek je správne
@@ -216,7 +215,7 @@ msgstr "Režim požiadaviek"
 
 # blurb
 #: clutter/clutter-actor.c:6690
-msgid "The actor's request mode"
+msgid "The actor’s request mode"
 msgstr "Režim požiadaviek aktéra"
 
 # nick
@@ -236,7 +235,7 @@ msgstr "Pozícia Z"
 
 # blurb
 #: clutter/clutter-actor.c:6743
-msgid "The actor's position on the Z axis"
+msgid "The actor’s position on the Z axis"
 msgstr "Pozícia aktéra na osi Z"
 
 # nick
@@ -613,7 +612,7 @@ msgstr "Výrez podľa vyhradeného priestoru"
 
 # blurb
 #: clutter/clutter-actor.c:7455
-msgid "Sets the clip region to track the actor's allocation"
+msgid "Sets the clip region to track the actor’s allocation"
 msgstr "Nastaví oblasť výrezu podľa priestoru vyhradeného pre aktéra"
 
 # nick
@@ -678,7 +677,7 @@ msgstr "Správca rozloženia"
 
 # blurb
 #: clutter/clutter-actor.c:7542
-msgid "The object controlling the layout of an actor's children"
+msgid "The object controlling the layout of an actor’s children"
 msgstr "Objekt ovládajúci rozloženie potomka aktéra"
 
 # nick
@@ -781,7 +780,7 @@ msgstr "Farba pozadia"
 
 # blurb
 #: clutter/clutter-actor.c:7726
-msgid "The actor's background color"
+msgid "The actor’s background color"
 msgstr "Farba pozadia aktéra"
 
 # nick
@@ -791,7 +790,7 @@ msgstr "Prvý potomok"
 
 # blurb
 #: clutter/clutter-actor.c:7742
-msgid "The actor's first child"
+msgid "The actor’s first child"
 msgstr "Prvý potomok aktéra"
 
 # nick
@@ -801,7 +800,7 @@ msgstr "Posledný potomok"
 
 # blurb
 #: clutter/clutter-actor.c:7756
-msgid "The actor's last child"
+msgid "The actor’s last child"
 msgstr "Posledný potomok aktéra"
 
 # nick
@@ -811,7 +810,7 @@ msgstr "Obsah"
 
 # blurb
 #: clutter/clutter-actor.c:7771
-msgid "Delegate object for painting the actor's content"
+msgid "Delegate object for painting the actor’s content"
 msgstr "Poverí objekt kreslením obsahu aktéra"
 
 # PK: co robi toto?
@@ -823,7 +822,7 @@ msgstr "Bod v strede obsahu"
 
 # blurb
 #: clutter/clutter-actor.c:7797
-msgid "Alignment of the actor's content"
+msgid "Alignment of the actor’s content"
 msgstr "Zarovnanie obsahu aktéra"
 
 # PM: ovláda to pozíciu a velkost "obsahu"(vid content) v actor's allocation
@@ -834,7 +833,7 @@ msgstr "Schránka obsahu"
 
 # blurb
 #: clutter/clutter-actor.c:7818
-msgid "The bounding box of the actor's content"
+msgid "The bounding box of the actor’s content"
 msgstr "Schránka ohraničujúca obsah aktéra"
 
 # nick
@@ -865,7 +864,7 @@ msgstr "Opakovanie obsahu"
 # PM: v iných moduloch tuším politika - treba preveriť
 # blurb
 #: clutter/clutter-actor.c:7850
-msgid "The repeat policy for the actor's content"
+msgid "The repeat policy for the actor’s content"
 msgstr "Stratégia opakovania obsahu aktéra"
 
 # nick
@@ -938,7 +937,7 @@ msgstr ""
 
 #: clutter/clutter-backend.c:517
 #, c-format
-msgid "The backend of type '%s' does not support creating multiple stages"
+msgid "The backend of type “%s” does not support creating multiple stages"
 msgstr "Obslužný program typu „%s“ nepodporuje tvorbu viacerých scén"
 
 # blurb
@@ -1649,7 +1648,7 @@ msgid "Disable mipmapping on text"
 msgstr "Zakátazať mip mapovanie na texte"
 
 #: clutter/clutter-main.c:1439
-msgid "Use 'fuzzy' picking"
+msgid "Use “fuzzy” picking"
 msgstr "Použiť „fuzzy“ vyberanie"
 
 #: clutter/clutter-main.c:1442
@@ -1725,27 +1724,27 @@ msgstr "Názov vlastnosti"
 msgid "The name of the property to animate"
 msgstr "Názov vlastnosti, ktorá sa má animovať"
 
-#: clutter/clutter-script.c:487
+#: clutter/clutter-script.c:509
 msgid "Filename Set"
 msgstr "Nastavený názov súboru"
 
-#: clutter/clutter-script.c:488
+#: clutter/clutter-script.c:510
 msgid "Whether the :filename property is set"
 msgstr "Určuje, či je vlastnosť :filename nastavená"
 
-#: clutter/clutter-script.c:502 clutter/deprecated/clutter-texture.c:1081
+#: clutter/clutter-script.c:524 clutter/deprecated/clutter-texture.c:1081
 msgid "Filename"
 msgstr "Názov súboru"
 
-#: clutter/clutter-script.c:503
+#: clutter/clutter-script.c:525
 msgid "The path of the currently parsed file"
 msgstr "Cesta k aktuálne analyzovanému súboru"
 
-#: clutter/clutter-script.c:520
+#: clutter/clutter-script.c:542
 msgid "Translation Domain"
 msgstr "Doména prekladu"
 
-#: clutter/clutter-script.c:521
+#: clutter/clutter-script.c:543
 msgid "The translation domain used to localize string"
 msgstr "Doména prekladu použitá pre lokalizáciu reťazca"
 
@@ -1824,7 +1823,9 @@ msgstr "Dolaďovanie písma"
 #: clutter/clutter-settings.c:616
 msgid ""
 "Whether to use hinting (1 to enable, 0 to disable and -1 to use the default)"
-msgstr "Či sa má použiť dolaďovanie (1 pre zapnúť, 0 pre vypnúť a -1 použiť predvolené nastavenie)"
+msgstr ""
+"Či sa má použiť dolaďovanie (1 pre zapnúť, 0 pre vypnúť a -1 použiť "
+"predvolené nastavenie)"
 
 #: clutter/clutter-settings.c:636
 msgid "Font Hint Style"
@@ -1832,7 +1833,9 @@ msgstr "Štýl dolaďovania písma"
 
 #: clutter/clutter-settings.c:637
 msgid "The style of hinting (hintnone, hintslight, hintmedium, hintfull)"
-msgstr "Štýl dolaďovania (hintnone - žiadne, hintslight - jemné, hintmedium - stredné, hintfull - úplné)"
+msgstr ""
+"Štýl dolaďovania (hintnone - žiadne, hintslight - jemné, hintmedium - "
+"stredné, hintfull - úplné)"
 
 #: clutter/clutter-settings.c:657
 msgid "Font Subpixel Order"
@@ -2201,7 +2204,7 @@ msgid "Password Character"
 msgstr "Znak hesla"
 
 #: clutter/clutter-text.c:3796
-msgid "If non-zero, use this character to display the actor's contents"
+msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
 "Ak nie je nastavené na nulu, použije sa tento znak na zobrazenie obsahu "
 "aktéra"
@@ -2734,6 +2737,10 @@ msgstr "Určuje, či je shader preložený a spojený s knižnicami"
 msgid "Whether the shader is enabled"
 msgstr "Určuje, či je shader povolený"
 
+#. translators: the first %s is the type of the shader, either
+#. * Vertex shader or Fragment shader; the second %s is the actual
+#. * error as reported by COGL
+#.
 #: clutter/deprecated/clutter-shader.c:521
 #, c-format
 msgid "%s compilation failed: %s"
@@ -2821,7 +2828,9 @@ msgstr "Synchronizačná veľkosť aktéra"
 
 #: clutter/deprecated/clutter-texture.c:993
 msgid "Auto sync size of actor to underlying pixbuf dimensions"
-msgstr "Automatická synchronizačná veľkosť aktéra voči rozmerom podkladového objektu pixbuf"
+msgstr ""
+"Automatická synchronizačná veľkosť aktéra voči rozmerom podkladového objektu "
+"pixbuf"
 
 #: clutter/deprecated/clutter-texture.c:1000
 msgid "Disable Slicing"
@@ -2831,7 +2840,9 @@ msgstr "Zakázať delenie"
 msgid ""
 "Forces the underlying texture to be singular and not made of smaller space "
 "saving individual textures"
-msgstr "Prinúti podkladovú textúru, aby bola jednotná, a nie vytvorená z menších miest ukladajúcich jednotlivé textúry"
+msgstr ""
+"Prinúti podkladovú textúru, aby bola jednotná, a nie vytvorená z menších "
+"miest ukladajúcich jednotlivé textúry"
 
 #: clutter/deprecated/clutter-texture.c:1010
 msgid "Tile Waste"
@@ -2889,7 +2900,8 @@ msgstr "Materiál v Cogl"
 
 #: clutter/deprecated/clutter-texture.c:1062
 msgid "The underlying Cogl material handle used to draw this actor"
-msgstr "Podkladové spracovanie materiálu Cogl používaného na vykreslenie aktéra"
+msgstr ""
+"Podkladové spracovanie materiálu Cogl používaného na vykreslenie aktéra"
 
 #: clutter/deprecated/clutter-texture.c:1082
 msgid "The path of the file containing the image data"
@@ -2915,8 +2927,8 @@ msgstr "Načítať asynchrónne"
 msgid ""
 "Load files inside a thread to avoid blocking when loading images from disk"
 msgstr ""
-"Načíta súbory v rámci vlákna, a tým sa vyhne blokovaniu pri načítavaní obrázkov z "
-"disku"
+"Načíta súbory v rámci vlákna, a tým sa vyhne blokovaniu pri načítavaní "
+"obrázkov z disku"
 
 #: clutter/deprecated/clutter-texture.c:1137
 msgid "Load data asynchronously"
