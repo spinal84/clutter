@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: clutter\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
-"POT-Creation-Date: 2019-02-14 13:43+0000\n"
-"PO-Revision-Date: 2019-03-07 20:14+0100\n"
-"Last-Translator: Justin van Steijn <jvs@fsfe.org>\n"
+"POT-Creation-Date: 2019-03-08 09:59+0000\n"
+"PO-Revision-Date: 2019-06-18 10:25+0200\n"
+"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: clutter/clutter-actor.c:6313
 msgid "X coordinate"
@@ -470,7 +470,7 @@ msgstr ""
 
 #: clutter/clutter-actor.c:7419
 msgid "Whether the child-transform property is set"
-msgstr "Of de filename-optie is ingesteld"
+msgstr "Of de transformatie-eigenschap van onderliggende items is ingesteld"
 
 #: clutter/clutter-actor.c:7436
 msgid "Show on set parent"
@@ -641,10 +641,8 @@ msgid "Delegate object for painting the actor’s content"
 msgstr "Het ClutterPath-object dat het pad waarlangs geanimeerd wordt aangeeft"
 
 #: clutter/clutter-actor.c:7796
-#, fuzzy
-#| msgid "Rotation Center Z Gravity"
 msgid "Content Gravity"
-msgstr "Rotatie-zwaartepunt Z"
+msgstr "Zwaartekracht inhoud"
 
 #: clutter/clutter-actor.c:7797
 msgid "Alignment of the actor’s content"
@@ -1430,9 +1428,8 @@ msgid "Interpolate"
 msgstr "Interpoleren"
 
 #: clutter/clutter-pan-action.c:494
-#, fuzzy
 msgid "Whether interpolated events emission is enabled."
-msgstr "Of de shader is ingeschakeld"
+msgstr "Of de geïnterpoleerde-gebeurtenissen-emissie is ingeschakeld."
 
 # Ik wil dit vertalen als 'vertraging', maar 'delay' is ook 'vertraging'. Voor een van de twee zoeken we dus best nog een ander woord. - Nathan
 #: clutter/clutter-pan-action.c:510
@@ -1525,9 +1522,8 @@ msgid "The distance between clicks necessary to detect a multiple click"
 msgstr ""
 
 #: clutter/clutter-settings.c:541
-#, fuzzy
 msgid "Drag Threshold"
-msgstr "Verticale sleepdrempel"
+msgstr "Sleepdrempel"
 
 #: clutter/clutter-settings.c:542
 msgid "The distance the cursor should travel before starting to drag"
@@ -1606,7 +1602,7 @@ msgstr "Vensterschaalfactor"
 
 #: clutter/clutter-settings.c:683
 msgid "The scaling factor to be applied to windows"
-msgstr ""
+msgstr "De schaalfactor om op vensters toe te passen"
 
 #: clutter/clutter-settings.c:690
 msgid "Fontconfig configuration timestamp"
@@ -1614,13 +1610,11 @@ msgstr "Fontconfig-configuratietijdstip"
 
 #: clutter/clutter-settings.c:691
 msgid "Timestamp of the current fontconfig configuration"
-msgstr ""
+msgstr "Tijdstip van de huidige fontconfig-configuratie"
 
 #: clutter/clutter-settings.c:708
-#, fuzzy
-#| msgid "Password Character"
 msgid "Password Hint Time"
-msgstr "Wachtwoord teken"
+msgstr "Wachtwoordtiptime-out"
 
 #: clutter/clutter-settings.c:709
 msgid "How long to show the last input character in hidden entries"
@@ -2005,7 +1999,7 @@ msgstr "Herhaal"
 
 #: clutter/clutter-timeline.c:592
 msgid "Should the timeline automatically restart"
-msgstr ""
+msgstr "Indien de tijdslijn automatisch zou herstarten"
 
 #: clutter/clutter-timeline.c:606
 msgid "Delay"
