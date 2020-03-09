@@ -1,6 +1,6 @@
 project(
   'clutter', 'c',
-  version: '1.26.4',
+  version: '1.26.5',
   license: 'LGPLv2.1+',
   meson_version: '>= 0.44.1',
   default_options: [
