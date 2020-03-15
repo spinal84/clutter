@@ -382,9 +382,7 @@ backend_sources = []
 backend_deps = []
 backend_pc_files = []
 
-if enabled_backends.contains('x11') or
-   enabled_backends.contains('wayland') or
-   enabled_backends.contains('gdk')
+if enabled_backends.contains('x11') or enabled_backends.contains('wayland') or enabled_backends.contains('gdk')
   backend_sources += [
     'cogl/clutter-stage-cogl.c',
   ]
