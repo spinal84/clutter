@@ -2,7 +2,7 @@ project(
   'clutter', 'c',
   version: '1.26.5',
   license: 'LGPLv2.1+',
-  meson_version: '>= 0.44.1',
+  meson_version: '>= 0.49.2',
   default_options: [
     'buildtype=debugoptimized',
     'c_std=c99',
