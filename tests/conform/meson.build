@@ -74,7 +74,6 @@ foreach suite: conformance_suites
       input: 'test.data.in',
       output: t + '.test',
       configuration: test_data_conf,
-      install: true,
       install_dir: installed_test_datadir,
     )
 

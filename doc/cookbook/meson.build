@@ -52,7 +52,6 @@ if xsltproc.found()
         configuration: cookbook_xml_conf,
       ),
       output: 'clutter-cookbook',
-      install: true,
       install_dir: cookbook_dir,
     )
 

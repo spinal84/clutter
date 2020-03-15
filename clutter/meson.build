@@ -332,7 +332,6 @@ configure_file(
   input: 'clutter-version.h.in',
   output: 'clutter-version.h',
   configuration: clutter_version_h,
-  install: true,
   install_dir: clutter_full_includedir,
 )
 
@@ -374,7 +373,6 @@ configure_file(
   input: 'clutter-config.h.in',
   output: 'clutter-config.h',
   configuration: clutter_config_h,
-  install: true,
   install_dir: clutter_full_includedir,
 )
 
