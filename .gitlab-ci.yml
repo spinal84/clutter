@@ -6,7 +6,7 @@ stages:
     - _ccache/
 
 meson-fedora-x86_64:
-  image: registry.gitlab.gnome.org/gnome/clutter/master:v1
+  image: registry.gitlab.gnome.org/gnome/clutter/master:v2
   stage: build
   script:
     - bash -x ./.gitlab-ci/test-docker.sh

@@ -332,7 +332,6 @@ configure_file(
   input: 'clutter-version.h.in',
   output: 'clutter-version.h',
   configuration: clutter_version_h,
-  install: true,
   install_dir: clutter_full_includedir,
 )
 
@@ -374,7 +373,6 @@ configure_file(
   input: 'clutter-config.h.in',
   output: 'clutter-config.h',
   configuration: clutter_config_h,
-  install: true,
   install_dir: clutter_full_includedir,
 )
 
@@ -382,15 +380,13 @@ backend_sources = []
 backend_deps = []
 backend_pc_files = []
 
-if enabled_backends.contains('x11') or
-   enabled_backends.contains('wayland') or
-   enabled_backends.contains('gdk')
+if enabled_backends.contains('x11') or enabled_backends.contains('wayland') or enabled_backends.contains('gdk')
   backend_sources += [
     'cogl/clutter-stage-cogl.c',
   ]
 
   backend_pc_files += [
-    [ 'clutter-cogl-@0@'.format(clutter_api_version), [], ],
+    [ 'clutter-cogl-@0@'.format(clutter_api_version), 'Clutter (Cogl)', [], ],
   ]
 endif
 
@@ -471,8 +467,8 @@ if enabled_backends.contains('x11')
   )
 
   backend_pc_files += [
-    [ 'clutter-x11-@0@'.format(clutter_api_version), x11_deps ],
-    [ 'clutter-glx-@0@'.format(clutter_api_version), x11_deps ],
+    [ 'clutter-x11-@0@'.format(clutter_api_version), 'Clutter (X11)', x11_deps ],
+    [ 'clutter-glx-@0@'.format(clutter_api_version), 'Clutter (X11)', x11_deps ],
   ]
 endif
 
@@ -491,7 +487,7 @@ if enabled_backends.contains('gdk')
   ]
 
   backend_pc_files += [
-    [ 'clutter-gdk-@0@'.format(clutter_api_version), gdk_dep ],
+    [ 'clutter-gdk-@0@'.format(clutter_api_version), 'Clutter (GDK)', [gdk_dep] ],
   ]
 
   install_headers([
@@ -510,7 +506,7 @@ if enabled_backends.contains('win32')
   ]
 
   backend_pc_files += [
-    [ 'clutter-win32-@0@'.format(clutter_api_version), [] ],
+    [ 'clutter-win32-@0@'.format(clutter_api_version), 'Clutter (Windows)', [] ],
   ]
 
   install_headers([
@@ -541,7 +537,7 @@ if enabled_backends.contains('cex100')
   endif
 
   backend_pc_files += [
-    [ 'clutter-cex100-@0@'.format(clutter_api_version), [] ],
+    [ 'clutter-cex100-@0@'.format(clutter_api_version), 'Clutter (CEx100)', [] ],
   ]
 
   subdir('cex100')
@@ -558,7 +554,9 @@ if enabled_backends.contains('eglnative')
 
   config_h.set('CLUTTER_EGL_BACKEND_GENERIC', 1)
 
-  backend_pc_files += 'clutter-egl-@0@'.format(clutter_api_version)
+  backend_pc_files += [
+    [ 'clutter-egl-@0@'.format(clutter_api_version), 'Clutter (EGL native)', [] ],
+  ]
 
   install_headers([
       'egl/clutter-egl-headers.h',
@@ -597,7 +595,7 @@ if enabled_backends.contains('wayland')
   )
 
   backend_pc_files += [
-    [ 'clutter-wayland-@0@'.format(clutter_api_version), wayland_deps ],
+    [ 'clutter-wayland-@0@'.format(clutter_api_version), 'Clutter (Wayland client)', wayland_deps ],
   ]
 
   enable_wayland_compositor = get_option('wayland_compositor')
@@ -607,7 +605,7 @@ if enabled_backends.contains('wayland')
     ]
 
     backend_pc_files += [
-      [ 'clutter-wayland-compositor-@0@'.format(clutter_api_version), wayland_deps ],
+      [ 'clutter-wayland-compositor-@0@'.format(clutter_api_version), 'Clutter (Wayland compositor)', wayland_deps ],
     ]
 
     install_headers([
@@ -633,7 +631,7 @@ if enabled_backends.contains('mir')
   ]
 
   backend_pc_files += [
-    [ 'clutter-mir-@0@'.format(clutter_api_version), [] ],
+    [ 'clutter-mir-@0@'.format(clutter_api_version), 'Clutter (MIR)', [] ],
   ]
 
   install_headers([
@@ -653,7 +651,7 @@ if enabled_backends.contains('quartz')
   ]
 
   backend_pc_files += [
-    [ 'clutter-osx-@0@'.format(clutter_api_version), [] ],
+    [ 'clutter-osx-@0@'.format(clutter_api_version), 'Clutter (macOS)', [] ],
   ]
 
   install_headers([
@@ -788,26 +786,35 @@ libclutter_dep = declare_dependency(
   dependencies: clutter_deps + [mathlib_dep],
 )
 
-pkgconf_files = [
-  [ 'clutter-@0@'.format(clutter_api_version), clutter_deps ],
-] + backend_pc_files
+pkgconf.generate(
+  libclutter,
+  name: 'Clutter',
+  description: 'Dynamic, accelerated scene graph toolkit',
+  variables: [
+    'apiversion=@0@'.format(clutter_api_version),
+    'backends=@0@'.format(','.join(enabled_backends)),
+  ],
+  filebase: clutter_api_name,
+  subdirs: clutter_api_name,
+)
 
-foreach pkg: pkgconf_files
-  pkg_name = pkg[0]
-  pkg_deps = pkg[1]
+# These are backend-specific pkg-config files; they make the
+# dependencies explicit for backward compatibility
+foreach pkg: backend_pc_files
+  pkg_base = pkg[0]
+  pkg_name = pkg[1]
+  pkg_deps = pkg[2]
+
   pkgconf.generate(
-    libraries: libclutter,
-    name: 'Clutter',
+    name: pkg_name,
     description: 'Dynamic, accelerated scene graph toolkit',
-    version: meson.project_version(),
     variables: [
       'apiversion=@0@'.format(clutter_api_version),
       'backends=@0@'.format(','.join(enabled_backends)),
     ],
-    requires: pkg_deps,
-    filebase: pkg_name,
+    requires: ['clutter-1.0', pkg_deps],
+    filebase: pkg_base,
     subdirs: clutter_api_name,
-    install_dir: join_paths(clutter_libdir, 'pkgconfig'),
   )
 endforeach
 
