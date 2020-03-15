@@ -487,7 +487,7 @@ if enabled_backends.contains('gdk')
   ]
 
   backend_pc_files += [
-    [ 'clutter-gdk-@0@'.format(clutter_api_version), 'Clutter (GDK)', gdk_dep ],
+    [ 'clutter-gdk-@0@'.format(clutter_api_version), 'Clutter (GDK)', [gdk_dep] ],
   ]
 
   install_headers([
@@ -812,7 +812,7 @@ foreach pkg: backend_pc_files
       'apiversion=@0@'.format(clutter_api_version),
       'backends=@0@'.format(','.join(enabled_backends)),
     ],
-    requires: ['clutter-1.0'] + pkg_deps,
+    requires: ['clutter-1.0', pkg_deps],
     filebase: pkg_base,
     subdirs: clutter_api_name,
   )
