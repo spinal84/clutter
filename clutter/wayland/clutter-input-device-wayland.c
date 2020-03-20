@@ -472,7 +472,10 @@ clutter_wayland_handle_keyboard_enter (void *data,
                                        struct wl_array *keys)
 {
   ClutterInputDeviceWayland *device = data;
-  ClutterStageCogl          *stage_cogl;
+  ClutterStageCogl *stage_cogl;
+
+  if (surface == NULL)
+    return;
 
   if (!CLUTTER_IS_STAGE_COGL (wl_surface_get_user_data (surface)))
     return;
@@ -495,8 +498,9 @@ clutter_wayland_handle_keyboard_leave (void *data,
   ClutterInputDeviceWayland *device = data;
   ClutterStageCogl          *stage_cogl;
 
-  if (!surface)
+  if (surface == NULL)
     return;
+
   if (!CLUTTER_IS_STAGE_COGL (wl_surface_get_user_data (surface)))
     return;
 
