@@ -719,7 +719,7 @@ msgstr "Eix d'alineació"
 
 #: clutter/clutter-align-constraint.c:294
 msgid "The axis to align the position to"
-msgstr "L'eix amb el que alinear la posició"
+msgstr "L'eix amb què alinear la posició"
 
 #: clutter/clutter-align-constraint.c:313
 #: clutter/clutter-desaturate-effect.c:270
@@ -1195,7 +1195,7 @@ msgstr "Adjunció esquerra"
 
 #: clutter/clutter-grid-layout.c:1224
 msgid "The column number to attach the left side of the child to"
-msgstr "El número de columna al que adjuntar-hi la part esquerra del fill"
+msgstr "El número de columna a la qual adjuntar la part esquerra del fill"
 
 #: clutter/clutter-grid-layout.c:1231
 msgid "Top attachment"
@@ -1203,7 +1203,7 @@ msgstr "Adjunció superior"
 
 #: clutter/clutter-grid-layout.c:1232
 msgid "The row number to attach the top side of a child widget to"
-msgstr "El número de fila al que adjuntar-hi la part superior del giny fill"
+msgstr "El número de fila al qual adjuntar la part superior del giny fill"
 
 #: clutter/clutter-grid-layout.c:1240
 msgid "The number of columns that a child spans"
@@ -1427,7 +1427,7 @@ msgstr "Desacceleració"
 
 #: clutter/clutter-pan-action.c:511
 msgid "Rate at which the interpolated panning will decelerate in"
-msgstr "La ràtio en la que la interpolació del panorama desaccelerarà"
+msgstr "La ràtio en què la interpolació del panorama desaccelerarà"
 
 #: clutter/clutter-pan-action.c:528
 msgid "Initial acceleration factor"
@@ -2234,7 +2234,7 @@ msgstr "El nivell d'opacitat final"
 
 #: clutter/deprecated/clutter-behaviour-path.c:222
 msgid "The ClutterPath object representing the path to animate along"
-msgstr "L'objecte «ClutterPath» que representa el camí en el que s'anima"
+msgstr "L'objecte «ClutterPath» que representa el camí en què s'anima"
 
 #: clutter/deprecated/clutter-behaviour-rotate.c:276
 msgid "Angle Begin"
@@ -2501,7 +2501,7 @@ msgstr "Número de columna"
 
 #: clutter/deprecated/clutter-table-layout.c:534
 msgid "The column the widget resides in"
-msgstr "La columna en la que està el giny"
+msgstr "La columna en què està el giny"
 
 #: clutter/deprecated/clutter-table-layout.c:541
 msgid "Row Number"
@@ -2509,7 +2509,7 @@ msgstr "Número de fila"
 
 #: clutter/deprecated/clutter-table-layout.c:542
 msgid "The row the widget resides in"
-msgstr "La fila en la que està el giny"
+msgstr "La fila en què està el giny"
 
 #: clutter/deprecated/clutter-table-layout.c:549
 msgid "Column Span"
@@ -2732,19 +2732,19 @@ msgstr "L'alçada de la superfície Wayland subjacent"
 
 #: clutter/x11/clutter-backend-x11.c:511
 msgid "X display to use"
-msgstr "El monitor d'X a utilitzar"
+msgstr "El monitor X a utilitzar"
 
 #: clutter/x11/clutter-backend-x11.c:517
 msgid "X screen to use"
-msgstr "La pantalla d'X a utilitzar"
+msgstr "La pantalla X a utilitzar"
 
 #: clutter/x11/clutter-backend-x11.c:522
 msgid "Make X calls synchronous"
-msgstr "Fes les crides síncrones a l'X"
+msgstr "Fes les crides síncrones a X"
 
 #: clutter/x11/clutter-backend-x11.c:529
 msgid "Disable XInput support"
-msgstr "Inhabilita l'XInput"
+msgstr "Inhabilita la comptabilitat amb XInput"
 
 #: clutter/x11/clutter-keymap-x11.c:458
 msgid "The Clutter backend"
