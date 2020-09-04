@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: clutter-1.0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
 "POT-Creation-Date: 2020-07-04 03:12+0000\n"
-"PO-Revision-Date: 2020-09-03 20:28+0200\n"
+"PO-Revision-Date: 2020-09-04 20:01+0200\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -313,503 +313,490 @@ msgstr "Faktor razmjera Z osi"
 
 #: clutter/clutter-actor.c:7014
 msgid "Scale Center X"
-msgstr ""
+msgstr "Središte X razmjera"
 
 #: clutter/clutter-actor.c:7015
 msgid "Horizontal scale center"
-msgstr ""
+msgstr "Središte vodoravnog razmjera"
 
 #: clutter/clutter-actor.c:7033
 msgid "Scale Center Y"
-msgstr ""
+msgstr "Središte Y razmjera"
 
 #: clutter/clutter-actor.c:7034
 msgid "Vertical scale center"
-msgstr ""
+msgstr "Središte okomitog razmjera"
 
 #: clutter/clutter-actor.c:7052
 msgid "Scale Gravity"
-msgstr ""
+msgstr "Težište razmjera"
 
 #: clutter/clutter-actor.c:7053
 msgid "The center of scaling"
-msgstr ""
+msgstr "Središte razmjera"
 
 #: clutter/clutter-actor.c:7071
 msgid "Rotation Angle X"
-msgstr ""
+msgstr "Kut X zakretanja"
 
 #: clutter/clutter-actor.c:7072
 msgid "The rotation angle on the X axis"
-msgstr ""
+msgstr "Kut zakretanja na osi X"
 
 #: clutter/clutter-actor.c:7090
 msgid "Rotation Angle Y"
-msgstr ""
+msgstr "Kut Y zakretanja"
 
 #: clutter/clutter-actor.c:7091
 msgid "The rotation angle on the Y axis"
-msgstr ""
+msgstr "Kut zakretanja na osi Y"
 
 #: clutter/clutter-actor.c:7109
 msgid "Rotation Angle Z"
-msgstr ""
+msgstr "Kut Z zakretanja"
 
 #: clutter/clutter-actor.c:7110
 msgid "The rotation angle on the Z axis"
-msgstr ""
+msgstr "Kut zakretanja na osi Z"
 
 #: clutter/clutter-actor.c:7128
 msgid "Rotation Center X"
-msgstr ""
+msgstr "Središte X zakretanja"
 
 #: clutter/clutter-actor.c:7129
 msgid "The rotation center on the X axis"
-msgstr ""
+msgstr "Središte zakretanja na osi X"
 
 #: clutter/clutter-actor.c:7146
 msgid "Rotation Center Y"
-msgstr ""
+msgstr "Središte Y zakretanja"
 
 #: clutter/clutter-actor.c:7147
 msgid "The rotation center on the Y axis"
-msgstr ""
+msgstr "Središte zakretanja na osi Y"
 
 #: clutter/clutter-actor.c:7164
 msgid "Rotation Center Z"
-msgstr ""
+msgstr "Središte Z zakretanja"
 
 #: clutter/clutter-actor.c:7165
 msgid "The rotation center on the Z axis"
-msgstr ""
+msgstr "Središte zakretanja na osi Z"
 
 #: clutter/clutter-actor.c:7182
 msgid "Rotation Center Z Gravity"
-msgstr ""
+msgstr "Težište središta Z zakretanja"
 
 #: clutter/clutter-actor.c:7183
 msgid "Center point for rotation around the Z axis"
-msgstr ""
+msgstr "Točka središta za zakretanje oko Z osi"
 
 #: clutter/clutter-actor.c:7211
 msgid "Anchor X"
-msgstr ""
+msgstr "X sidrište"
 
 #: clutter/clutter-actor.c:7212
 msgid "X coordinate of the anchor point"
-msgstr ""
+msgstr "X koordinata točke sidrišta"
 
 #: clutter/clutter-actor.c:7240
 msgid "Anchor Y"
-msgstr ""
+msgstr "Y sidrište"
 
 #: clutter/clutter-actor.c:7241
 msgid "Y coordinate of the anchor point"
-msgstr ""
+msgstr "Y koordinata točke sidrišta"
 
 #: clutter/clutter-actor.c:7268
 msgid "Anchor Gravity"
-msgstr ""
+msgstr "Težište sidrišta"
 
 #: clutter/clutter-actor.c:7269
 msgid "The anchor point as a ClutterGravity"
-msgstr ""
+msgstr "Točka sidrišta kao ClutterGravity"
 
 #: clutter/clutter-actor.c:7288
 msgid "Translation X"
-msgstr ""
+msgstr "Prijelaz X"
 
 #: clutter/clutter-actor.c:7289
 msgid "Translation along the X axis"
-msgstr ""
+msgstr "Prijelaz duž X osi"
 
 #: clutter/clutter-actor.c:7308
 msgid "Translation Y"
-msgstr ""
+msgstr "Prijelaz Y"
 
 #: clutter/clutter-actor.c:7309
 msgid "Translation along the Y axis"
-msgstr ""
+msgstr "Prijelaz duž Y osi"
 
 #: clutter/clutter-actor.c:7328
 msgid "Translation Z"
-msgstr ""
+msgstr "Prijelaz Z"
 
 #: clutter/clutter-actor.c:7329
 msgid "Translation along the Z axis"
-msgstr ""
+msgstr "Prijelaz duž Z osi"
 
 #: clutter/clutter-actor.c:7359
 msgid "Transform"
-msgstr ""
+msgstr "Pretvorba"
 
 #: clutter/clutter-actor.c:7360
 msgid "Transformation matrix"
-msgstr ""
+msgstr "Matrica pretvorbe"
 
 #: clutter/clutter-actor.c:7375
 msgid "Transform Set"
-msgstr ""
+msgstr "Podešavanje pretvorbe"
 
 #: clutter/clutter-actor.c:7376
 msgid "Whether the transform property is set"
-msgstr ""
+msgstr "Treba li svojstvo pretvorbe biti postavljeno"
 
 #: clutter/clutter-actor.c:7397
 msgid "Child Transform"
-msgstr ""
+msgstr "Podređena pretvorba"
 
 #: clutter/clutter-actor.c:7398
 msgid "Children transformation matrix"
-msgstr ""
+msgstr "Matrica podređene pretvorbe"
 
 #: clutter/clutter-actor.c:7413
 msgid "Child Transform Set"
-msgstr ""
+msgstr "Podešavanje podređene pretvorbe"
 
 #: clutter/clutter-actor.c:7414
 msgid "Whether the child-transform property is set"
-msgstr ""
+msgstr "Treba li svojstvo podređene pretvorbe biti postavljeno"
 
 #: clutter/clutter-actor.c:7431
 msgid "Show on set parent"
-msgstr ""
+msgstr "Prikaži pri podešavanju nadređenog"
 
 #: clutter/clutter-actor.c:7432
 msgid "Whether the actor is shown when parented"
-msgstr ""
+msgstr "Treba li činitelj biti prikazan kada je nadređen"
 
 #: clutter/clutter-actor.c:7449
 msgid "Clip to Allocation"
-msgstr ""
+msgstr "Isjecanje u raspodjelu"
 
 #: clutter/clutter-actor.c:7450
 msgid "Sets the clip region to track the actor’s allocation"
-msgstr ""
+msgstr "Postavlja područje isjecanja za praćenje raspodjele činitelja"
 
 #: clutter/clutter-actor.c:7463
-#, fuzzy
 msgid "Text Direction"
 msgstr "Smjer teksta"
 
 #: clutter/clutter-actor.c:7464
 msgid "Direction of the text"
-msgstr ""
+msgstr "Usmjerenje teksta"
 
 #: clutter/clutter-actor.c:7479
 msgid "Has Pointer"
-msgstr ""
+msgstr "Sadrži pokazivač"
 
 #: clutter/clutter-actor.c:7480
 msgid "Whether the actor contains the pointer of an input device"
-msgstr ""
+msgstr "Treba li činitelj sadržavati pokazivač ulaznog uređaja"
 
 #: clutter/clutter-actor.c:7493
-#, fuzzy
 msgid "Actions"
 msgstr "Radnje"
 
 #: clutter/clutter-actor.c:7494
 msgid "Adds an action to the actor"
-msgstr ""
+msgstr "Dodaje radnje činitelju"
 
 #: clutter/clutter-actor.c:7507
 msgid "Constraints"
-msgstr ""
+msgstr "Ograničenja"
 
 #: clutter/clutter-actor.c:7508
 msgid "Adds a constraint to the actor"
-msgstr ""
+msgstr "Dodaje ograničenja činitelju"
 
 #: clutter/clutter-actor.c:7521
 msgid "Effect"
-msgstr ""
+msgstr "Efekti"
 
 #: clutter/clutter-actor.c:7522
 msgid "Add an effect to be applied on the actor"
-msgstr ""
+msgstr "Dodaje efekte koji se primijenjuju na činitelja"
 
 #: clutter/clutter-actor.c:7536
-#, fuzzy
 msgid "Layout Manager"
 msgstr "Upravitelj rasporeda"
 
 #: clutter/clutter-actor.c:7537
 msgid "The object controlling the layout of an actor’s children"
-msgstr ""
+msgstr "Objekt koji upravlja rasporedom podređenog sadržaja činitelja"
 
 #: clutter/clutter-actor.c:7551
 msgid "X Expand"
-msgstr ""
+msgstr "X proširenje"
 
 #: clutter/clutter-actor.c:7552
 msgid "Whether extra horizontal space should be assigned to the actor"
-msgstr ""
+msgstr "Treba li dodijeliti dodatni vodoravni prostor činitelju"
 
 #: clutter/clutter-actor.c:7567
 msgid "Y Expand"
-msgstr ""
+msgstr "Y proširenje"
 
 #: clutter/clutter-actor.c:7568
 msgid "Whether extra vertical space should be assigned to the actor"
-msgstr ""
+msgstr "Treba li dodijeliti dodatni okomiti prostor činitelju"
 
 #: clutter/clutter-actor.c:7584
 msgid "X Alignment"
-msgstr ""
+msgstr "X poravnanje"
 
 #: clutter/clutter-actor.c:7585
 msgid "The alignment of the actor on the X axis within its allocation"
-msgstr ""
+msgstr "Poravnanje činitelja na X osi unutar njegove raspodjele"
 
 #: clutter/clutter-actor.c:7600
 msgid "Y Alignment"
-msgstr ""
+msgstr "Y poravnanje"
 
 #: clutter/clutter-actor.c:7601
 msgid "The alignment of the actor on the Y axis within its allocation"
-msgstr ""
+msgstr "Poravnanje činitelja na Y osi unutar njegove raspodjele"
 
 #: clutter/clutter-actor.c:7620
-#, fuzzy
 msgid "Margin Top"
 msgstr "Gornji rub"
 
 #: clutter/clutter-actor.c:7621
 msgid "Extra space at the top"
-msgstr ""
+msgstr "Dodatni prostor na vrhu"
 
 #: clutter/clutter-actor.c:7642
-#, fuzzy
 msgid "Margin Bottom"
 msgstr "Donji rub"
 
 #: clutter/clutter-actor.c:7643
 msgid "Extra space at the bottom"
-msgstr ""
+msgstr "Dodatni prostor na dnu"
 
 #: clutter/clutter-actor.c:7664
-#, fuzzy
 msgid "Margin Left"
 msgstr "Lijevi rub"
 
 #: clutter/clutter-actor.c:7665
 msgid "Extra space at the left"
-msgstr ""
+msgstr "Dodatni prostor na lijevoj strani"
 
 #: clutter/clutter-actor.c:7686
-#, fuzzy
 msgid "Margin Right"
 msgstr "Desni rub"
 
 #: clutter/clutter-actor.c:7687
 msgid "Extra space at the right"
-msgstr ""
+msgstr "Dodatni prostor na desnoj strani"
 
 #: clutter/clutter-actor.c:7703
 msgid "Background Color Set"
-msgstr ""
+msgstr "Podešavanje boje pozadine"
 
 #: clutter/clutter-actor.c:7704 clutter/deprecated/clutter-box.c:280
 msgid "Whether the background color is set"
-msgstr ""
+msgstr "Treba li podesiti boju pozadine"
 
 #: clutter/clutter-actor.c:7720
-#, fuzzy
 msgid "Background color"
 msgstr "Boja pozadine"
 
 #: clutter/clutter-actor.c:7721
 msgid "The actor’s background color"
-msgstr ""
+msgstr "Boja pozadine činitelja"
 
 #: clutter/clutter-actor.c:7736
 msgid "First Child"
-msgstr ""
+msgstr "Prvi podsadržaj"
 
 #: clutter/clutter-actor.c:7737
 msgid "The actor’s first child"
-msgstr ""
+msgstr "Prvi podsadržaj činitelja"
 
 #: clutter/clutter-actor.c:7750
 msgid "Last Child"
-msgstr ""
+msgstr "Posljednji podsadržaj"
 
 #: clutter/clutter-actor.c:7751
 msgid "The actor’s last child"
-msgstr ""
+msgstr "Drugi podsadržaj činitelja"
 
 #: clutter/clutter-actor.c:7765
-#, fuzzy
 msgid "Content"
 msgstr "Sadržaj"
 
 #: clutter/clutter-actor.c:7766
 msgid "Delegate object for painting the actor’s content"
-msgstr ""
+msgstr "Određuje objekt za bojanje sadržaja činitelja"
 
 #: clutter/clutter-actor.c:7791
 msgid "Content Gravity"
-msgstr ""
+msgstr "Sadržaj težišta"
 
 #: clutter/clutter-actor.c:7792
 msgid "Alignment of the actor’s content"
-msgstr ""
+msgstr "Poravnanje sadržaja činitelja"
 
 #: clutter/clutter-actor.c:7812
 msgid "Content Box"
-msgstr ""
+msgstr "Okvir sadržaja"
 
 #: clutter/clutter-actor.c:7813
 msgid "The bounding box of the actor’s content"
-msgstr ""
+msgstr "Granični okvir sadržaja činitelja"
 
 #: clutter/clutter-actor.c:7821
 msgid "Minification Filter"
-msgstr ""
+msgstr "Filtar smanjenja"
 
 #: clutter/clutter-actor.c:7822
 msgid "The filter used when reducing the size of the content"
-msgstr ""
+msgstr "Filtar koji se koristi pri smanjivanju veličine sadržaja"
 
 #: clutter/clutter-actor.c:7829
 msgid "Magnification Filter"
-msgstr ""
+msgstr "Filtar uvećanja"
 
 #: clutter/clutter-actor.c:7830
 msgid "The filter used when increasing the size of the content"
-msgstr ""
+msgstr "Filtar koji se koristi pri uvećavanju veličine sadržaja"
 
 #: clutter/clutter-actor.c:7844
 msgid "Content Repeat"
-msgstr ""
+msgstr "Ponavljanje sadržaja"
 
 #: clutter/clutter-actor.c:7845
 msgid "The repeat policy for the actor’s content"
-msgstr ""
+msgstr "Pravilo ponavljanja sadržaja činitelja"
 
 #: clutter/clutter-actor-meta.c:191 clutter/clutter-child-meta.c:142
 msgid "Actor"
-msgstr ""
+msgstr "Činitelj"
 
 #: clutter/clutter-actor-meta.c:192
 msgid "The actor attached to the meta"
-msgstr ""
+msgstr "Činitelj dodan meti"
 
 #: clutter/clutter-actor-meta.c:206
 msgid "The name of the meta"
-msgstr ""
+msgstr "Naziv mete"
 
 #: clutter/clutter-actor-meta.c:219 clutter/clutter-input-device.c:347
 #: clutter/deprecated/clutter-shader.c:309
-#, fuzzy
 msgid "Enabled"
 msgstr "Omogućeno"
 
 #: clutter/clutter-actor-meta.c:220
 msgid "Whether the meta is enabled"
-msgstr ""
+msgstr "Treba li metu omogućiti"
 
 #: clutter/clutter-align-constraint.c:279 clutter/clutter-bind-constraint.c:343
 #: clutter/clutter-clone.c:348 clutter/clutter-snap-constraint.c:321
-#, fuzzy
 msgid "Source"
-msgstr "Repozitorij"
+msgstr "Izvor"
 
 #: clutter/clutter-align-constraint.c:280
 msgid "The source of the alignment"
-msgstr ""
+msgstr "Izvor poravnanja"
 
 #: clutter/clutter-align-constraint.c:293
 msgid "Align Axis"
-msgstr ""
+msgstr "Osi poravnanja"
 
 #: clutter/clutter-align-constraint.c:294
 msgid "The axis to align the position to"
-msgstr ""
+msgstr "OSi prema kojima se poravna položaj"
 
 #: clutter/clutter-align-constraint.c:313
 #: clutter/clutter-desaturate-effect.c:270
 msgid "Factor"
-msgstr ""
+msgstr "Faktor"
 
 #: clutter/clutter-align-constraint.c:314
 msgid "The alignment factor, between 0.0 and 1.0"
-msgstr ""
+msgstr "Faktor poravnanja, između 0.0 i 1.0"
 
 #: clutter/clutter-backend.c:437
 msgid "Unable to initialize the Clutter backend: no available drivers found."
 msgstr ""
+"Nemoguće pokretanje pozadinskog programa Cluttera: nema dostupnih "
+"upravljačkih programa."
 
 #: clutter/clutter-backend.c:517
 #, c-format
 msgid "The backend of type “%s” does not support creating multiple stages"
-msgstr ""
+msgstr "Pozadinski program vrste “%s” ne podržava stvaranje više faza"
 
 #: clutter/clutter-bind-constraint.c:344
 msgid "The source of the binding"
-msgstr ""
+msgstr "Izvor povezivanja"
 
 #: clutter/clutter-bind-constraint.c:357
 msgid "Coordinate"
-msgstr ""
+msgstr "Koordinate"
 
 #: clutter/clutter-bind-constraint.c:358
 msgid "The coordinate to bind"
-msgstr ""
+msgstr "Koordinate povezivanja"
 
 #: clutter/clutter-bind-constraint.c:372 clutter/clutter-path-constraint.c:226
 #: clutter/clutter-snap-constraint.c:366
-#, fuzzy
 msgid "Offset"
 msgstr "Pomak"
 
 #: clutter/clutter-bind-constraint.c:373
 msgid "The offset in pixels to apply to the binding"
-msgstr ""
+msgstr "Pomak u pikselima koji se primjenjuje na povezivanje"
 
 #: clutter/clutter-binding-pool.c:319
 msgid "The unique name of the binding pool"
-msgstr ""
+msgstr "Jedinstveni naziv povezivanja"
 
 #: clutter/clutter-bin-layout.c:220 clutter/clutter-bin-layout.c:633
 #: clutter/clutter-box-layout.c:374
 #: clutter/deprecated/clutter-table-layout.c:600
-#, fuzzy
 msgid "Horizontal Alignment"
 msgstr "Vodoravno poravnanje"
 
 #: clutter/clutter-bin-layout.c:221
 msgid "Horizontal alignment for the actor inside the layout manager"
-msgstr ""
+msgstr "Vodoravno poravnanje za činitelja unutar upravitelja rasporeda"
 
 #: clutter/clutter-bin-layout.c:229 clutter/clutter-bin-layout.c:653
 #: clutter/clutter-box-layout.c:383
 #: clutter/deprecated/clutter-table-layout.c:615
-#, fuzzy
 msgid "Vertical Alignment"
 msgstr "Okomito poravnanje"
 
 #: clutter/clutter-bin-layout.c:230
 msgid "Vertical alignment for the actor inside the layout manager"
-msgstr ""
+msgstr "Okomito poravnanje za činitelja unutar upravitelja rasporeda"
 
 #: clutter/clutter-bin-layout.c:634
 msgid "Default horizontal alignment for the actors inside the layout manager"
-msgstr ""
+msgstr "Zadano vodoravno poravnanje za činitelje unutar upravitelja rasporeda"
 
 #: clutter/clutter-bin-layout.c:654
 msgid "Default vertical alignment for the actors inside the layout manager"
-msgstr ""
+msgstr "Zadano okomito poravnanje za činitelje unutar upravitelja rasporeda"
 
 #: clutter/clutter-box-layout.c:349
-#, fuzzy
 msgid "Expand"
-msgstr "Proširi"
+msgstr "Proširenje"
 
 #: clutter/clutter-box-layout.c:350
 msgid "Allocate extra space for the child"
-msgstr ""
+msgstr "Dodjeljuje dodatni prostor za podsadržaj"
 
 #: clutter/clutter-box-layout.c:356
 #: clutter/deprecated/clutter-table-layout.c:579
