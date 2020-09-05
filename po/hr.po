@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: clutter-1.0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
 "POT-Creation-Date: 2020-07-04 03:12+0000\n"
-"PO-Revision-Date: 2020-09-05 20:39+0200\n"
+"PO-Revision-Date: 2020-09-05 22:35+0200\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -1698,11 +1698,11 @@ msgstr "Postavka za dubinsko navođenje"
 
 #: clutter/clutter-stage.c:1941
 msgid "Use Alpha"
-msgstr "Koristi prozirnost"
+msgstr "Koristi alfu"
 
 #: clutter/clutter-stage.c:1942
 msgid "Whether to honour the alpha component of the stage color"
-msgstr "Treba li poštovati prozirnost komponentu boje faze"
+msgstr "Treba li poštovati alfa komponentu boje faze"
 
 #: clutter/clutter-stage.c:1958
 msgid "Key Focus"
@@ -2053,7 +2053,7 @@ msgstr "Vremenska linija"
 
 #: clutter/deprecated/clutter-alpha.c:348
 msgid "Timeline used by the alpha"
-msgstr "Vremenska linija koju koristi prozirnost"
+msgstr "Vremenska linija koju koristi alfa"
 
 #: clutter/deprecated/clutter-alpha.c:365
 msgid "Alpha value"
@@ -2061,7 +2061,7 @@ msgstr "Alfa vrijednost"
 
 #: clutter/deprecated/clutter-alpha.c:366
 msgid "Alpha value as computed by the alpha"
-msgstr "Vrijednost prozirnost koju izračunava prozirnost"
+msgstr "Alfa vrijednost koju izračunava alfa"
 
 #: clutter/deprecated/clutter-alpha.c:387
 #: clutter/deprecated/clutter-animation.c:484
@@ -2099,11 +2099,11 @@ msgstr "Vremenska linija koju koristi animacija"
 #: clutter/deprecated/clutter-animation.c:548
 #: clutter/deprecated/clutter-behaviour.c:234
 msgid "Alpha"
-msgstr "Prozirnost"
+msgstr "Alfa"
 
 #: clutter/deprecated/clutter-animation.c:549
 msgid "The alpha used by the animation"
-msgstr "Prozirnost koju koristi animacija"
+msgstr "Alfa koju koristi animacija"
 
 #: clutter/deprecated/clutter-animator.c:1795
 msgid "The duration of the animation"
@@ -2115,7 +2115,7 @@ msgstr "Vremenska linija kanimacije"
 
 #: clutter/deprecated/clutter-behaviour.c:235
 msgid "Alpha Object to drive the behaviour"
-msgstr "Objekt prozirnosti koji upravlja ponašanjem"
+msgstr "Alfa objekt koji upravlja ponašanjem"
 
 #: clutter/deprecated/clutter-behaviour-depth.c:180
 msgid "Start Depth"
@@ -2635,194 +2635,193 @@ msgid ""
 "Load files inside a thread to avoid blocking when loading images from disk"
 msgstr ""
 "Učitaj datoteke unutar niti u svrhu izbjegavanja blokiranja kada se "
-"učitavaju slike sa diska"
+"učitavaju slike s diska"
 
 #: clutter/deprecated/clutter-texture.c:1137
 msgid "Load data asynchronously"
-msgstr ""
+msgstr "Učitaj podatke neuskalđeno"
 
 #: clutter/deprecated/clutter-texture.c:1138
 msgid ""
 "Decode image data files inside a thread to reduce blocking when loading "
 "images from disk"
 msgstr ""
+"Dekôdiraj datoteke podatka slike unutar niti za smanjenje blokiranja pri "
+"učitavanju slika s diska"
 
 #: clutter/deprecated/clutter-texture.c:1164
 msgid "Pick With Alpha"
-msgstr ""
+msgstr "Odaberi sa neprozirnošću"
 
 #: clutter/deprecated/clutter-texture.c:1165
 msgid "Shape actor with alpha channel when picking"
-msgstr ""
+msgstr "Oblikuj činitelja s alfa kanalom pri odabiru"
 
 #: clutter/deprecated/clutter-texture.c:1608
 #: clutter/deprecated/clutter-texture.c:2003
 #: clutter/deprecated/clutter-texture.c:2100
 #: clutter/deprecated/clutter-texture.c:2402
 msgid "Failed to load the image data"
-msgstr ""
+msgstr "Neuspjelo učitavanje podataka slike"
 
 #: clutter/deprecated/clutter-texture.c:1767
 msgid "YUV textures are not supported"
-msgstr ""
+msgstr "YUV teksture nisu podržane"
 
 #: clutter/deprecated/clutter-texture.c:1776
 msgid "YUV2 textures are not supported"
-msgstr ""
+msgstr "YUV2 teksture nisu podržane"
 
 #: clutter/gdk/clutter-backend-gdk.c:174
 msgid "Could not initialize Gdk"
-msgstr ""
+msgstr "Nemoguće Gdk pokretanje"
 
 #: clutter/gdk/clutter-backend-gdk.c:294
 #, c-format
 msgid "Could not find a suitable CoglWinsys for a GdkDisplay of type %s"
-msgstr ""
+msgstr "Nemoguće pronalazak CoglWinsysa za GdkDisplay vrste %s"
 
 #: clutter/wayland/clutter-wayland-surface.c:419
-#, fuzzy
 msgid "Surface"
 msgstr "Površina"
 
 #: clutter/wayland/clutter-wayland-surface.c:420
 msgid "The underlying wayland surface"
-msgstr ""
+msgstr "Osnovna wayland površina"
 
 #: clutter/wayland/clutter-wayland-surface.c:427
 msgid "Surface width"
-msgstr ""
+msgstr "Širina površine"
 
 #: clutter/wayland/clutter-wayland-surface.c:428
 msgid "The width of the underlying wayland surface"
-msgstr ""
+msgstr "Širina osnovne wayland površine"
 
 #: clutter/wayland/clutter-wayland-surface.c:436
 msgid "Surface height"
-msgstr ""
+msgstr "Visina površine"
 
 #: clutter/wayland/clutter-wayland-surface.c:437
 msgid "The height of the underlying wayland surface"
-msgstr ""
+msgstr "Visina osnovne wayland površine"
 
 #: clutter/x11/clutter-backend-x11.c:511
 msgid "X display to use"
-msgstr "X zaslon za korištenje"
+msgstr "X prikaz za korištenje"
 
 #: clutter/x11/clutter-backend-x11.c:517
 msgid "X screen to use"
-msgstr "X ekran za korištenje"
+msgstr "X zaslon za korištenje"
 
 #: clutter/x11/clutter-backend-x11.c:522
 msgid "Make X calls synchronous"
-msgstr "Učini X pozive sinkroniziranima"
+msgstr "Učini X pozive usklađenima"
 
 #: clutter/x11/clutter-backend-x11.c:529
-#, fuzzy
-#| msgid "Enable XInput support"
 msgid "Disable XInput support"
-msgstr "Omogući XInput podršku"
+msgstr "Onemogući XInput podršku"
 
 #: clutter/x11/clutter-keymap-x11.c:458
 msgid "The Clutter backend"
-msgstr ""
+msgstr "Clutter pozadina"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:534
 msgid "Pixmap"
-msgstr ""
+msgstr "Pixmap"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:535
 msgid "The X11 Pixmap to be bound"
-msgstr ""
+msgstr "X11 Pixmap za povezivanje"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:543
 msgid "Pixmap width"
-msgstr ""
+msgstr "Pixmap širina"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:544
 msgid "The width of the pixmap bound to this texture"
-msgstr ""
+msgstr "Širina Pixmap povezivanja za ovu teksturu"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:552
 msgid "Pixmap height"
-msgstr ""
+msgstr "Pixmap visina"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:553
 msgid "The height of the pixmap bound to this texture"
-msgstr ""
+msgstr "Visina Pixmap povezivanja za ovu teksturu"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:561
 msgid "Pixmap Depth"
-msgstr ""
+msgstr "Pixmap dubina"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:562
 msgid "The depth (in number of bits) of the pixmap bound to this texture"
-msgstr ""
+msgstr "Dubina (u broju bita) Pixmap povezivanja za ovu teksturu"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:570
-#, fuzzy
 msgid "Automatic Updates"
 msgstr "Automatsko nadopunjivanje"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:571
 msgid "If the texture should be kept in sync with any pixmap changes."
-msgstr ""
+msgstr "Treba li tekstura biti usklađena s bilo kakvim pixmap promjenama."
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:579
-#, fuzzy
 msgid "Window"
 msgstr "Prozor"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:580
 msgid "The X11 Window to be bound"
-msgstr ""
+msgstr "X11 prozor za povezivanje"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:588
 msgid "Window Redirect Automatic"
-msgstr ""
+msgstr "Automatsko preusmjeravanje prozora"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:589
 msgid "If composite window redirects are set to Automatic (or Manual if false)"
 msgstr ""
+"Ako je preusmjeravanje kompozitnog prozora postavljeno na Automatski (ili "
+"Ručno ako je laž)"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:599
 msgid "Window Mapped"
-msgstr ""
+msgstr "Prozor je mapiran"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:600
 msgid "If window is mapped"
-msgstr ""
+msgstr "Ako je prozor mapiran"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:609
 msgid "Destroyed"
-msgstr ""
+msgstr "Uništen"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:610
 msgid "If window has been destroyed"
-msgstr ""
+msgstr "Ako je prozor uništen"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:618
 msgid "Window X"
-msgstr ""
+msgstr "X prozora"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:619
 msgid "X position of window on screen according to X11"
-msgstr ""
+msgstr "X položaj prozora na zaslonu prema X11"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:627
 msgid "Window Y"
-msgstr ""
+msgstr "Y prozora"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:628
 msgid "Y position of window on screen according to X11"
-msgstr ""
+msgstr "Y položaj prozora na zaslonu prema X11"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:635
 msgid "Window Override Redirect"
-msgstr ""
+msgstr "Zaobilaženje preusmjeravanje prozora"
 
 #: clutter/x11/clutter-x11-texture-pixmap.c:636
 msgid "If this is an override-redirect window"
-msgstr ""
+msgstr "Ako je ovo prozor zaobilaženja preusmjeravanja"
 
 #~ msgid "Clutter profiling flags to set"
 #~ msgstr "Clutter oznake profiliranja za korištenje"
