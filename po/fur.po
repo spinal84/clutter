@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: clutter master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/clutter/issues\n"
-"POT-Creation-Date: 2020-07-04 03:12+0000\n"
-"PO-Revision-Date: 2020-09-01 10:23+0200\n"
+"POT-Creation-Date: 2020-09-01 08:25+0000\n"
+"PO-Revision-Date: 2020-09-11 08:01+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
@@ -1895,7 +1895,7 @@ msgstr "Modalitât rie gnove"
 
 #: clutter/clutter-text.c:3730
 msgid "Control how line-wrapping is done"
-msgstr "Controle ce mût che lis riis gnovis a vegnin fatis"
+msgstr "Controle cemût che lis riis gnovis a vegnin fatis"
 
 #: clutter/clutter-text.c:3745
 msgid "Ellipsize"
@@ -2017,7 +2017,7 @@ msgstr ""
 
 #: clutter/clutter-timeline.c:689
 msgid "How the timeline should compute the progress"
-msgstr "Ce mût che la linie temporâl e à di computâ l'avanzament"
+msgstr "Cemût che la linie temporâl e à di computâ l'avanzament"
 
 #: clutter/clutter-transition.c:243
 msgid "Interval"
