@@ -488,7 +488,7 @@ msgstr "Retalla a l'assignació"
 #: clutter/clutter-actor.c:7455
 msgid "Sets the clip region to track the actor’s allocation"
 msgstr ""
-"Estableix la regió de retallat per fer un seguiment de l'assignació de "
+"Estableix la regió de retallat per a fer un seguiment de l'assignació de "
 "l'actor"
 
 #: clutter/clutter-actor.c:7468
@@ -641,7 +641,7 @@ msgstr "Contingut"
 
 #: clutter/clutter-actor.c:7771
 msgid "Delegate object for painting the actor’s content"
-msgstr "L'objecte al que es delega el pintat del contingut de l'actor"
+msgstr "L'objecte al qual es delega el pintat del contingut de l'actor"
 
 #: clutter/clutter-actor.c:7796
 msgid "Content Gravity"
@@ -665,7 +665,7 @@ msgstr "Filtre de minimització"
 
 #: clutter/clutter-actor.c:7827
 msgid "The filter used when reducing the size of the content"
-msgstr "El filtre que s'utilitzarà per reduir la mida del contingut"
+msgstr "El filtre que s'utilitzarà per a reduir la mida del contingut"
 
 #: clutter/clutter-actor.c:7834
 msgid "Magnification Filter"
@@ -673,7 +673,7 @@ msgstr "Filtre d'ampliació"
 
 #: clutter/clutter-actor.c:7835
 msgid "The filter used when increasing the size of the content"
-msgstr "El filtre que s'utilitzarà per ampliar la mida del contingut"
+msgstr "El filtre que s'utilitzarà per a ampliar la mida del contingut"
 
 #: clutter/clutter-actor.c:7849
 msgid "Content Repeat"
@@ -1057,7 +1057,7 @@ msgstr "Llindar d'arrossegament horitzontal"
 #: clutter/clutter-drag-action.c:734
 msgid "The horizontal amount of pixels required to start dragging"
 msgstr ""
-"El nombre de píxels horitzontals necessaris per iniciar un arrossegament"
+"El nombre de píxels horitzontals necessaris per a iniciar un arrossegament"
 
 #: clutter/clutter-drag-action.c:761
 msgid "Vertical Drag Threshold"
@@ -1065,7 +1065,8 @@ msgstr "Llindar d'arrossegament vertical"
 
 #: clutter/clutter-drag-action.c:762
 msgid "The vertical amount of pixels required to start dragging"
-msgstr "El nombre de píxels verticals necessaris per iniciar un arrossegament"
+msgstr ""
+"El nombre de píxels verticals necessaris per a iniciar un arrossegament"
 
 #: clutter/clutter-drag-action.c:783
 msgid "Drag Handle"
@@ -1356,7 +1357,6 @@ msgstr "El gestor que ha creat aquesta dada"
 #. *
 #. * Do NOT translate it to non-English e.g. "predefinito:LTR"! If
 #. * it isn't default:LTR or default:RTL it will not work.
-#.
 #: clutter/clutter-main.c:751
 msgid "default:LTR"
 msgstr "default:LTR"
@@ -1480,7 +1480,7 @@ msgstr "Domini de la traducció"
 
 #: clutter/clutter-script.c:543
 msgid "The translation domain used to localize string"
-msgstr "El domini de traducció utilitzat per ubicar una cadena"
+msgstr "El domini de traducció utilitzat per a ubicar una cadena"
 
 #: clutter/clutter-scroll-actor.c:184
 msgid "Scroll Mode"
@@ -1496,7 +1496,7 @@ msgstr "Temps del doble clic"
 
 #: clutter/clutter-settings.c:510
 msgid "The time between clicks necessary to detect a multiple click"
-msgstr "El temps entre clics necessari per detectar un clic múltiple"
+msgstr "El temps entre clics necessari per a detectar un clic múltiple"
 
 #: clutter/clutter-settings.c:525
 msgid "Double Click Distance"
@@ -1504,7 +1504,7 @@ msgstr "Distància de doble clic"
 
 #: clutter/clutter-settings.c:526
 msgid "The distance between clicks necessary to detect a multiple click"
-msgstr "La distància entre clics necessària per detectar un clic múltiple"
+msgstr "La distància entre clics necessària per a detectar un clic múltiple"
 
 #: clutter/clutter-settings.c:541
 msgid "Drag Threshold"
@@ -1558,7 +1558,7 @@ msgstr "Contorn del tipus de lletra"
 msgid ""
 "Whether to use hinting (1 to enable, 0 to disable and -1 to use the default)"
 msgstr ""
-"Si s'ha d'utilitzar el contorn (1 l'habilita, 0 l'inhabilita i -1 per "
+"Si s'ha d'utilitzar el contorn (1 l'habilita, 0 l'inhabilita i -1 per a "
 "utilitzar el per defecte)"
 
 #: clutter/clutter-settings.c:636
@@ -1884,7 +1884,7 @@ msgstr "Atributs"
 
 #: clutter/clutter-text.c:3674
 msgid "A list of style attributes to apply to the contents of the actor"
-msgstr "Una llista d'atributs d'estil per aplicar als continguts de l'actor"
+msgstr "Una llista d'atributs d'estil per a aplicar als continguts de l'actor"
 
 #: clutter/clutter-text.c:3696
 msgid "Use markup"
@@ -1942,7 +1942,8 @@ msgstr "Caràcter de contrasenya"
 #: clutter/clutter-text.c:3796
 msgid "If non-zero, use this character to display the actor’s contents"
 msgstr ""
-"Si no és zero, utilitza aquest caràcter per mostrar els continguts de l'actor"
+"Si no és zero, utilitza aquest caràcter per a mostrar els continguts de "
+"l'actor"
 
 #: clutter/clutter-text.c:3810
 msgid "Max Length"
@@ -2098,7 +2099,7 @@ msgstr "Objecte"
 
 #: clutter/deprecated/clutter-animation.c:468
 msgid "Object to which the animation applies"
-msgstr "L'objecte al que s'aplica l'animació"
+msgstr "L'objecte al qual s'aplica l'animació"
 
 #: clutter/deprecated/clutter-animation.c:485
 msgid "The mode of the animation"
@@ -2378,7 +2379,7 @@ msgstr "Nom del tipus de lletra dels subtítols"
 
 #: clutter/deprecated/clutter-media.c:156
 msgid "The font used to display subtitles"
-msgstr "El nom del tipus de lletra per mostrar els subtítols"
+msgstr "El nom del tipus de lletra per a mostrar els subtítols"
 
 #: clutter/deprecated/clutter-media.c:173
 msgid "Audio Volume"
@@ -2467,7 +2468,6 @@ msgstr "Si el shader és habilitat"
 #. translators: the first %s is the type of the shader, either
 #. * Vertex shader or Fragment shader; the second %s is the actual
 #. * error as reported by COGL
-#.
 #: clutter/deprecated/clutter-shader.c:521
 #, c-format
 msgid "%s compilation failed: %s"
@@ -2622,7 +2622,7 @@ msgstr "Textura de Cogl"
 #: clutter/wayland/clutter-wayland-surface.c:446
 msgid "The underlying Cogl texture handle used to draw this actor"
 msgstr ""
-"El gestor de la textura de Cogl de rerefons que s'utilitza per dibuixar "
+"El gestor de la textura de Cogl de rerefons que s'utilitza per a dibuixar "
 "aquest actor"
 
 #: clutter/deprecated/clutter-texture.c:1061
@@ -2632,7 +2632,7 @@ msgstr "Material de Cogl"
 #: clutter/deprecated/clutter-texture.c:1062
 msgid "The underlying Cogl material handle used to draw this actor"
 msgstr ""
-"El gestor del material de Cogl de rerefons que s'utilitza per dibuixar "
+"El gestor del material de Cogl de rerefons que s'utilitza per a dibuixar "
 "aquest actor"
 
 #: clutter/deprecated/clutter-texture.c:1082
@@ -2659,7 +2659,7 @@ msgstr "Carrega asíncronament"
 msgid ""
 "Load files inside a thread to avoid blocking when loading images from disk"
 msgstr ""
-"Carrega els fitxers en un altre fil d'execució per evitar el blocatge quan "
+"Carrega els fitxers en un altre fil d'execució per a evitar el blocatge quan "
 "es carreguin imatges del disc"
 
 #: clutter/deprecated/clutter-texture.c:1137
@@ -2671,7 +2671,7 @@ msgid ""
 "Decode image data files inside a thread to reduce blocking when loading "
 "images from disk"
 msgstr ""
-"Descodifica els fitxers de dades d'imatge en un altre fil d'execució per "
+"Descodifica els fitxers de dades d'imatge en un altre fil d'execució per a "
 "reduir el blocatge quan es carreguin imatges del disc"
 
 #: clutter/deprecated/clutter-texture.c:1164
