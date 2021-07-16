@@ -465,39 +465,39 @@ clutter_win32_handle_event (const MSG *msg)
       break;
 
     case WM_LBUTTONDOWN:
-      make_button_event (msg, stage, 1, 1, FALSE, core_pointer);
+      make_button_event (msg, stage, CLUTTER_BUTTON_PRIMARY, 1, FALSE, core_pointer);
       break;
 
     case WM_MBUTTONDOWN:
-      make_button_event (msg, stage, 2, 1, FALSE, core_pointer);
+      make_button_event (msg, stage, CLUTTER_BUTTON_MIDDLE, 1, FALSE, core_pointer);
       break;
 
     case WM_RBUTTONDOWN:
-      make_button_event (msg, stage, 3, 1, FALSE, core_pointer);
+      make_button_event (msg, stage, CLUTTER_BUTTON_SECONDARY, 1, FALSE, core_pointer);
       break;
 
     case WM_LBUTTONUP:
-      make_button_event (msg, stage, 1, 1, TRUE, core_pointer);
+      make_button_event (msg, stage, CLUTTER_BUTTON_PRIMARY, 1, TRUE, core_pointer);
       break;
 
     case WM_MBUTTONUP:
-      make_button_event (msg, stage, 2, 1, TRUE, core_pointer);
+      make_button_event (msg, stage, CLUTTER_BUTTON_MIDDLE, 1, TRUE, core_pointer);
       break;
 
     case WM_RBUTTONUP:
-      make_button_event (msg, stage, 3, 1, TRUE, core_pointer);
+      make_button_event (msg, stage, CLUTTER_BUTTON_SECONDARY, 1, TRUE, core_pointer);
       break;
 
     case WM_LBUTTONDBLCLK:
-      make_button_event (msg, stage, 1, 2, FALSE, core_pointer);
+      make_button_event (msg, stage, CLUTTER_BUTTON_PRIMARY, 2, FALSE, core_pointer);
       break;
 
     case WM_MBUTTONDBLCLK:
-      make_button_event (msg, stage, 2, 2, FALSE, core_pointer);
+      make_button_event (msg, stage, CLUTER_BUTTON_MIDDLE, 2, FALSE, core_pointer);
       break;
 
     case WM_RBUTTONDBLCLK:
-      make_button_event (msg, stage, 3, 2, FALSE, core_pointer);
+      make_button_event (msg, stage, CLUTTER_BUTTON_SECONDARY, 2, FALSE, core_pointer);
       break;
 
     case WM_MOUSEWHEEL:

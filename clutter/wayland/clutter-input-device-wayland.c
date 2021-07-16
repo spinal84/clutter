@@ -30,6 +30,7 @@
 
 #include <stdlib.h>
 #include <unistd.h>
+#include <linux/input.h>
 #include <sys/mman.h>
 #include <wayland-util.h>
 #include <wayland-client.h>
@@ -129,17 +130,17 @@ clutter_wayland_handle_button (void *data,
 
   /* evdev button codes */
   switch (button) {
-  case 272:
-    event->button.button = 1;
+  case BTN_LEFT:
+    event->button.button = CLUTTER_BUTTON_PRIMARY;
     modifier_mask = CLUTTER_BUTTON1_MASK;
     break;
-  case 273:
-    event->button.button = 3;
-    modifier_mask = CLUTTER_BUTTON2_MASK;
-    break;
-  case 274:
-    event->button.button = 2;
+  case BTN_RIGHT:
+    event->button.button = CLUTTER_BUTTON_SECONDARY;
     modifier_mask = CLUTTER_BUTTON3_MASK;
+    break;
+  case BTN_MIDDLE:
+    event->button.button = CLUTTER_BUTTON_MIDDLE;
+    modifier_mask = CLUTTER_BUTTON2_MASK;
     break;
   }
 
