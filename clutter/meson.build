@@ -365,6 +365,12 @@ if enabled_backends.contains('mir')
     '#define CLUTTER_INPUT_MIR "mir"',
   ]
 endif
+if enabled_backends.contains('win32')
+  clutter_config += [
+    '#define CLUTTER_WINDOWING_WIN32 "win32"',
+    '#define CLUTTER_INPUT_WIN32 "win32"',
+  ]
+endif
 clutter_config += '#define CLUTTER_INPUT_NULL "null"'
 
 clutter_config_h = configuration_data()
