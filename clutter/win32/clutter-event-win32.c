@@ -493,7 +493,7 @@ clutter_win32_handle_event (const MSG *msg)
       break;
 
     case WM_MBUTTONDBLCLK:
-      make_button_event (msg, stage, CLUTER_BUTTON_MIDDLE, 2, FALSE, core_pointer);
+      make_button_event (msg, stage, CLUTTER_BUTTON_MIDDLE , 2, FALSE, core_pointer);
       break;
 
     case WM_RBUTTONDBLCLK:
