@@ -3795,8 +3795,8 @@ _clutter_stage_schedule_update (ClutterStage *stage)
   if (stage_window == NULL)
     return;
 
-  return _clutter_stage_window_schedule_update (stage_window,
-                                                stage->priv->sync_delay);
+  _clutter_stage_window_schedule_update (stage_window,
+                                         stage->priv->sync_delay);
 }
 
 /* Returns the earliest time the stage is ready to update */
