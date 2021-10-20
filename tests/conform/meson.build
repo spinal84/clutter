@@ -6,10 +6,13 @@ test_cflags = [
 test_env = [
   'G_ENABLE_DIAGNOSTIC=0',
   'CLUTTER_ENABLE_DIAGNOSTIC=0',
-  'CLUTTER_BACKEND=x11',
   'G_TEST_SRCDIR=@0@'.format(meson.current_source_dir()),
   'G_TEST_BUILDDIR=@0@'.format(meson.current_build_dir()),
 ]
+
+if enabled_backends.contains('x11')
+  test_env += 'CLUTTER_BACKEND=x11'
+endif
 
 actor_tests = [
   'actor-anchors',
