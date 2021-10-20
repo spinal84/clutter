@@ -32,10 +32,17 @@ if enable_pixbuf_tests
   ]
 endif
 
+examples_cargs = []
+
+if cc.get_argument_syntax() == 'msvc'
+  examples_cargs += '-D_USE_MATH_DEFINES'
+endif
+
 foreach e: examples
   executable(
     e,
     e + '.c',
     dependencies: examples_deps,
+    c_args: examples_cargs,
   )
 endforeach
