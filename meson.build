@@ -28,7 +28,13 @@ clutter_libversion = '@0@.@1@.@2@'.format(clutter_so_age, clutter_binary_age, cl
 cc = meson.get_compiler('c')
 config_h = configuration_data()
 
-add_project_arguments([ '-D_GNU_SOURCE', '-DHAVE_CONFIG_H' ], language: 'c')
+add_project_arguments(['-DHAVE_CONFIG_H' ], language: 'c')
+
+if cc.get_id() == 'msvc'
+  add_project_arguments([ '-FImsvc_recommended_pragmas.h' ], language: 'c')
+else
+  add_project_arguments([ '-D_GNU_SOURCE' ], language: 'c')
+endif
 
 # Paths
 clutter_prefix = get_option('prefix')
